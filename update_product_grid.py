@@ -1,7 +1,7 @@
 import os
 import re
 
-# Improved grid items for products.html
+# Final grid items for products.html
 grid_items_en = """
                         <!-- FLAT HANDLE -->
                         <div x-show="activeCategory==='all'||activeCategory==='flathandle'"
@@ -138,6 +138,23 @@ grid_items_en = """
                                     <a href="/JJGPACK/products/paper-straw/paper-straw.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">View Details →</a>
                                 </div>
                         </div>
+
+                        <!-- OTHERS / SPECIALTY -->
+                        <div x-show="activeCategory==='all'||activeCategory==='others'"
+                                class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
+                                <a href="/JJGPACK/products/others/specialty-bags.html" class="block aspect-[4/3] overflow-hidden">
+                                    <img src="/proimages/detail/bakery-side-window.jpg" alt="Specialty Bags"
+                                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                                </a>
+                                <div class="p-5">
+                                    <span class="text-xs font-semibold uppercase tracking-wider text-[#666] bg-gray-100 px-2 py-0.5 rounded-full">Others</span>
+                                    <h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">
+                                        <a href="/JJGPACK/products/others/specialty-bags.html" class="hover:text-[#2E8B57]">Custom & Specialty Bags</a>
+                                    </h3>
+                                    <p class="text-[#666] text-sm mb-3">Bespoke solutions for unique requirements and custom material needs.</p>
+                                    <a href="/JJGPACK/products/others/specialty-bags.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">View Details →</a>
+                                </div>
+                        </div>
 """
 
 grid_items_zh = """
@@ -162,7 +179,7 @@ grid_items_zh = """
                         <div x-show="activeCategory==='all'||activeCategory==='kraft'"
                                 class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
                                 <a href="/JJGPACK/zh-tw/products/kraft/square-paper-bag.html" class="block aspect-[4/3] overflow-hidden">
-                                    <img src="/proimages/detail/square-bag.jpg" alt="方紙袋 (SOS)"
+                                    <img src="/proimages/detail/square-bag.jpg" alt="方底紙袋 (SOS)"
                                          class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                                 </a>
                                 <div class="p-5">
@@ -276,17 +293,38 @@ grid_items_zh = """
                                     <a href="/JJGPACK/zh-tw/products/paper-straw/paper-straw.html" class="text-[#1A5C38] font-semibold text-sm">完整介紹 →</a>
                                 </div>
                         </div>
+
+                        <!-- OTHERS -->
+                        <div x-show="activeCategory==='all'||activeCategory==='others'"
+                                class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
+                                <a href="/JJGPACK/zh-tw/products/others/specialty-bags.html" class="block aspect-[4/3] overflow-hidden">
+                                    <img src="/proimages/detail/bakery-side-window.jpg" alt="客製化特殊袋"
+                                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                                </a>
+                                <div class="p-5">
+                                    <span class="text-xs font-semibold tracking-wider text-[#666] bg-gray-100 px-2 py-0.5 rounded-full">其他</span>
+                                    <h3 class="font-['Noto_Serif_TC',serif] text-lg font-bold mt-2 mb-1">
+                                        <a href="/JJGPACK/zh-tw/products/others/specialty-bags.html" class="hover:text-[#2E8B57]">客製化特殊袋</a>
+                                    </h3>
+                                    <p class="text-[#666] text-sm mb-3">針對獨特產品需求提供客製化包裝解決方案及材質開發。</p>
+                                    <a href="/JJGPACK/zh-tw/products/others/specialty-bags.html" class="text-[#1A5C38] font-semibold text-sm">完整介紹 →</a>
+                                </div>
+                        </div>
 """
 
 def update_file(filepath, grid_content):
     with open(filepath, "r", encoding="utf-8") as f:
         content = f.read()
     
-    # More robust regex to match the grid section
-    pattern = r'<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">.*?</div>\s*</section>'
-    replacement = f'<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">{grid_content}                </div>\\n        </section>'
+    # regex matches anything between the grid div start and the final closing tag before CTA
+    # We use the grid ID and look ahead for the next section
+    pattern = r'(<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">).*?(</div>\s*</section>\s*<!-- CTA -->)'
+    # Or even simpler: from grid start to next section
+    pattern_alt = r'(<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">).*?(</div>\s*</section>)'
     
-    new_content = re.sub(pattern, replacement, content, flags=re.DOTALL)
+    replacement = f'\\1{grid_content}                \\2'
+    
+    new_content = re.sub(pattern_alt, replacement, content, flags=re.DOTALL)
     
     if new_content != content:
         with open(filepath, "w", encoding="utf-8") as f:

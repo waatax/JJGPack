@@ -180,7 +180,7 @@ products = [
         "features_zh": [
             "雙層設計提供最大保護",
             "可生物分解材料",
-            "防止表皮損傷 and 擦傷",
+            "防止表皮損傷 和 擦傷",
             "配有鐵絲，容易套袋"
         ],
         "specs": [
@@ -257,6 +257,38 @@ products = [
             {"label": "標準", "value": "符合 FDA / LFGB"},
             {"label": "耐用性", "value": "冷水中可達 6 小時"}
         ]
+    },
+    {
+        "id": "specialty-bags",
+        "category": "Others",
+        "category_zh": "其他特殊袋",
+        "name": "Custom & Specialty Bags",
+        "name_zh": "客製化特殊袋",
+        "image": "/proimages/detail/bakery-side-window.jpg",
+        "desc": "Bespoke packaging solutions for unique product requirements. We specialize in custom sizes, shapes, and material combinations to meet specific industry needs.",
+        "desc_zh": "針對獨特產品需求提供客製化包裝解決方案。 我們專注於客製化尺寸、形狀和材料組合，以滿足特定行業的需求。",
+        "features": [
+            "Tailored material selection",
+            "Custom structural design",
+            "Advanced multi-color printing",
+            "OEM / ODM development partner"
+        ],
+        "features_zh": [
+            "量身定制材料選擇",
+            "客製化結構設計",
+            "先進多色印刷",
+            "OEM / ODM 開發合作夥伴"
+        ],
+        "specs": [
+            {"label": "Material", "value": "Various combinations"},
+            {"label": "Customization", "value": "Size, Shape, Printing"},
+            {"label": "MOQ", "value": "Depends on specification"}
+        ],
+        "specs_zh": [
+            {"label": "材質", "value": "各種複合材質"},
+            {"label": "客製化", "value": "尺寸、形狀、印刷"},
+            {"label": "最小起訂量", "value": "視規格而定"}
+        ]
     }
 ]
 
@@ -319,12 +351,12 @@ EN_TEMPLATE = """<!DOCTYPE html>
                     <svg class="w-6 h-6 text-[#2E8B57]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg>
                     Key Features
                 </h3>
-                <ul class="space-y-3 mb-10">
+                <ul class="space-y-3 mb-10 text-[#555]">
                     {features}
                 </ul>
 
                 <h3 class="text-xl font-bold mb-4 flex items-center gap-2">
-                    <svg class="w-6 h-6 text-[#2E8B57]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" /></svg>
+                    <svg class="w-6 h-6 text-[#2E8B57]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" /></svg>
                     Specifications
                 </h3>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
