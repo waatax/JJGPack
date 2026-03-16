@@ -17,15 +17,16 @@ def replace_experience_years(directory):
                     content = f.read()
                 
                 # Replace 60+ with 70+
-                # Also handle 60 餘年 or similar Chinese phrases if found
                 new_content = content.replace('60+', '70+')
-                new_content = new_content.replace('60 餘年', '70 餘年')
-                new_content = new_content.replace('60年', '70年')
+                # Handle various Chinese year expressions, including potential whitespace/newlines
+                new_content = re.sub(r'60\s*餘年', '70 餘年', new_content)
+                new_content = re.sub(r'60\s*年的', '70 年的', new_content)
+                new_content = re.sub(r'60\s*年製造經驗', '70+ 年製造經驗', new_content)
                 
                 if new_content != content:
                     with open(file_path, 'w', encoding='utf-8') as f:
                         f.write(new_content)
-                    print(f"Updated {file_path}")
+                    print(f"Updated years in {file_path}")
 
 if __name__ == "__main__":
     replace_experience_years('.')
