@@ -1,6 +1,7 @@
 import os
+import re
 
-# Updated grid items for products.html
+# Improved grid items for products.html
 grid_items_en = """
                         <!-- FLAT HANDLE -->
                         <div x-show="activeCategory==='all'||activeCategory==='flathandle'"
@@ -14,7 +15,7 @@ grid_items_en = """
                                     <h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">
                                         <a href="/JJGPACK/products/flat-handle/flat-handle-bag.html" class="hover:text-[#2E8B57]">Flat Handle Paper Bag</a>
                                     </h3>
-                                    <p class="text-[#666] text-sm mb-3 text-line-clamp-2">High stability, comfortable grip, food-grade water-based ink.</p>
+                                    <p class="text-[#666] text-sm mb-3">High stability, comfortable grip, food-grade water-based ink.</p>
                                     <a href="/JJGPACK/products/flat-handle/flat-handle-bag.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">View Details →</a>
                                 </div>
                         </div>
@@ -31,7 +32,7 @@ grid_items_en = """
                                     <h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">
                                         <a href="/JJGPACK/products/kraft/square-paper-bag.html" class="hover:text-[#2E8B57]">Square Bottom Paper Bag</a>
                                     </h3>
-                                    <p class="text-[#666] text-sm mb-3 text-line-clamp-2">Self-standing design, high-strength long-fiber kraft paper.</p>
+                                    <p class="text-[#666] text-sm mb-3">Self-standing design, high-strength long-fiber kraft paper.</p>
                                     <a href="/JJGPACK/products/kraft/square-paper-bag.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">View Details →</a>
                                 </div>
                         </div>
@@ -48,7 +49,7 @@ grid_items_en = """
                                     <h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">
                                         <a href="/JJGPACK/products/greaseproof/bakery-side-window-bag.html" class="hover:text-[#2E8B57]">Bakery Side Window Bag</a>
                                     </h3>
-                                    <p class="text-[#666] text-sm mb-3 text-line-clamp-2">PE laminated, grease-resistant with high-clarity transparent window.</p>
+                                    <p class="text-[#666] text-sm mb-3">PE laminated, grease-resistant with high-clarity transparent window.</p>
                                     <a href="/JJGPACK/products/greaseproof/bakery-side-window-bag.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">View Details →</a>
                                 </div>
                         </div>
@@ -65,7 +66,7 @@ grid_items_en = """
                                     <h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">
                                         <a href="/JJGPACK/products/white-kraft/white-kraft-bag.html" class="hover:text-[#2E8B57]">White Kraft Paper Bag</a>
                                     </h3>
-                                    <p class="text-[#666] text-sm mb-3 text-line-clamp-2">Premium white kraft, clean appearance for retail and medical use.</p>
+                                    <p class="text-[#666] text-sm mb-3">Premium white kraft, clean appearance for retail and medical use.</p>
                                     <a href="/JJGPACK/products/white-kraft/white-kraft-bag.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">View Details →</a>
                                 </div>
                         </div>
@@ -82,7 +83,7 @@ grid_items_en = """
                                     <h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">
                                         <a href="/JJGPACK/products/aluminum-foil/aluminum-foil-bag.html" class="hover:text-[#2E8B57]">Aluminum Foil Paper Bag</a>
                                     </h3>
-                                    <p class="text-[#666] text-sm mb-3 text-line-clamp-2">Excellent heat retention for roasted chicken and takeaways.</p>
+                                    <p class="text-[#666] text-sm mb-3">Excellent heat retention for roasted chicken and takeaways.</p>
                                     <a href="/JJGPACK/products/aluminum-foil/aluminum-foil-bag.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">View Details →</a>
                                 </div>
                         </div>
@@ -99,7 +100,7 @@ grid_items_en = """
                                     <h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">
                                         <a href="/JJGPACK/products/pe-lamination/l-bag.html" class="hover:text-[#2E8B57]">Burger Pocket L-Bag</a>
                                     </h3>
-                                    <p class="text-[#666] text-sm mb-3 text-line-clamp-2">Leak-proof and grease-resistant burger and sandwich pocket.</p>
+                                    <p class="text-[#666] text-sm mb-3">Leak-proof and grease-resistant burger and sandwich pocket.</p>
                                     <a href="/JJGPACK/products/pe-lamination/l-bag.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">View Details →</a>
                                 </div>
                         </div>
@@ -116,7 +117,7 @@ grid_items_en = """
                                     <h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">
                                         <a href="/JJGPACK/products/fruit-protection/mango-bag.html" class="hover:text-[#2E8B57]">Mango Protection Bag</a>
                                     </h3>
-                                    <p class="text-[#666] text-sm mb-3 text-line-clamp-2">Double-layer protection from pests and weather for growing fruits.</p>
+                                    <p class="text-[#666] text-sm mb-3">Double-layer protection from pests and weather for growing fruits.</p>
                                     <a href="/JJGPACK/products/fruit-protection/mango-bag.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">View Details →</a>
                                 </div>
                         </div>
@@ -133,7 +134,7 @@ grid_items_en = """
                                     <h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">
                                         <a href="/JJGPACK/products/paper-straw/paper-straw.html" class="hover:text-[#2E8B57]">Biodegradable Paper Straw</a>
                                     </h3>
-                                    <p class="text-[#666] text-sm mb-3 text-line-clamp-2">100% Taiwan made, plastic-free, eco-friendly drinking solution.</p>
+                                    <p class="text-[#666] text-sm mb-3">100% Taiwan made, plastic-free, eco-friendly drinking solution.</p>
                                     <a href="/JJGPACK/products/paper-straw/paper-straw.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">View Details →</a>
                                 </div>
                         </div>
@@ -153,7 +154,7 @@ grid_items_zh = """
                                         <a href="/JJGPACK/zh-tw/products/flat-handle/flat-handle-bag.html" class="hover:text-[#2E8B57]">扁繩手提紙袋</a>
                                     </h3>
                                     <p class="text-[#666] text-sm mb-3">高穩定性，握感舒適，食品級水性油墨。</p>
-                                    <a href="/JJGPACK/zh-tw/products/flat-handle/flat-handle-bag.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">完整介紹 →</a>
+                                    <a href="/JJGPACK/zh-tw/products/flat-handle/flat-handle-bag.html" class="text-[#1A5C38] font-semibold text-sm">完整介紹 →</a>
                                 </div>
                         </div>
 
@@ -170,7 +171,7 @@ grid_items_zh = """
                                         <a href="/JJGPACK/zh-tw/products/kraft/square-paper-bag.html" class="hover:text-[#2E8B57]">方底紙袋 (SOS)</a>
                                     </h3>
                                     <p class="text-[#666] text-sm mb-3">自立式設計方便填充，高強度長纖維牛皮紙。</p>
-                                    <a href="/JJGPACK/zh-tw/products/kraft/square-paper-bag.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">完整介紹 →</a>
+                                    <a href="/JJGPACK/zh-tw/products/kraft/square-paper-bag.html" class="text-[#1A5C38] font-semibold text-sm">完整介紹 →</a>
                                 </div>
                         </div>
 
@@ -187,7 +188,7 @@ grid_items_zh = """
                                         <a href="/JJGPACK/zh-tw/products/greaseproof/bakery-side-window-bag.html" class="hover:text-[#2E8B57]">麵包側窗紙袋</a>
                                     </h3>
                                     <p class="text-[#666] text-sm mb-3">PE 淋膜，耐油性佳，配有高透明度視窗。</p>
-                                    <a href="/JJGPACK/zh-tw/products/greaseproof/bakery-side-window-bag.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">完整介紹 →</a>
+                                    <a href="/JJGPACK/zh-tw/products/greaseproof/bakery-side-window-bag.html" class="text-[#1A5C38] font-semibold text-sm">完整介紹 →</a>
                                 </div>
                         </div>
 
@@ -204,7 +205,7 @@ grid_items_zh = """
                                         <a href="/JJGPACK/zh-tw/products/white-kraft/white-kraft-bag.html" class="hover:text-[#2E8B57]">白牛皮紙袋</a>
                                     </h3>
                                     <p class="text-[#666] text-sm mb-3">高級白牛皮紙，外觀潔淨，適合零售及藥用包裝。</p>
-                                    <a href="/JJGPACK/zh-tw/products/white-kraft/white-kraft-bag.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">完整介紹 →</a>
+                                    <a href="/JJGPACK/zh-tw/products/white-kraft/white-kraft-bag.html" class="text-[#1A5C38] font-semibold text-sm">完整介紹 →</a>
                                 </div>
                         </div>
 
@@ -221,7 +222,7 @@ grid_items_zh = """
                                         <a href="/JJGPACK/zh-tw/products/aluminum-foil/aluminum-foil-bag.html" class="hover:text-[#2E8B57]">鋁箔紙袋</a>
                                     </h3>
                                     <p class="text-[#666] text-sm mb-3">優異保溫性能，烤雞、熱食外帶理想選擇。</p>
-                                    <a href="/JJGPACK/zh-tw/products/aluminum-foil/aluminum-foil-bag.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">完整介紹 →</a>
+                                    <a href="/JJGPACK/zh-tw/products/aluminum-foil/aluminum-foil-bag.html" class="text-[#1A5C38] font-semibold text-sm">完整介紹 →</a>
                                 </div>
                         </div>
 
@@ -238,7 +239,7 @@ grid_items_zh = """
                                         <a href="/JJGPACK/zh-tw/products/pe-lamination/l-bag.html" class="hover:text-[#2E8B57]">L型袋 (漢堡袋)</a>
                                     </h3>
                                     <p class="text-[#666] text-sm mb-3">防漏耐油，漢堡三明治專用，側面開口方便食用。</p>
-                                    <a href="/JJGPACK/zh-tw/products/pe-lamination/l-bag.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">完整介紹 →</a>
+                                    <a href="/JJGPACK/zh-tw/products/pe-lamination/l-bag.html" class="text-[#1A5C38] font-semibold text-sm">完整介紹 →</a>
                                 </div>
                         </div>
 
@@ -255,7 +256,7 @@ grid_items_zh = """
                                         <a href="/JJGPACK/zh-tw/products/fruit-protection/mango-bag.html" class="hover:text-[#2E8B57]">凱特1號-雙層 (芒果袋)</a>
                                     </h3>
                                     <p class="text-[#666] text-sm mb-3">雙層保護，防止病蟲害與天氣損傷，促進水果成長。</p>
-                                    <a href="/JJGPACK/zh-tw/products/fruit-protection/mango-bag.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">完整介紹 →</a>
+                                    <a href="/JJGPACK/zh-tw/products/fruit-protection/mango-bag.html" class="text-[#1A5C38] font-semibold text-sm">完整介紹 →</a>
                                 </div>
                         </div>
 
@@ -272,34 +273,27 @@ grid_items_zh = """
                                         <a href="/JJGPACK/zh-tw/products/paper-straw/paper-straw.html" class="hover:text-[#2E8B57]">環保紙吸管</a>
                                     </h3>
                                     <p class="text-[#666] text-sm mb-3">100% 台灣製造，無塑料，原生紙漿，環保首選。</p>
-                                    <a href="/JJGPACK/zh-tw/products/paper-straw/paper-straw.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">完整介紹 →</a>
+                                    <a href="/JJGPACK/zh-tw/products/paper-straw/paper-straw.html" class="text-[#1A5C38] font-semibold text-sm">完整介紹 →</a>
                                 </div>
                         </div>
 """
 
-# Apply to products.html
-with open("products.html", "r", encoding="utf-8") as f:
-    en_content = f.read()
+def update_file(filepath, grid_content):
+    with open(filepath, "r", encoding="utf-8") as f:
+        content = f.read()
+    
+    # More robust regex to match the grid section
+    pattern = r'<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">.*?</div>\s*</section>'
+    replacement = f'<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">{grid_content}                </div>\\n        </section>'
+    
+    new_content = re.sub(pattern, replacement, content, flags=re.DOTALL)
+    
+    if new_content != content:
+        with open(filepath, "w", encoding="utf-8") as f:
+            f.write(new_content)
+        print(f"Updated {filepath}")
+    else:
+        print(f"Failed to match grid pattern in {filepath}")
 
-# Replace the grid content
-# Find the start and end of the grid items
-import re
-new_en_content = re.sub(r'<!-- Product Grid.*?<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">(.*?)</div>\s*</section>', 
-                       f'<!-- Product Grid -->\\n        <section id="product-grid" class="max-w-[1400px] mx-auto px-4 lg:px-8 pb-20">\\n                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">{grid_items_en}                </div>\\n        </section>', 
-                       en_content, flags=re.DOTALL)
-
-with open("products.html", "w", encoding="utf-8") as f:
-    f.write(new_en_content)
-
-# Apply to zh-tw/products.html
-with open("zh-tw/products.html", "r", encoding="utf-8") as f:
-    zh_content = f.read()
-
-new_zh_content = re.sub(r'<!-- Product Grid.*?<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">(.*?)</div>\s*</section>', 
-                       f'<!-- 產品列表 -->\\n        <section id="product-grid" class="max-w-[1400px] mx-auto px-4 lg:px-8 pb-20">\\n                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">{grid_items_zh}                </div>\\n        </section>', 
-                       zh_content, flags=re.DOTALL)
-
-with open("zh-tw/products.html", "w", encoding="utf-8") as f:
-    f.write(new_zh_content)
-
-print("Product grid updated successfully.")
+update_file("products.html", grid_items_en)
+update_file("zh-tw/products.html", grid_items_zh)
