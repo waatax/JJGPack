@@ -6,36 +6,36 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>產品介紹 | 壯佳果包裝 - JJG Paper Bag</title>
         <meta name="description" content="瀏覽壯佳果全系列環保紙袋產品：防油紙袋、牛皮紙袋、手提紙袋、鋁箔紙袋、淋膜紙袋、紙吸管等。" />
-        <link rel="icon" href="/images/favicon.ico" />
+        <link rel="icon" href="/jjgpack/images/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;600;700&family=Noto+Serif+TC:wght@700;900&family=Playfair+Display:wght@400;700;900&display=swap"
                 rel="stylesheet">
-        <link href="/style.css" rel="stylesheet">
+        <link href="/jjgpack/style.css" rel="stylesheet">
 </head>
 
 <body x-data="{ mobileMenu: false, activeCategory: 'all' }"
         class="bg-[#F5F0E8] text-[#1A1A1A] font-['Inter','Noto_Sans_TC',sans-serif]">
         <header class="sticky top-0 z-50 bg-white/95 backdrop-blur shadow-sm">
                 <nav class="max-w-[1400px] mx-auto px-4 lg:px-8 h-[72px] flex items-center justify-between">
-                        <a href="/zh-tw/" class="flex items-center gap-2"><img src="/images/index-logo.png" alt="壯佳果"
+                        <a href="/jjgpack/zh-tw/" class="flex items-center gap-2"><img src="/jjgpack/images/index-logo.png" alt="壯佳果"
                                         class="h-12"></a>
                         <div class="hidden lg:flex items-center gap-8">
-                                <a href="/zh-tw/"
+                                <a href="/jjgpack/zh-tw/"
                                         class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">首頁</a>
-                                <a href="/zh-tw/about.html"
+                                <a href="/jjgpack/zh-tw/about.html"
                                         class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">關於我們</a>
-                                <a href="/zh-tw/products.html" class="text-[#1A5C38] font-semibold text-[15px]">產品介紹</a>
-                                <a href="/zh-tw/news.html"
+                                <a href="/jjgpack/zh-tw/products.html" class="text-[#1A5C38] font-semibold text-[15px]">產品介紹</a>
+                                <a href="/jjgpack/zh-tw/news.html"
                                         class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">最新消息</a>
-                                <a href="/zh-tw/contact.html"
+                                <a href="/jjgpack/zh-tw/contact.html"
                                         class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">聯絡我們</a>
                         </div>
                         <div class="hidden lg:flex items-center gap-4">
-                                <a href="/products.html" class="text-[#666] text-sm font-medium">EN</a><span
-                                        class="text-gray-300">|</span><a href="/zh-tw/products.html"
+                                <a href="/jjgpack/products.html" class="text-[#666] text-sm font-medium">EN</a><span
+                                        class="text-gray-300">|</span><a href="/jjgpack/zh-tw/products.html"
                                         class="text-[#1A5C38] text-sm font-bold">繁中</a>
-                                <a href="/zh-tw/contact.html"
+                                <a href="/jjgpack/zh-tw/contact.html"
                                         class="bg-[#1A5C38] hover:bg-[#2E8B57] text-white px-5 py-2.5 rounded-lg font-bold text-sm tracking-wider transition shadow">聯絡我們</a>
                         </div>
                         <button @click="mobileMenu=!mobileMenu" class="lg:hidden p-2"><svg class="w-6 h-6" fill="none"
@@ -46,7 +46,7 @@
                 </nav>
         </header>
         <div class="max-w-[1400px] mx-auto px-4 lg:px-8 py-4">
-                <nav class="text-sm text-[#666]"><a href="/zh-tw/" class="hover:text-[#2E8B57]">首頁</a> <span
+                <nav class="text-sm text-[#666]"><a href="/jjgpack/zh-tw/" class="hover:text-[#2E8B57]">首頁</a> <span
                                 class="mx-2">›</span> <span class="text-[#1A5C38] font-medium">產品介紹</span></nav>
         </div>
         <section class="max-w-[1400px] mx-auto px-4 lg:px-8 pb-8">
@@ -91,7 +91,7 @@
                 <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                         <div x-show="activeCategory==='all'||activeCategory==='flathandle'"
                                 class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-                                <div class="aspect-[4/3] overflow-hidden"><img src="/proimages/index/p1.jpg"
+                                <div class="aspect-[4/3] overflow-hidden"><img src="/jjgpack/proimages/index/p1.jpg"
                                                 alt="平把手提紙袋"
                                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                                 </div>
@@ -99,13 +99,13 @@
                                                 class="text-xs font-semibold tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">平把手提袋</span>
                                         <h3 class="font-['Noto_Serif_TC',serif] text-lg font-bold mt-2 mb-1">平把手提紙袋</h3>
                                         <p class="text-[#666] text-sm mb-3">100% 可生物分解、環保。棕色牛皮紙，提供 10 種標準尺寸。</p><a
-                                                href="/zh-tw/contact.html"
+                                                href="/jjgpack/zh-tw/contact.html"
                                                 class="text-[#1A5C38] font-semibold text-sm">詢價 →</a>
                                 </div>
                         </div>
                         <div x-show="activeCategory==='all'||activeCategory==='kraft'"
                                 class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-                                <div class="aspect-[4/3] overflow-hidden"><img src="/proimages/index/p2.jpg"
+                                <div class="aspect-[4/3] overflow-hidden"><img src="/jjgpack/proimages/index/p2.jpg"
                                                 alt="方底牛皮紙袋"
                                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                                 </div>
@@ -113,13 +113,13 @@
                                                 class="text-xs font-semibold tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">牛皮紙袋</span>
                                         <h3 class="font-['Noto_Serif_TC',serif] text-lg font-bold mt-2 mb-1">方底牛皮紙袋</h3>
                                         <p class="text-[#666] text-sm mb-3">100% 純木漿牛皮紙，方底設計，適合零售及雜貨店。</p><a
-                                                href="/zh-tw/contact.html"
+                                                href="/jjgpack/zh-tw/contact.html"
                                                 class="text-[#1A5C38] font-semibold text-sm">詢價 →</a>
                                 </div>
                         </div>
                         <div x-show="activeCategory==='all'||activeCategory==='kraft'"
                                 class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-                                <div class="aspect-[4/3] overflow-hidden"><img src="/proimages/index/p6-1.jpg"
+                                <div class="aspect-[4/3] overflow-hidden"><img src="/jjgpack/proimages/index/p6-1.jpg"
                                                 alt="開窗麵包袋"
                                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                                 </div>
@@ -127,13 +127,13 @@
                                                 class="text-xs font-semibold tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">牛皮紙袋</span>
                                         <h3 class="font-['Noto_Serif_TC',serif] text-lg font-bold mt-2 mb-1">開窗麵包袋</h3>
                                         <p class="text-[#666] text-sm mb-3">食品級認證，高透明聚丙烯開窗，適合烘焙業。</p><a
-                                                href="/zh-tw/contact.html"
+                                                href="/jjgpack/zh-tw/contact.html"
                                                 class="text-[#1A5C38] font-semibold text-sm">詢價 →</a>
                                 </div>
                         </div>
                         <div x-show="activeCategory==='all'||activeCategory==='greaseproof'"
                                 class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-                                <div class="aspect-[4/3] overflow-hidden"><img src="/proimages/index/p4-1.jpg"
+                                <div class="aspect-[4/3] overflow-hidden"><img src="/jjgpack/proimages/index/p4-1.jpg"
                                                 alt="防油紙袋"
                                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                                 </div>
@@ -141,20 +141,20 @@
                                                 class="text-xs font-semibold tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">防油紙袋</span>
                                         <h3 class="font-['Noto_Serif_TC',serif] text-lg font-bold mt-2 mb-1">防油紙袋</h3>
                                         <p class="text-[#666] text-sm mb-3">適用速食、薯條、漢堡、熱狗等。多種形狀尺寸。</p><a
-                                                href="/zh-tw/contact.html"
+                                                href="/jjgpack/zh-tw/contact.html"
                                                 class="text-[#1A5C38] font-semibold text-sm">詢價 →</a>
                                 </div>
                         </div>
                         <div x-show="activeCategory==='all'||activeCategory==='greaseproof'"
                                 class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-                                <div class="aspect-[4/3] overflow-hidden"><img src="/proimages/114.10.jpg" alt="防油包裝紙"
+                                <div class="aspect-[4/3] overflow-hidden"><img src="/jjgpack/proimages/114.10.jpg" alt="防油包裝紙"
                                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                                 </div>
                                 <div class="p-5"><span
                                                 class="text-xs font-semibold tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">防油紙</span>
                                         <h3 class="font-['Noto_Serif_TC',serif] text-lg font-bold mt-2 mb-1">防油包裝紙</h3>
                                         <p class="text-[#666] text-sm mb-3">PE 淋膜，防油、食品級。可客製 Logo 印刷。</p><a
-                                                href="/zh-tw/contact.html"
+                                                href="/jjgpack/zh-tw/contact.html"
                                                 class="text-[#1A5C38] font-semibold text-sm">詢價 →</a>
                                 </div>
                         </div>
@@ -171,7 +171,7 @@
                                                 class="text-xs font-semibold tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">白牛皮紙袋</span>
                                         <h3 class="font-['Noto_Serif_TC',serif] text-lg font-bold mt-2 mb-1">白牛皮紙袋</h3>
                                         <p class="text-[#666] text-sm mb-3">高級白牛皮紙，外觀潔淨，適合化妝品、藥房及禮品包裝。</p><a
-                                                href="/zh-tw/contact.html"
+                                                href="/jjgpack/zh-tw/contact.html"
                                                 class="text-[#1A5C38] font-semibold text-sm">詢價 →</a>
                                 </div>
                         </div>
@@ -190,13 +190,13 @@
                                                 class="text-xs font-semibold tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">鋁箔紙袋</span>
                                         <h3 class="font-['Noto_Serif_TC',serif] text-lg font-bold mt-2 mb-1">鋁箔紙袋</h3>
                                         <p class="text-[#666] text-sm mb-3">隔熱、耐油。適合烤雞、熱食外帶包裝。</p><a
-                                                href="/zh-tw/contact.html"
+                                                href="/jjgpack/zh-tw/contact.html"
                                                 class="text-[#1A5C38] font-semibold text-sm">詢價 →</a>
                                 </div>
                         </div>
                         <div x-show="activeCategory==='all'||activeCategory==='pe'"
                                 class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-                                <div class="aspect-[4/3] overflow-hidden"><img src="/proimages/index/p5-1.jpg"
+                                <div class="aspect-[4/3] overflow-hidden"><img src="/jjgpack/proimages/index/p5-1.jpg"
                                                 alt="雙面開口漢堡袋"
                                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                                 </div>
@@ -205,7 +205,7 @@
                                         <h3 class="font-['Noto_Serif_TC',serif] text-lg font-bold mt-2 mb-1">雙面開口漢堡袋
                                         </h3>
                                         <p class="text-[#666] text-sm mb-3">耐油、防潮。PE 淋膜，平底設計。適合炸物食品。</p><a
-                                                href="/zh-tw/contact.html"
+                                                href="/jjgpack/zh-tw/contact.html"
                                                 class="text-[#1A5C38] font-semibold text-sm">詢價 →</a>
                                 </div>
                         </div>
@@ -222,7 +222,7 @@
                                                 class="text-xs font-semibold tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">水果套袋</span>
                                         <h3 class="font-['Noto_Serif_TC',serif] text-lg font-bold mt-2 mb-1">水果套袋</h3>
                                         <p class="text-[#666] text-sm mb-3">保護生長中的水果免受蟲害、鳥害。可生物分解、透氣材質。</p><a
-                                                href="/zh-tw/contact.html"
+                                                href="/jjgpack/zh-tw/contact.html"
                                                 class="text-[#1A5C38] font-semibold text-sm">詢價 →</a>
                                 </div>
                         </div>
@@ -239,7 +239,7 @@
                                                 class="text-xs font-semibold tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">紙吸管</span>
                                         <h3 class="font-['Noto_Serif_TC',serif] text-lg font-bold mt-2 mb-1">環保紙吸管</h3>
                                         <p class="text-[#666] text-sm mb-3">環保紙吸管，可生物分解。FDA 認證，適用各種飲品。</p><a
-                                                href="/zh-tw/contact.html"
+                                                href="/jjgpack/zh-tw/contact.html"
                                                 class="text-[#1A5C38] font-semibold text-sm">詢價 →</a>
                                 </div>
                         </div>
@@ -257,7 +257,7 @@
                                         <h3 class="font-['Noto_Serif_TC',serif] text-lg font-bold mt-2 mb-1">竹纖維環保吸管
                                         </h3>
                                         <p class="text-[#666] text-sm mb-3">白色竹纖維吸管，100% 可生物分解、可堆肥。</p><a
-                                                href="/zh-tw/contact.html"
+                                                href="/jjgpack/zh-tw/contact.html"
                                                 class="text-[#1A5C38] font-semibold text-sm">詢價 →</a>
                                 </div>
                         </div>
@@ -274,7 +274,7 @@
                                                 class="text-xs font-semibold tracking-wider text-[#666] bg-gray-100 px-2 py-0.5 rounded-full">其他</span>
                                         <h3 class="font-['Noto_Serif_TC',serif] text-lg font-bold mt-2 mb-1">客製化包裝</h3>
                                         <p class="text-[#666] text-sm mb-3">提供各種特殊需求的客製化解決方案。歡迎洽詢 OEM/ODM 合作。</p><a
-                                                href="/zh-tw/contact.html"
+                                                href="/jjgpack/zh-tw/contact.html"
                                                 class="text-[#1A5C38] font-semibold text-sm">詢價 →</a>
                                 </div>
                         </div>
@@ -284,30 +284,30 @@
                 <div class="max-w-[1400px] mx-auto px-4 lg:px-8 text-center">
                         <h2 class="font-['Noto_Serif_TC',serif] text-3xl font-bold text-white mb-4">需要客製化包裝？</h2>
                         <p class="text-white/80 text-lg mb-8">我們提供 OEM/ODM 服務，客製印刷、尺寸及材質。</p><a
-                                href="/zh-tw/contact.html"
+                                href="/jjgpack/zh-tw/contact.html"
                                 class="bg-white text-[#1A5C38] px-10 py-3.5 rounded-lg font-bold tracking-wider hover:bg-[#F5F0E8] transition inline-block">索取報價</a>
                 </div>
         </section>
         <footer class="bg-[#1A1A1A] text-gray-400 pt-16 pb-8">
                 <div class="max-w-[1400px] mx-auto px-4 lg:px-8">
                         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10 pb-10 border-b border-gray-800">
-                                <div><img src="/images/index-logo.png" alt="JJG" class="h-10 mb-4 brightness-200">
+                                <div><img src="/jjgpack/images/index-logo.png" alt="JJG" class="h-10 mb-4 brightness-200">
                                         <p class="text-sm">台灣專業紙袋製造商，超過 60 年經驗。</p>
                                 </div>
                                 <div>
                                         <h4 class="text-white font-bold mb-4 text-sm tracking-wider">快速連結</h4>
                                         <ul class="space-y-2 text-sm">
-                                                <li><a href="/zh-tw/" class="hover:text-[#2E8B57]">首頁</a></li>
-                                                <li><a href="/zh-tw/about.html" class="hover:text-[#2E8B57]">關於我們</a>
+                                                <li><a href="/jjgpack/zh-tw/" class="hover:text-[#2E8B57]">首頁</a></li>
+                                                <li><a href="/jjgpack/zh-tw/about.html" class="hover:text-[#2E8B57]">關於我們</a>
                                                 </li>
-                                                <li><a href="/zh-tw/products.html" class="hover:text-[#2E8B57]">產品介紹</a>
+                                                <li><a href="/jjgpack/zh-tw/products.html" class="hover:text-[#2E8B57]">產品介紹</a>
                                                 </li>
                                         </ul>
                                 </div>
                                 <div>
                                         <h4 class="text-white font-bold mb-4 text-sm tracking-wider">產品系列</h4>
                                         <ul class="space-y-2 text-sm">
-                                                <li><a href="/zh-tw/products.html" class="hover:text-[#2E8B57]">全部產品</a>
+                                                <li><a href="/jjgpack/zh-tw/products.html" class="hover:text-[#2E8B57]">全部產品</a>
                                                 </li>
                                         </ul>
                                 </div>
@@ -323,7 +323,7 @@
                         <div class="pt-6 text-center text-xs text-gray-600">© 2026 壯佳果股份有限公司 版權所有</div>
                 </div>
         </footer>
-        <script type="module" src="/main.js"></script>
+        <script type="module" src="/jjgpack/main.js"></script>
 </body>
 
 </html>

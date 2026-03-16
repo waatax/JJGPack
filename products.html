@@ -7,12 +7,12 @@
         <title>Products | JJG Paper Bag - 壯佳果包裝</title>
         <meta name="description"
                 content="Browse our complete catalog of eco-friendly paper bags: greaseproof, kraft, flat handle, aluminum foil, and more." />
-        <link rel="icon" href="/images/favicon.ico" />
+        <link rel="icon" href="/jjgpack/images/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;600;700&family=Noto+Serif+TC:wght@700;900&family=Playfair+Display:wght@400;700;900&display=swap"
                 rel="stylesheet">
-        <link href="/style.css" rel="stylesheet">
+        <link href="/jjgpack/style.css" rel="stylesheet">
 </head>
 
 <body x-data="{ mobileMenu: false, activeCategory: 'all' }"
@@ -21,26 +21,26 @@
         <!-- NAV -->
         <header class="sticky top-0 z-50 bg-white/95 backdrop-blur shadow-sm">
                 <nav class="max-w-[1400px] mx-auto px-4 lg:px-8 h-[72px] flex items-center justify-between">
-                        <a href="/" class="flex items-center gap-2"><img src="/images/index-logo.png" alt="JJG"
+                        <a href="/jjgpack/" class="flex items-center gap-2"><img src="/jjgpack/images/index-logo.png" alt="JJG"
                                         class="h-12"></a>
                         <div class="hidden lg:flex items-center gap-8">
-                                <a href="/"
+                                <a href="/jjgpack/"
                                         class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">Home</a>
-                                <a href="/about.html"
+                                <a href="/jjgpack/about.html"
                                         class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">About
                                         Us</a>
-                                <a href="/products.html" class="text-[#1A5C38] font-semibold text-[15px]">Products</a>
-                                <a href="/news.html"
+                                <a href="/jjgpack/products.html" class="text-[#1A5C38] font-semibold text-[15px]">Products</a>
+                                <a href="/jjgpack/news.html"
                                         class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">News</a>
-                                <a href="/contact.html"
+                                <a href="/jjgpack/contact.html"
                                         class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">Contact
                                         Us</a>
                         </div>
                         <div class="hidden lg:flex items-center gap-4">
-                                <a href="/products.html" class="text-[#666] text-sm font-medium">EN</a><span
-                                        class="text-gray-300">|</span><a href="/zh-tw/products.html"
+                                <a href="/jjgpack/products.html" class="text-[#666] text-sm font-medium">EN</a><span
+                                        class="text-gray-300">|</span><a href="/jjgpack/zh-tw/products.html"
                                         class="text-[#666] text-sm font-medium">繁中</a>
-                                <a href="/contact.html"
+                                <a href="/jjgpack/contact.html"
                                         class="bg-[#1A5C38] hover:bg-[#2E8B57] text-white px-5 py-2.5 rounded-lg font-bold text-sm uppercase tracking-wider transition shadow">Contact
                                         Us</a>
                         </div>
@@ -52,20 +52,20 @@
                 </nav>
                 <div x-show="mobileMenu" x-transition class="lg:hidden bg-white border-t shadow-lg"
                         style="display:none">
-                        <div class="px-4 py-4 space-y-2"><a href="/"
-                                        class="block py-2 px-3 rounded hover:bg-[#F5F0E8]">Home</a><a href="/about.html"
+                        <div class="px-4 py-4 space-y-2"><a href="/jjgpack/"
+                                        class="block py-2 px-3 rounded hover:bg-[#F5F0E8]">Home</a><a href="/jjgpack/about.html"
                                         class="block py-2 px-3 rounded hover:bg-[#F5F0E8]">About Us</a><a
-                                        href="/products.html"
+                                        href="/jjgpack/products.html"
                                         class="block py-2 px-3 rounded bg-[#F5F0E8] font-semibold text-[#1A5C38]">Products</a><a
-                                        href="/news.html" class="block py-2 px-3 rounded hover:bg-[#F5F0E8]">News</a><a
-                                        href="/contact.html" class="block py-2 px-3 rounded hover:bg-[#F5F0E8]">Contact
+                                        href="/jjgpack/news.html" class="block py-2 px-3 rounded hover:bg-[#F5F0E8]">News</a><a
+                                        href="/jjgpack/contact.html" class="block py-2 px-3 rounded hover:bg-[#F5F0E8]">Contact
                                         Us</a></div>
                 </div>
         </header>
 
         <!-- Breadcrumb -->
         <div class="max-w-[1400px] mx-auto px-4 lg:px-8 py-4">
-                <nav class="text-sm text-[#666]"><a href="/" class="hover:text-[#2E8B57]">Home</a> <span
+                <nav class="text-sm text-[#666]"><a href="/jjgpack/" class="hover:text-[#2E8B57]">Home</a> <span
                                 class="mx-2">›</span> <span class="text-[#1A5C38] font-medium">Products</span></nav>
         </div>
 
@@ -120,7 +120,7 @@
                         <!-- FLAT HANDLE -->
                         <div x-show="activeCategory==='all'||activeCategory==='flathandle'"
                                 class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-                                <div class="aspect-[4/3] overflow-hidden"><img src="/proimages/index/p1.jpg"
+                                <div class="aspect-[4/3] overflow-hidden"><img src="/jjgpack/proimages/index/p1.jpg"
                                                 alt="Flat Handle Paper Bag"
                                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                                 </div>
@@ -131,7 +131,7 @@
                                                 Handle Paper Bag</h3>
                                         <p class="text-[#666] text-sm mb-3">100% biodegradable, eco-friendly. Brown
                                                 kraft, available in 10 standard sizes. Custom sizes available.</p><a
-                                                href="/contact.html"
+                                                href="/jjgpack/contact.html"
                                                 class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">Inquire
                                                 →</a>
                                 </div>
@@ -140,7 +140,7 @@
                         <!-- BROWN KRAFT 1 -->
                         <div x-show="activeCategory==='all'||activeCategory==='kraft'"
                                 class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-                                <div class="aspect-[4/3] overflow-hidden"><img src="/proimages/index/p2.jpg"
+                                <div class="aspect-[4/3] overflow-hidden"><img src="/jjgpack/proimages/index/p2.jpg"
                                                 alt="Square Bottom Paper Bag"
                                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                                 </div>
@@ -150,7 +150,7 @@
                                         <h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">Square
                                                 Bottom Paper Bag</h3>
                                         <p class="text-[#666] text-sm mb-3">100% virgin kraft, block bottom, ideal for
-                                                retail and grocery stores.</p><a href="/contact.html"
+                                                retail and grocery stores.</p><a href="/jjgpack/contact.html"
                                                 class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">Inquire
                                                 →</a>
                                 </div>
@@ -159,7 +159,7 @@
                         <!-- BROWN KRAFT 2 — Bakery Window -->
                         <div x-show="activeCategory==='all'||activeCategory==='kraft'"
                                 class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-                                <div class="aspect-[4/3] overflow-hidden"><img src="/proimages/index/p6-1.jpg"
+                                <div class="aspect-[4/3] overflow-hidden"><img src="/jjgpack/proimages/index/p6-1.jpg"
                                                 alt="Bakery Window Bag"
                                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                                 </div>
@@ -169,7 +169,7 @@
                                         <h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">Bakery
                                                 Window Bag</h3>
                                         <p class="text-[#666] text-sm mb-3">Food-grade certified, high clarity
-                                                polypropylene window, ideal for bakeries.</p><a href="/contact.html"
+                                                polypropylene window, ideal for bakeries.</p><a href="/jjgpack/contact.html"
                                                 class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">Inquire
                                                 →</a>
                                 </div>
@@ -178,7 +178,7 @@
                         <!-- GREASEPROOF 1 -->
                         <div x-show="activeCategory==='all'||activeCategory==='greaseproof'"
                                 class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-                                <div class="aspect-[4/3] overflow-hidden"><img src="/proimages/index/p4-1.jpg"
+                                <div class="aspect-[4/3] overflow-hidden"><img src="/jjgpack/proimages/index/p4-1.jpg"
                                                 alt="Greaseproof Satchel Bag"
                                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                                 </div>
@@ -187,7 +187,7 @@
                                         <h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">
                                                 Greaseproof Satchel Bag</h3>
                                         <p class="text-[#666] text-sm mb-3">Ideal for fast food, French fries, burgers,
-                                                hot dogs. Multiple shapes &amp; sizes.</p><a href="/contact.html"
+                                                hot dogs. Multiple shapes &amp; sizes.</p><a href="/jjgpack/contact.html"
                                                 class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">Inquire
                                                 →</a>
                                 </div>
@@ -196,7 +196,7 @@
                         <!-- GREASEPROOF 2 — Deli Wrap -->
                         <div x-show="activeCategory==='all'||activeCategory==='greaseproof'"
                                 class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-                                <div class="aspect-[4/3] overflow-hidden"><img src="/proimages/114.10.jpg"
+                                <div class="aspect-[4/3] overflow-hidden"><img src="/jjgpack/proimages/114.10.jpg"
                                                 alt="Deli Wrap Paper"
                                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                                 </div>
@@ -205,7 +205,7 @@
                                         <h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">Deli
                                                 Wrap Paper</h3>
                                         <p class="text-[#666] text-sm mb-3">PE laminated, greaseproof, food grade.
-                                                Custom logo printing available.</p><a href="/contact.html"
+                                                Custom logo printing available.</p><a href="/jjgpack/contact.html"
                                                 class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">Inquire
                                                 →</a>
                                 </div>
@@ -228,7 +228,7 @@
                                                 Kraft Paper Bag</h3>
                                         <p class="text-[#666] text-sm mb-3">Premium white kraft paper. Clean appearance,
                                                 ideal for cosmetics, pharmacy, and retail gift packaging.</p><a
-                                                href="/contact.html"
+                                                href="/jjgpack/contact.html"
                                                 class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">Inquire
                                                 →</a>
                                 </div>
@@ -252,7 +252,7 @@
                                         <h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">Aluminum
                                                 Foil Paper Bag</h3>
                                         <p class="text-[#666] text-sm mb-3">Heat-insulated, oil resistant. Perfect for
-                                                roasted chicken, hot food takeaway packaging.</p><a href="/contact.html"
+                                                roasted chicken, hot food takeaway packaging.</p><a href="/jjgpack/contact.html"
                                                 class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">Inquire
                                                 →</a>
                                 </div>
@@ -261,7 +261,7 @@
                         <!-- PE-LAMINATION -->
                         <div x-show="activeCategory==='all'||activeCategory==='pe'"
                                 class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-                                <div class="aspect-[4/3] overflow-hidden"><img src="/proimages/index/p5-1.jpg"
+                                <div class="aspect-[4/3] overflow-hidden"><img src="/jjgpack/proimages/index/p5-1.jpg"
                                                 alt="2-Side Open Burger Bag"
                                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                                 </div>
@@ -271,7 +271,7 @@
                                         <h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">2-Side
                                                 Open Burger Bag</h3>
                                         <p class="text-[#666] text-sm mb-3">Oil resistant, moisture proof. PE laminated,
-                                                flat base bottom. Perfect for fried food.</p><a href="/contact.html"
+                                                flat base bottom. Perfect for fried food.</p><a href="/jjgpack/contact.html"
                                                 class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">Inquire
                                                 →</a>
                                 </div>
@@ -294,7 +294,7 @@
                                                 Protection Bag</h3>
                                         <p class="text-[#666] text-sm mb-3">Protects growing fruits from insects, birds,
                                                 and disease. Biodegradable, breathable material.</p><a
-                                                href="/contact.html"
+                                                href="/jjgpack/contact.html"
                                                 class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">Inquire
                                                 →</a>
                                 </div>
@@ -317,7 +317,7 @@
                                                 Paper Straw</h3>
                                         <p class="text-[#666] text-sm mb-3">Eco-friendly brown paper straw,
                                                 biodegradable. FDA compliant, suitable for all beverages.</p><a
-                                                href="/contact.html"
+                                                href="/jjgpack/contact.html"
                                                 class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">Inquire
                                                 →</a>
                                 </div>
@@ -340,7 +340,7 @@
                                                 Biodegradable Bamboo Straw</h3>
                                         <p class="text-[#666] text-sm mb-3">White bamboo fiber straw. 100%
                                                 biodegradable, compostable, and plastic-free alternative.</p><a
-                                                href="/contact.html"
+                                                href="/jjgpack/contact.html"
                                                 class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">Inquire
                                                 →</a>
                                 </div>
@@ -362,7 +362,7 @@
                                                 Specialty Bags</h3>
                                         <p class="text-[#666] text-sm mb-3">Custom solutions for unique packaging needs.
                                                 Contact us for OEM/ODM collaborations and special orders.</p><a
-                                                href="/contact.html"
+                                                href="/jjgpack/contact.html"
                                                 class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">Inquire
                                                 →</a>
                                 </div>
@@ -378,7 +378,7 @@
                                 Packaging?</h2>
                         <p class="text-white/80 text-lg mb-8">We offer OEM/ODM services with custom printing, sizes, and
                                 materials.</p>
-                        <a href="/contact.html"
+                        <a href="/jjgpack/contact.html"
                                 class="bg-white text-[#1A5C38] px-10 py-3.5 rounded-lg font-bold uppercase tracking-wider hover:bg-[#F5F0E8] transition inline-block">Get
                                 a Quote</a>
                 </div>
@@ -388,7 +388,7 @@
         <footer class="bg-[#1A1A1A] text-gray-400 pt-16 pb-8">
                 <div class="max-w-[1400px] mx-auto px-4 lg:px-8">
                         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10 pb-10 border-b border-gray-800">
-                                <div><img src="/images/index-logo.png" alt="JJG" class="h-10 mb-4 brightness-200">
+                                <div><img src="/jjgpack/images/index-logo.png" alt="JJG" class="h-10 mb-4 brightness-200">
                                         <p class="text-sm leading-relaxed">Professional paper bag manufacturer in Taiwan
                                                 with 60+ years of experience.</p>
                                 </div>
@@ -396,11 +396,11 @@
                                         <h4 class="text-white font-bold mb-4 uppercase text-sm tracking-wider">Quick
                                                 Links</h4>
                                         <ul class="space-y-2 text-sm">
-                                                <li><a href="/" class="hover:text-[#2E8B57]">Home</a></li>
-                                                <li><a href="/about.html" class="hover:text-[#2E8B57]">About Us</a></li>
-                                                <li><a href="/products.html" class="hover:text-[#2E8B57]">Products</a>
+                                                <li><a href="/jjgpack/" class="hover:text-[#2E8B57]">Home</a></li>
+                                                <li><a href="/jjgpack/about.html" class="hover:text-[#2E8B57]">About Us</a></li>
+                                                <li><a href="/jjgpack/products.html" class="hover:text-[#2E8B57]">Products</a>
                                                 </li>
-                                                <li><a href="/contact.html" class="hover:text-[#2E8B57]">Contact Us</a>
+                                                <li><a href="/jjgpack/contact.html" class="hover:text-[#2E8B57]">Contact Us</a>
                                                 </li>
                                         </ul>
                                 </div>
@@ -408,7 +408,7 @@
                                         <h4 class="text-white font-bold mb-4 uppercase text-sm tracking-wider">Products
                                         </h4>
                                         <ul class="space-y-2 text-sm">
-                                                <li><a href="/products.html" class="hover:text-[#2E8B57]">All
+                                                <li><a href="/jjgpack/products.html" class="hover:text-[#2E8B57]">All
                                                                 Products</a></li>
                                         </ul>
                                 </div>
@@ -430,7 +430,7 @@
                         </div>
                 </div>
         </footer>
-        <script type="module" src="/main.js"></script>
+        <script type="module" src="/jjgpack/main.js"></script>
 </body>
 
 </html>
