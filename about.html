@@ -1,0 +1,231 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>About Us | JJG Paper Bag - 壯佳果包裝</title>
+        <meta name="description"
+                content="Learn about Juang Jia Guoo, a professional paper bag manufacturer in Taiwan with 60+ years of experience." />
+        <link rel="icon" href="/images/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;600;700&family=Noto+Serif+TC:wght@700;900&family=Playfair+Display:wght@400;700;900&display=swap"
+                rel="stylesheet">
+        <link href="/style.css" rel="stylesheet">
+</head>
+
+<body x-data="{ mobileMenu: false }" class="bg-[#F5F0E8] text-[#1A1A1A] font-['Inter','Noto_Sans_TC',sans-serif]">
+        <header class="sticky top-0 z-50 bg-white/95 backdrop-blur shadow-sm">
+                <nav class="max-w-[1400px] mx-auto px-4 lg:px-8 h-[72px] flex items-center justify-between">
+                        <a href="/" class="flex items-center gap-2"><img src="/images/index-logo.png" alt="JJG"
+                                        class="h-12"></a>
+                        <div class="hidden lg:flex items-center gap-8">
+                                <a href="/"
+                                        class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">Home</a>
+                                <a href="/about.html" class="text-[#1A5C38] font-semibold text-[15px]">About Us</a>
+                                <a href="/products.html"
+                                        class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">Products</a>
+                                <a href="/news.html"
+                                        class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">News</a>
+                                <a href="/contact.html"
+                                        class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">Contact
+                                        Us</a>
+                        </div>
+                        <div class="hidden lg:flex items-center gap-4">
+                                <a href="#" class="text-[#666] text-sm font-medium">EN</a><span
+                                        class="text-gray-300">|</span><a href="#"
+                                        class="text-[#666] text-sm font-medium">繁中</a>
+                                <a href="/contact.html"
+                                        class="bg-[#1A5C38] hover:bg-[#2E8B57] text-white px-5 py-2.5 rounded-lg font-bold text-sm uppercase tracking-wider transition shadow">Contact
+                                        Us</a>
+                        </div>
+                        <button @click="mobileMenu=!mobileMenu" class="lg:hidden p-2"><svg class="w-6 h-6" fill="none"
+                                        stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M4 6h16M4 12h16M4 18h16" />
+                                </svg></button>
+                </nav>
+                <div x-show="mobileMenu" x-transition class="lg:hidden bg-white border-t shadow-lg"
+                        style="display:none">
+                        <div class="px-4 py-4 space-y-2">
+                                <a href="/" class="block py-2 px-3 rounded hover:bg-[#F5F0E8]">Home</a>
+                                <a href="/about.html"
+                                        class="block py-2 px-3 rounded bg-[#F5F0E8] font-semibold text-[#1A5C38]">About
+                                        Us</a>
+                                <a href="/products.html" class="block py-2 px-3 rounded hover:bg-[#F5F0E8]">Products</a>
+                                <a href="/news.html" class="block py-2 px-3 rounded hover:bg-[#F5F0E8]">News</a>
+                                <a href="/contact.html" class="block py-2 px-3 rounded hover:bg-[#F5F0E8]">Contact
+                                        Us</a>
+                        </div>
+                </div>
+        </header>
+
+        <div class="max-w-[1400px] mx-auto px-4 lg:px-8 py-4">
+                <nav class="text-sm text-[#666]"><a href="/" class="hover:text-[#2E8B57]">Home</a> <span
+                                class="mx-2">›</span> <span class="text-[#1A5C38] font-medium">About Us</span></nav>
+        </div>
+
+        <!-- Our Story -->
+        <section class="max-w-[1400px] mx-auto px-4 lg:px-8 pb-20">
+                <div class="grid lg:grid-cols-2 gap-16 items-center">
+                        <div>
+                                <p class="text-[#B5813C] uppercase text-sm font-semibold tracking-widest mb-3">Our Story
+                                </p>
+                                <h1
+                                        class="font-['Playfair_Display','Noto_Serif_TC',serif] text-4xl md:text-5xl font-bold mb-6">
+                                        About JJG Paper Bag</h1>
+                                <p class="text-[#666] leading-relaxed mb-4">Juang Jia Guoo Co., Ltd. is a professional
+                                        paper bag manufacturer in Taiwan with over 60 years of production experience,
+                                        specializing in the development and manufacturing of various food paper bags and
+                                        commercial paper bags.</p>
+                                <p class="text-[#666] leading-relaxed mb-4">We provide greaseproof paper bags, laminated
+                                        paper bags, kraft paper bags, white kraft paper bags, handle paper bags,
+                                        shopping bags, and custom-printed paper bags, serving the needs of restaurants,
+                                        chain brands, food factories, retail channels, and a wide range of corporate
+                                        clients.</p>
+                                <p class="text-[#666] leading-relaxed">With "quality, safety, and reliable supply" as
+                                        our core values, our products comply with food safety standards and
+                                        international certifications, ensuring stable production capacity, large-volume
+                                        order support, and dependable delivery schedules.</p>
+                        </div>
+                        <div><img src="/images/video-bg.jpg" alt="JJG Paper Bag Factory"
+                                        class="rounded-2xl shadow-lg w-full"></div>
+                </div>
+        </section>
+
+        <!-- Our History Timeline -->
+        <section id="history" class="bg-white py-20">
+                <div class="max-w-[1400px] mx-auto px-4 lg:px-8">
+                        <div class="text-center mb-16">
+                                <p class="text-[#B5813C] uppercase text-sm font-semibold tracking-widest mb-3">
+                                        Milestones</p>
+                                <h2
+                                        class="font-['Playfair_Display','Noto_Serif_TC',serif] text-3xl md:text-4xl font-bold">
+                                        Our History</h2>
+                        </div>
+                        <div class="max-w-3xl mx-auto space-y-8">
+                                <div class="flex gap-6 items-start">
+                                        <div
+                                                class="bg-[#1A5C38] text-white font-bold text-sm px-4 py-2 rounded-lg min-w-[80px] text-center">
+                                                1960s</div>
+                                        <div>
+                                                <h3 class="font-bold text-lg mb-1">Company Founded</h3>
+                                                <p class="text-[#666] text-sm">Juang Jia Guoo established in Taichung,
+                                                        Taiwan, beginning paper bag manufacturing operations.</p>
+                                        </div>
+                                </div>
+                                <div class="flex gap-6 items-start">
+                                        <div
+                                                class="bg-[#B5813C] text-white font-bold text-sm px-4 py-2 rounded-lg min-w-[80px] text-center">
+                                                1980s</div>
+                                        <div>
+                                                <h3 class="font-bold text-lg mb-1">Export Expansion</h3>
+                                                <p class="text-[#666] text-sm">Expanded operations to serve
+                                                        international markets, establishing global export capabilities.
+                                                </p>
+                                        </div>
+                                </div>
+                                <div class="flex gap-6 items-start">
+                                        <div
+                                                class="bg-[#1A5C38] text-white font-bold text-sm px-4 py-2 rounded-lg min-w-[80px] text-center">
+                                                2000s</div>
+                                        <div>
+                                                <h3 class="font-bold text-lg mb-1">Quality Certifications</h3>
+                                                <p class="text-[#666] text-sm">Achieved ISO 22000, HACCP, FSC, and FSSC
+                                                        22000 certifications for food safety and sustainability.</p>
+                                        </div>
+                                </div>
+                                <div class="flex gap-6 items-start">
+                                        <div
+                                                class="bg-[#B5813C] text-white font-bold text-sm px-4 py-2 rounded-lg min-w-[80px] text-center">
+                                                2020s</div>
+                                        <div>
+                                                <h3 class="font-bold text-lg mb-1">PFAS-Free Innovation</h3>
+                                                <p class="text-[#666] text-sm">Pioneered PFAS-free, biodegradable paper
+                                                        bag technology. Serving 100+ countries worldwide.</p>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </section>
+
+        <!-- Certifications -->
+        <section id="certification" class="py-20">
+                <div class="max-w-[1400px] mx-auto px-4 lg:px-8 text-center">
+                        <p class="text-[#B5813C] uppercase text-sm font-semibold tracking-widest mb-3">Trust & Quality
+                        </p>
+                        <h2
+                                class="font-['Playfair_Display','Noto_Serif_TC',serif] text-3xl md:text-4xl font-bold mb-10">
+                                Certifications</h2>
+                        <div class="bg-white rounded-2xl shadow-sm p-10">
+                                <img src="/images/footer-iso_v2.png"
+                                        alt="ISO 22000, HACCP, FSC, FSSC 22000 Certifications"
+                                        class="mx-auto h-24 object-contain mb-6">
+                                <p class="text-[#666] max-w-2xl mx-auto">Our products comply with ISO 22000, HACCP, FSC,
+                                        and FSSC 22000 standards, ensuring the highest levels of food safety and
+                                        environmental sustainability across all our paper bag product lines.</p>
+                        </div>
+                </div>
+        </section>
+
+        <section class="bg-[#1A5C38] py-20">
+                <div class="max-w-[1400px] mx-auto px-4 lg:px-8 text-center">
+                        <h2 class="font-['Playfair_Display',serif] text-3xl font-bold text-white mb-4">Partner With Us
+                        </h2>
+                        <p class="text-white/80 text-lg mb-8">We welcome wholesale inquiries and OEM/ODM collaboration
+                                opportunities.</p>
+                        <a href="/contact.html"
+                                class="bg-white text-[#1A5C38] px-10 py-3.5 rounded-lg font-bold uppercase tracking-wider hover:bg-[#F5F0E8] transition inline-block">Contact
+                                Us</a>
+                </div>
+        </section>
+
+        <footer class="bg-[#1A1A1A] text-gray-400 pt-16 pb-8">
+                <div class="max-w-[1400px] mx-auto px-4 lg:px-8">
+                        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10 pb-10 border-b border-gray-800">
+                                <div><img src="/images/index-logo.png" alt="JJG" class="h-10 mb-4 brightness-200">
+                                        <p class="text-sm">Professional paper bag manufacturer, 60+ years.</p>
+                                </div>
+                                <div>
+                                        <h4 class="text-white font-bold mb-4 uppercase text-sm tracking-wider">Quick
+                                                Links</h4>
+                                        <ul class="space-y-2 text-sm">
+                                                <li><a href="/" class="hover:text-[#2E8B57]">Home</a></li>
+                                                <li><a href="/about.html" class="hover:text-[#2E8B57]">About Us</a></li>
+                                                <li><a href="/products.html" class="hover:text-[#2E8B57]">Products</a>
+                                                </li>
+                                                <li><a href="/contact.html" class="hover:text-[#2E8B57]">Contact Us</a>
+                                                </li>
+                                        </ul>
+                                </div>
+                                <div>
+                                        <h4 class="text-white font-bold mb-4 uppercase text-sm tracking-wider">Products
+                                        </h4>
+                                        <ul class="space-y-2 text-sm">
+                                                <li><a href="/products.html" class="hover:text-[#2E8B57]">All
+                                                                Products</a></li>
+                                        </ul>
+                                </div>
+                                <div>
+                                        <h4 class="text-white font-bold mb-4 uppercase text-sm tracking-wider">Contact
+                                        </h4>
+                                        <ul class="space-y-2 text-sm">
+                                                <li>📍 No.6, You 9th Rd. Dajia, Taichung 43769</li>
+                                                <li>📞 <a href="tel:+886-4-26223215"
+                                                                class="hover:text-[#2E8B57]">+886-4-26223215</a></li>
+                                                <li>✉️ <a href="mailto:export@jjgpaperbag.com"
+                                                                class="hover:text-[#2E8B57]">export@jjgpaperbag.com</a>
+                                                </li>
+                                        </ul>
+                                </div>
+                        </div>
+                        <div class="pt-6 text-center text-xs text-gray-600">
+                                <p>© 2026 Juang Jia Guoo Co., Ltd. All rights reserved.</p>
+                        </div>
+                </div>
+        </footer>
+        <script type="module" src="/main.js"></script>
+</body>
+
+</html>
