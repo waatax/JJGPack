@@ -25,7 +25,7 @@ config_content = f"""import {{ resolve }} from 'path'
 import {{ defineConfig }} from 'vite'
 
 export default defineConfig({{
-	base: '/jjgpack/',
+	base: '/JJGPACK/',
 	server: {{
 		port: 5175,
 	}},
@@ -46,4 +46,4 @@ config_content += """			},
 with open('vite.config.js', 'w', encoding='utf-8') as f:
     f.write(config_content)
 
-print(f"Updated vite.config.js with {len(input_map)} entry points and base: '/jjgpack/'")
+print(f"Updated vite.config.js with {len(input_map)} entry points and base: '/JJGPACK/'")

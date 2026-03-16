@@ -7,51 +7,53 @@ def fix_links_in_content(content):
     # Ensure they HAVE /jjgpack/ if they are local routes.
     # Exclude images, styles, and other assets from being prefixed here.
     content = re.sub(
-        r'href="/(?!jjgpack/|https?://|#|images/|proimages/|style\.css|main\.js|[^"]*?\.(?:css|js|ico|webmanifest|png|jpg|jpeg|gif|svg|pdf))([^"]*?)"',
-        r'href="/jjgpack/\1"',
+        r'href="/(?!JJGPACK/|https?://|#|images/|proimages/|style\.css|main\.js|[^"]*?\.(?:css|js|ico|webmanifest|png|jpg|jpeg|gif|svg|pdf))([^"]*?)"',
+        r'href="/JJGPACK/\1"',
         content
     )
 
     # Specific fix for root "/"
-    content = re.sub(r'href="/jjgpack/"', 'href="/jjgpack/index.html"', content)
+    content = re.sub(r'href="/JJGPACK/"', 'href="/JJGPACK/index.html"', content)
     # Specific fix for "zh-tw/"
-    content = re.sub(r'href="/jjgpack/zh-tw/"', 'href="/jjgpack/zh-tw/index.html"', content)
+    content = re.sub(r'href="/JJGPACK/zh-tw/"', 'href="/JJGPACK/zh-tw/index.html"', content)
 
     # 2. Assets (CSS, JS, Images)
     # We want these to start with / so Vite handles them, but WITHOUT the manual /jjgpack/ prefix.
     # If they already have /jjgpack/, remove it.
     
     # Remove manual prefix from src and href for assets
-    content = re.sub(r'src="/jjgpack/([^"]*?\.(?:png|jpg|jpeg|gif|svg|webp|js|ico))"', r'src="/\1"', content)
-    content = re.sub(r'href="/jjgpack/([^"]*?\.(?:css|js|ico|webmanifest))"', r'href="/\1"', content)
+    content = re.sub(r'src="/JJGPACK/([^"]*?\.(?:png|jpg|jpeg|gif|svg|webp|js|ico))"', r'src="/\1"', content)
+    content = re.sub(r'href="/JJGPACK/([^"]*?\.(?:css|js|ico|webmanifest))"', r'href="/\1"', content)
 
-    # Also handle cases where it's src="jjgpack/..." (no leading slash)
-    content = re.sub(r'src="jjgpack/([^"]*?\.(?:png|jpg|jpeg|gif|svg|webp|js|ico))"', r'src="/\1"', content)
-    content = re.sub(r'href="jjgpack/([^"]*?\.(?:css|js|ico|webmanifest))"', r'href="/\1"', content)
+    # Also handle cases where it's src="JJGPACK/..." (no leading slash)
+    content = re.sub(r'src="JJGPACK/([^"]*?\.(?:png|jpg|jpeg|gif|svg|webp|js|ico))"', r'src="/\1"', content)
+    content = re.sub(r'href="JJGPACK/([^"]*?\.(?:css|js|ico|webmanifest))"', r'href="/\1"', content)
 
     # 3. Hero Banners / Alpine.js dynamic paths
     # These often need the prefix manually if Vite doesn't parse the JS strings.
     # We will ensure they have it exactly once.
     content = re.sub(
-        r"(['\"])/(images/|proimages/)(?!jjgpack/)([^'\"]*?)(['\"])",
-        r"\1/jjgpack/\2\3\4",
+        r"(['\"])/(images/|proimages/)(?!JJGPACK/)([^'\"]*?)(['\"])",
+        r"\1/JJGPACK/\2\3\4",
         content
     )
 
     # Direct string replacements for common asset folders to ensure cleanup
-    content = content.replace('src="/jjgpack/images/', 'src="/images/')
-    content = content.replace('src="/jjgpack/proimages/', 'src="/proimages/')
-    content = content.replace('src="/jjgpack/proimages/index/', 'src="/proimages/index/')
-    content = content.replace('href="/jjgpack/style.css"', 'href="/style.css"')
-    content = content.replace('src="/jjgpack/main.js"', 'src="/main.js"')
-    content = content.replace('href="/jjgpack/images/favicon.ico"', 'href="/images/favicon.ico"')
+    content = content.replace('src="/JJGPACK/images/', 'src="/images/')
+    content = content.replace('src="/JJGPACK/proimages/', 'src="/proimages/')
+    content = content.replace('src="/JJGPACK/proimages/index/', 'src="/proimages/index/')
+    content = content.replace('href="/JJGPACK/style.css"', 'href="/style.css"')
+    content = content.replace('src="/JJGPACK/main.js"', 'src="/main.js"')
+    content = content.replace('href="/JJGPACK/images/favicon.ico"', 'href="/images/favicon.ico"')
 
     # Also handle non-leading slash cases if any
-    content = content.replace('src="jjgpack/images/', 'src="/images/')
-    content = content.replace('src="jjgpack/proimages/', 'src="/proimages/')
+    content = content.replace('src="JJGPACK/images/', 'src="/images/')
+    content = content.replace('src="JJGPACK/proimages/', 'src="/proimages/')
 
-    # Final cleanup: Ensure no double jjgpack
-    content = content.replace('/jjgpack/jjgpack/', '/jjgpack/')
+    # Final cleanup: Ensure no double JJGPACK and no leftover jjgpack
+    content = content.replace('/JJGPACK/JJGPACK/', '/JJGPACK/')
+    content = content.replace('/JJGPACK/jjgpack/', '/JJGPACK/')
+    content = content.replace('/jjgpack/', '/JJGPACK/')
 
     return content
 
