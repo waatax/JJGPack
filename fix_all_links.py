@@ -10,11 +10,20 @@ def fix_links(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
         content = f.read()
     
-    # Prefix links with /jjgpack/ if they aren't already
-    # We look for href="/ and make sure it's not href="/jjgpack/
-    content = re.sub(r'href="/(?!jjgpack/)', 'href="/jjgpack/', content)
-    # Same for images
-    content = re.sub(r'src="/(?!jjgpack/)', 'src="/jjgpack/', content)
+    # 1. Navigation links (.html or root folders) need the /jjgpack/ prefix.
+    # But ONLY if they don't already have it.
+    content = re.sub(r'href="/(?!jjgpack/|https?://|#)([^"]*\.html|zh-tw/|(?:"|\'))', r'href="/jjgpack/\2', content)
+    
+    # Special case for root links that might have been partially fixed
+    content = re.sub(r'href="/jjgpack/jjgpack/', 'href="/jjgpack/', content)
+    
+    # 2. Assets (css, js, images) should NOT have the /jjgpack/ prefix.
+    # Vite will add it automatically during build/dev if base is set.
+    content = re.sub(r'href="/jjgpack/([^"]+\.(?:css|js|ico|webmanifest))"', r'href="/\1"', content)
+    content = re.sub(r'src="/jjgpack/([^"]+)"', r'src="/\1"', content)
+    # Ensure images/favicons etc are root-relative for Vite to process
+    content = re.sub(r'src="/(?!jjgpack/)', 'src="/', content) # Ensure it starts with /
+    content = re.sub(r'href="/(?!jjgpack/)([^"]+\.(?:css|js|ico))"', r'href="/\1"', content)
     
     with open(file_path, 'w', encoding='utf-8') as f:
         f.write(content)

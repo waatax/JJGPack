@@ -13,7 +13,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;600;700&family=Noto+Serif+TC:wght@700;900&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&display=swap"
     rel="stylesheet">
-  <link href="/jjgpack/style.css" rel="stylesheet">
+  <link href="/style.css" rel="stylesheet">
 </head>
 
 <body x-data="{ mobileMenu: false, currentSlide: 0 }"
@@ -22,13 +22,13 @@
   <!-- ========== HEADER ========== -->
   <header class="fixed top-0 left-0 right-0 z-50 transition-all duration-500 glass">
     <nav class="max-w-[1440px] mx-auto px-6 lg:px-10 h-[76px] flex items-center justify-between">
-      <a href="/jjgpack/" class="flex items-center gap-3 group">
+      <a href="/jjgpack/index.html" class="flex items-center gap-3 group">
         <img src="/jjgpack/images/index-logo.png" alt="JJG Paper Bag"
           class="h-11 transition-transform duration-300 group-hover:scale-105">
       </a>
 
       <div class="hidden lg:flex items-center gap-1">
-        <a href="/jjgpack/"
+        <a href="/jjgpack/index.html"
           class="relative px-4 py-2 text-[#1A5C38] font-semibold text-[15px] transition-all after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-5 after:h-0.5 after:bg-[#1A5C38] after:rounded-full">Home</a>
         <a href="/jjgpack/about.html"
           class="px-4 py-2 text-[#555] hover:text-[#1A5C38] font-medium text-[15px] transition-all relative after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-0.5 after:bg-[#1A5C38] after:rounded-full hover:after:w-5 after:transition-all">About
@@ -43,8 +43,8 @@
 
       <div class="hidden lg:flex items-center gap-5">
         <div class="flex items-center gap-1 text-sm">
-          <a href="/jjgpack/" class="text-[#1A5C38] font-semibold px-2 py-1 rounded bg-[#1A5C38]/5">EN</a>
-          <a href="/jjgpack/zh-tw/"
+          <a href="/jjgpack/index.html" class="text-[#1A5C38] font-semibold px-2 py-1 rounded bg-[#1A5C38]/5">EN</a>
+          <a href="/jjgpack/zh-tw/index.html"
             class="text-[#888] hover:text-[#1A5C38] font-medium px-2 py-1 rounded hover:bg-[#1A5C38]/5 transition">繁中</a>
         </div>
         <a href="/jjgpack/contact.html" class="btn-primary text-sm !py-2.5 !px-6 !rounded-lg"><span>Contact Us</span></a>
@@ -63,7 +63,7 @@
       x-transition:leave-end="opacity-0 -translate-y-2" class="lg:hidden glass border-t border-gray-200/50"
       style="display:none">
       <div class="px-6 py-5 space-y-1">
-        <a href="/jjgpack/" class="block py-2.5 px-4 rounded-lg bg-[#1A5C38]/5 font-semibold text-[#1A5C38]">Home</a>
+        <a href="/jjgpack/index.html" class="block py-2.5 px-4 rounded-lg bg-[#1A5C38]/5 font-semibold text-[#1A5C38]">Home</a>
         <a href="/jjgpack/about.html" class="block py-2.5 px-4 rounded-lg hover:bg-[#1A5C38]/5 text-[#555] transition">About
           Us</a>
         <a href="/jjgpack/products.html"
@@ -72,8 +72,8 @@
         <a href="/jjgpack/contact.html"
           class="block py-2.5 px-4 rounded-lg hover:bg-[#1A5C38]/5 text-[#555] transition">Contact</a>
         <div class="flex gap-3 pt-3 border-t border-gray-200/50 mt-2">
-          <a href="/jjgpack/" class="text-sm font-semibold text-[#1A5C38]">EN</a>
-          <a href="/jjgpack/zh-tw/" class="text-sm font-medium text-[#888]">繁中</a>
+          <a href="/jjgpack/index.html" class="text-sm font-semibold text-[#1A5C38]">EN</a>
+          <a href="/jjgpack/zh-tw/index.html" class="text-sm font-medium text-[#888]">繁中</a>
         </div>
       </div>
     </div>
@@ -83,7 +83,7 @@
   <section class="relative h-[92vh] max-h-[900px] min-h-[600px] overflow-hidden pt-[76px]">
     <div class="absolute inset-0">
       <template
-        x-for="(img, idx) in ['/proimages/banner/230220-banner.jpg','/proimages/banner/220511-banner-70yrs.jpeg','/proimages/banner/220509-banner-Quality.jpeg','/proimages/banner/221027-banner-certificate.jpg']"
+        x-for="(img, idx) in ['/jjgpack/proimages/banner/230220-banner.jpg','/jjgpack/proimages/banner/220511-banner-70yrs.jpeg','/jjgpack/proimages/banner/220509-banner-Quality.jpeg','/jjgpack/proimages/banner/221027-banner-certificate.jpg']"
         :key="idx">
         <img x-show="currentSlide===idx" :src="img" alt="JJG Paper Bag"
           class="absolute inset-0 w-full h-full object-cover" x-transition:enter="transition ease-out duration-1000"
@@ -474,7 +474,7 @@
         <div>
           <h4 class="text-white font-bold mb-5 text-sm tracking-[0.15em] uppercase">Quick Links</h4>
           <ul class="space-y-3 text-sm">
-            <li><a href="/jjgpack/" class="hover:text-[#2E8B57] transition">Home</a></li>
+            <li><a href="/jjgpack/index.html" class="hover:text-[#2E8B57] transition">Home</a></li>
             <li><a href="/jjgpack/about.html" class="hover:text-[#2E8B57] transition">About Us</a></li>
             <li><a href="/jjgpack/products.html" class="hover:text-[#2E8B57] transition">Products</a></li>
             <li><a href="/jjgpack/news.html" class="hover:text-[#2E8B57] transition">News</a></li>
@@ -506,13 +506,13 @@
       </div>
       <div class="pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
         <p class="text-xs text-gray-600">© 2026 壯佳果股份有限公司 Juang Jia Guoo Co., Ltd. All rights reserved.</p>
-        <div class="flex gap-4 text-xs text-gray-600"><a href="/jjgpack/zh-tw/"
-            class="hover:text-[#2E8B57] transition">繁體中文</a><span>|</span><a href="/jjgpack/" class="text-gray-500">English</a>
+        <div class="flex gap-4 text-xs text-gray-600"><a href="/jjgpack/zh-tw/index.html"
+            class="hover:text-[#2E8B57] transition">繁體中文</a><span>|</span><a href="/jjgpack/index.html" class="text-gray-500">English</a>
         </div>
       </div>
     </div>
   </footer>
-  <script type="module" src="/jjgpack/main.js"></script>
+  <script type="module" src="/main.js"></script>
 </body>
 
 </html>

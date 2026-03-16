@@ -58,7 +58,7 @@ categories_data = {
 }
 
 # 2. Config
-BASE_URL = "/jjgpack/"
+BASE_URL = '/'
 
 category_names = {
     'zh-tw': {

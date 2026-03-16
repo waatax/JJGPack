@@ -26,6 +26,9 @@ import {{ defineConfig }} from 'vite'
 
 export default defineConfig({{
 	base: '/jjgpack/',
+	server: {{
+		port: 5175,
+	}},
 	build: {{
 		rollupOptions: {{
 			input: {{
