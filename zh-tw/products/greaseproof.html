@@ -1,329 +1,296 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="zh-tw">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>防油紙袋 | 壯佳果包裝 - JJG Paper Bag</title>
-    <meta name="description" content="壯佳果防油紙袋系列" />
-    <link rel="icon" href="/images/favicon.ico" />
+    <title>防油紙袋 | JJG Paper Bag</title>
+    <link rel="icon" href="/jjgpack/images/favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;600;700&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
-    <link href="/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+TC:wght@400;700&family=Noto+Serif+TC:wght@700&display=swap" rel="stylesheet">
+    <link href="/jjgpack/style.css" rel="stylesheet">
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 <body x-data="{ mobileMenu: false  }" class="bg-[#F5F0E8] text-[#1A1A1A] font-['Inter','Noto_Sans_TC',sans-serif]">
     <header class="fixed top-0 left-0 right-0 z-50 glass">
         <nav class="max-w-[1440px] mx-auto px-6 lg:px-10 h-[76px] flex items-center justify-between">
-            <a href="/zh-tw/"><img src="/images/index-logo.png" alt="壯佳果" class="h-11"></a>
+            <a href="/jjgpack/zh-tw/index.html">
+                <img src="/jjgpack/images/index-logo.png" alt="JJG" class="h-11">
+            </a>
             <div class="hidden lg:flex items-center gap-1">
-                <a href="/zh-tw/" class="px-4 py-2 text-[#555] hover:text-[#1A5C38] font-medium text-[15px] transition">首頁</a>
-                <a href="/zh-tw/about.html" class="px-4 py-2 text-[#555] hover:text-[#1A5C38] font-medium text-[15px] transition">關於我們</a>
-                <a href="/zh-tw/products.html" class="px-4 py-2 text-[#1A5C38] font-semibold text-[15px]">產品介紹</a>
-                <a href="/zh-tw/news.html" class="px-4 py-2 text-[#555] hover:text-[#1A5C38] font-medium text-[15px] transition">最新消息</a>
-                <a href="/zh-tw/contact.html" class="px-4 py-2 text-[#555] hover:text-[#1A5C38] font-medium text-[15px] transition">聯絡我們</a>
+                <a href="/jjgpack/zh-tw/index.html" class="px-4 py-2 text-[#555] hover:text-[#1A5C38] font-medium text-[15px]">首頁</a>
+                <a href="/jjgpack/zh-tw/about.html" class="px-4 py-2 text-[#555] hover:text-[#1A5C38] font-medium text-[15px]">關於我們</a>
+                <a href="/jjgpack/zh-tw/products.html" class="px-4 py-2 text-[#1A5C38] font-semibold text-[15px]">產品介紹</a>
+                <a href="/jjgpack/zh-tw/news.html" class="px-4 py-2 text-[#555] hover:text-[#1A5C38] font-medium text-[15px]">最新消息</a>
+                <a href="/jjgpack/zh-tw/contact.html" class="px-4 py-2 text-[#555] hover:text-[#1A5C38] font-medium text-[15px]">聯絡我們</a>
             </div>
             <div class="hidden lg:flex items-center gap-5">
-                <a href="/" class="text-sm text-[#888]">EN</a>
-                <a href="/zh-tw/" class="text-sm text-[#1A5C38] font-semibold">繁中</a>
-                <a href="/zh-tw/contact.html" class="btn-primary text-sm !py-2.5 !px-6 !rounded-lg"><span>聯絡我們</span></a>
+                <a href="/jjgpack/products/greaseproof.html" class="text-sm text-[#888]">EN</a>
+                <a href="/jjgpack/zh-tw/products/greaseproof.html" class="text-sm text-[#1A5C38] font-bold">繁中</a>
+                <a href="/jjgpack/zh-tw/contact.html" class="btn-primary text-sm !py-2.5 !px-6 !rounded-lg"><span>聯絡我們</span></a>
             </div>
             <button @click="mobileMenu=!mobileMenu" class="lg:hidden p-2"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" /></svg></button>
         </nav>
     </header>
-    <div class="pt-[76px]">
-
-    <div class="max-w-[1440px] mx-auto px-6 lg:px-10 py-4">
-        <nav class="text-sm text-[#666]"><a href="/zh-tw/" class="hover:text-[#2E8B57]">首頁</a> <span class="mx-2">›</span> <a href="/zh-tw/products.html" class="hover:text-[#2E8B57]">產品介紹</a> <span class="mx-2">›</span> <span class="text-[#1A5C38] font-medium">防油紙袋</span></nav>
+    <div class="pt-[76px] min-h-[80vh]">
+        
+        <div class="max-w-[1440px] mx-auto px-6 lg:px-10 py-12">
+            <h1 class="text-4xl font-bold mb-8">防油紙袋</h1>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group">
+                <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center p-4">
+                    <img src="https://www.jjgpaperbag.com/proimages/sr/product/GP_Bag/810.jpg" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-5">
+                    <h3 class="font-bold text-lg mb-2">PFAS Free Sandwich Bags</h3>
+                    <a href="/jjgpack/zh-tw/products/greaseproof/pfas-free-sandwich-bags.html" class="text-[#1A5C38] font-bold text-sm">查看詳情 →</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group">
+                <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center p-4">
+                    <img src="https://www.jjgpaperbag.com/proimages/sr/product/Bakery_Bag/SideW.jpg" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-5">
+                    <h3 class="font-bold text-lg mb-2">Bakery side window bag</h3>
+                    <a href="/jjgpack/zh-tw/products/greaseproof/bakery-side-window-bag.html" class="text-[#1A5C38] font-bold text-sm">查看詳情 →</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group">
+                <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center p-4">
+                    <img src="https://www.jjgpaperbag.com/proimages/sr/product/Bakery_Bag/IMG_0065_sized1.jpg" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-5">
+                    <h3 class="font-bold text-lg mb-2">Bakery paper bag</h3>
+                    <a href="/jjgpack/zh-tw/products/greaseproof/bakery-paper-bag.html" class="text-[#1A5C38] font-bold text-sm">查看詳情 →</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group">
+                <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center p-4">
+                    <img src="https://www.jjgpaperbag.com/proimages/sr/product/Bakery_Bag/Baugette_white.jpg" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-5">
+                    <h3 class="font-bold text-lg mb-2">French Baguette bag</h3>
+                    <a href="/jjgpack/zh-tw/products/greaseproof/french-baguette-bag.html" class="text-[#1A5C38] font-bold text-sm">查看詳情 →</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group">
+                <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center p-4">
+                    <img src="https://www.jjgpaperbag.com/proimages/sr/烘焙麵包窗袋.jpg" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-5">
+                    <h3 class="font-bold text-lg mb-2">Bakery Series Paper Bags</h3>
+                    <a href="/jjgpack/zh-tw/products/greaseproof/bakery-series-paper-bags.html" class="text-[#1A5C38] font-bold text-sm">查看詳情 →</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group">
+                <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center p-4">
+                    <img src="https://www.jjgpaperbag.com/proimages/sr/0901-4.jpg" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-5">
+                    <h3 class="font-bold text-lg mb-2">Toast Bags</h3>
+                    <a href="/jjgpack/zh-tw/products/greaseproof/toast-bags.html" class="text-[#1A5C38] font-bold text-sm">查看詳情 →</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group">
+                <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center p-4">
+                    <img src="https://www.jjgpaperbag.com/proimages/sr/0901-5.jpg" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-5">
+                    <h3 class="font-bold text-lg mb-2">Toast Bags have Tearble Line</h3>
+                    <a href="/jjgpack/zh-tw/products/greaseproof/toast-bags-have-tearble-line.html" class="text-[#1A5C38] font-bold text-sm">查看詳情 →</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group">
+                <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center p-4">
+                    <img src="https://www.jjgpaperbag.com/proimages/sr/0901-6.jpg" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-5">
+                    <h3 class="font-bold text-lg mb-2">Thank You Greaseproof Paper Bag</h3>
+                    <a href="/jjgpack/zh-tw/products/greaseproof/thank-you-greaseproof-paper-bag.html" class="text-[#1A5C38] font-bold text-sm">查看詳情 →</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group">
+                <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center p-4">
+                    <img src="https://www.jjgpaperbag.com/proimages/sr/LV袋-2.jpg" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-5">
+                    <h3 class="font-bold text-lg mb-2">LV Paper Bags</h3>
+                    <a href="/jjgpack/zh-tw/products/greaseproof/lv-paper-bags.html" class="text-[#1A5C38] font-bold text-sm">查看詳情 →</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group">
+                <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center p-4">
+                    <img src="https://www.jjgpaperbag.com/proimages/sr/雙層平袋-集合圖.jpg" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-5">
+                    <h3 class="font-bold text-lg mb-2">Double Layer Paper Bag</h3>
+                    <a href="/jjgpack/zh-tw/products/greaseproof/double-layer-paper-bag.html" class="text-[#1A5C38] font-bold text-sm">查看詳情 →</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group">
+                <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center p-4">
+                    <img src="https://www.jjgpaperbag.com/proimages/sr/大圓口V袋(新聞版).jpg" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-5">
+                    <h3 class="font-bold text-lg mb-2">Solo Snack Bag (Round Open)</h3>
+                    <a href="/jjgpack/zh-tw/products/greaseproof/solo-snack-bag-round-open.html" class="text-[#1A5C38] font-bold text-sm">查看詳情 →</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group">
+                <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center p-4">
+                    <img src="https://www.jjgpaperbag.com/proimages/sr/0901-9.jpg" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-5">
+                    <h3 class="font-bold text-lg mb-2">Checkered Food Grade Wrap Paper</h3>
+                    <a href="/jjgpack/zh-tw/products/greaseproof/checkered-food-grade-wrap-paper.html" class="text-[#1A5C38] font-bold text-sm">查看詳情 →</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group">
+                <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center p-4">
+                    <img src="https://www.jjgpaperbag.com/proimages/sr/防油針孔中窗袋-1.jpg" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-5">
+                    <h3 class="font-bold text-lg mb-2">Pinhole Window Greaseproof Bag</h3>
+                    <a href="/jjgpack/zh-tw/products/greaseproof/pinhole-window-greaseproof-bag.html" class="text-[#1A5C38] font-bold text-sm">查看詳情 →</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group">
+                <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center p-4">
+                    <img src="https://www.jjgpaperbag.com/proimages/sr/油條紙袋.jpg" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-5">
+                    <h3 class="font-bold text-lg mb-2">Fried Bread Stick Paper Bag</h3>
+                    <a href="/jjgpack/zh-tw/products/greaseproof/fried-bread-stick-paper-bag.html" class="text-[#1A5C38] font-bold text-sm">查看詳情 →</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group">
+                <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center p-4">
+                    <img src="https://www.jjgpaperbag.com/proimages/sr/Bánh_Mì_Paper_Bag-1.png" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-5">
+                    <h3 class="font-bold text-lg mb-2">Banh Mi Paper Bags</h3>
+                    <a href="/jjgpack/zh-tw/products/greaseproof/banh-mi-paper-bags.html" class="text-[#1A5C38] font-bold text-sm">查看詳情 →</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group">
+                <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center p-4">
+                    <img src="https://www.jjgpaperbag.com/proimages/sr/圓孔袋-1.jpg" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-5">
+                    <h3 class="font-bold text-lg mb-2">Round Hole Bags</h3>
+                    <a href="/jjgpack/zh-tw/products/greaseproof/round-hole-bags.html" class="text-[#1A5C38] font-bold text-sm">查看詳情 →</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group">
+                <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center p-4">
+                    <img src="https://www.jjgpaperbag.com/proimages/sr/113.03.29-防油圓孔袋-1.jpg" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-5">
+                    <h3 class="font-bold text-lg mb-2">Greaseproof Paper Round Hole Bags</h3>
+                    <a href="/jjgpack/zh-tw/products/greaseproof/greaseproof-paper-round-hole-bags.html" class="text-[#1A5C38] font-bold text-sm">查看詳情 →</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group">
+                <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center p-4">
+                    <img src="https://www.jjgpaperbag.com/proimages/sr/113.03.29-丸提圓孔袋-A.jpg" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-5">
+                    <h3 class="font-bold text-lg mb-2">Die Cut Handle Round Hole Bags</h3>
+                    <a href="/jjgpack/zh-tw/products/greaseproof/die-cut-handle-round-hole-bags.html" class="text-[#1A5C38] font-bold text-sm">查看詳情 →</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group">
+                <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center p-4">
+                    <img src="https://www.jjgpaperbag.com/proimages/sr/商用平袋-1.jpg" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-5">
+                    <h3 class="font-bold text-lg mb-2">Recycled Kraft Merchandise Paper Bags</h3>
+                    <a href="/jjgpack/zh-tw/products/greaseproof/recycled-kraft-merchandise-paper-bags.html" class="text-[#1A5C38] font-bold text-sm">查看詳情 →</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group">
+                <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center p-4">
+                    <img src="https://www.jjgpaperbag.com/proimages/sr/113.07.09-環保透視複合袋-.jpg" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-5">
+                    <h3 class="font-bold text-lg mb-2">Bakery Paper Bags</h3>
+                    <a href="/jjgpack/zh-tw/products/greaseproof/bakery-paper-bags.html" class="text-[#1A5C38] font-bold text-sm">查看詳情 →</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group">
+                <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center p-4">
+                    <img src="https://www.jjgpaperbag.com/proimages/sr/114.03.13-EZ丸孔提袋-紅豆餅版針孔袋.jpg" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-5">
+                    <h3 class="font-bold text-lg mb-2">Easy-Use Die Cut Handle Paper Bags</h3>
+                    <a href="/jjgpack/zh-tw/products/greaseproof/easy-use-die-cut-handle-paper-bags.html" class="text-[#1A5C38] font-bold text-sm">查看詳情 →</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group">
+                <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center p-4">
+                    <img src="https://www.jjgpaperbag.com/proimages/sr/114.03.13-內淋膜紙袋.jpg" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-5">
+                    <h3 class="font-bold text-lg mb-2">The PE Coated Paper Bags</h3>
+                    <a href="/jjgpack/zh-tw/products/greaseproof/the-pe-coated-paper-bags.html" class="text-[#1A5C38] font-bold text-sm">查看詳情 →</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group">
+                <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center p-4">
+                    <img src="https://www.jjgpaperbag.com/proimages/sr/L袋紙袋.jpg" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-5">
+                    <h3 class="font-bold text-lg mb-2">Small 2 side open bag</h3>
+                    <a href="/jjgpack/zh-tw/products/greaseproof/small-2-side-open-bag.html" class="text-[#1A5C38] font-bold text-sm">查看詳情 →</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group">
+                <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center p-4">
+                    <img src="https://www.jjgpaperbag.com/proimages/sr/新聞版本牛淋膜L袋-1.jpg" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-5">
+                    <h3 class="font-bold text-lg mb-2">News 2 side Open Paper Bag</h3>
+                    <a href="/jjgpack/zh-tw/products/greaseproof/news-2-side-open-paper-bag.html" class="text-[#1A5C38] font-bold text-sm">查看詳情 →</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group">
+                <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center p-4">
+                    <img src="https://www.jjgpaperbag.com/proimages/sr/113.07.09-新版L袋三個.jpg" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-5">
+                    <h3 class="font-bold text-lg mb-2">Fancy 2 Side Open Paper Bag</h3>
+                    <a href="/jjgpack/zh-tw/products/greaseproof/fancy-2-side-open-paper-bag.html" class="text-[#1A5C38] font-bold text-sm">查看詳情 →</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group">
+                <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center p-4">
+                    <img src="https://www.jjgpaperbag.com/proimages/sr/product/Deli_Wrap/Gold_s.jpg" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-5">
+                    <h3 class="font-bold text-lg mb-2">Deli Wrap</h3>
+                    <a href="/jjgpack/zh-tw/products/greaseproof/deli-wrap.html" class="text-[#1A5C38] font-bold text-sm">查看詳情 →</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group">
+                <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center p-4">
+                    <img src="https://www.jjgpaperbag.com/proimages/sr/115.02.06-有你真好版-可撕紙袋.jpg" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-5">
+                    <h3 class="font-bold text-lg mb-2">Tear-Open Paper Bag</h3>
+                    <a href="/jjgpack/zh-tw/products/greaseproof/tear-open-paper-bag.html" class="text-[#1A5C38] font-bold text-sm">查看詳情 →</a>
+                </div>
+            </div></div>
+        </div>
     </div>
-    <section class="max-w-[1440px] mx-auto px-6 lg:px-10 pb-12">
-        <h1 class="font-['Noto_Serif_TC',serif] text-4xl md:text-5xl font-bold mb-6">防油紙袋</h1>
-    </section>
-    <section class="max-w-[1440px] mx-auto px-6 lg:px-10 pb-20">
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-        <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-            <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center">
-                <img src="https://www.jjgpaperbag.com/proimages/sr/product/GP_Bag/810.jpg" alt="PFAS Free Sandwich Bags" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500">
-            </div>
-            <div class="p-5">
-                <span class="text-xs font-semibold tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">防油紙袋</span>
-                <h3 class="font-['Noto_Serif_TC',serif] text-lg font-bold mt-2 mb-1">PFAS Free Sandwich Bags</h3>
-                <a href="/zh-tw/products/greaseproof/pfas-free-sandwich-bags.html" class="text-[#1A5C38] font-semibold text-sm">查看詳情 →</a>
-            </div>
-        </div>
-        <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-            <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center">
-                <img src="https://www.jjgpaperbag.com/proimages/sr/product/Bakery_Bag/SideW.jpg" alt="Bakery side window bag" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500">
-            </div>
-            <div class="p-5">
-                <span class="text-xs font-semibold tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">防油紙袋</span>
-                <h3 class="font-['Noto_Serif_TC',serif] text-lg font-bold mt-2 mb-1">Bakery side window bag</h3>
-                <a href="/zh-tw/products/greaseproof/bakery-side-window-bag.html" class="text-[#1A5C38] font-semibold text-sm">查看詳情 →</a>
-            </div>
-        </div>
-        <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-            <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center">
-                <img src="https://www.jjgpaperbag.com/proimages/sr/product/Bakery_Bag/IMG_0065_sized1.jpg" alt="Bakery paper bag" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500">
-            </div>
-            <div class="p-5">
-                <span class="text-xs font-semibold tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">防油紙袋</span>
-                <h3 class="font-['Noto_Serif_TC',serif] text-lg font-bold mt-2 mb-1">Bakery paper bag</h3>
-                <a href="/zh-tw/products/greaseproof/bakery-paper-bag.html" class="text-[#1A5C38] font-semibold text-sm">查看詳情 →</a>
-            </div>
-        </div>
-        <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-            <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center">
-                <img src="https://www.jjgpaperbag.com/proimages/sr/product/Bakery_Bag/Baugette_white.jpg" alt="French Baguette bag" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500">
-            </div>
-            <div class="p-5">
-                <span class="text-xs font-semibold tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">防油紙袋</span>
-                <h3 class="font-['Noto_Serif_TC',serif] text-lg font-bold mt-2 mb-1">French Baguette bag</h3>
-                <a href="/zh-tw/products/greaseproof/french-baguette-bag.html" class="text-[#1A5C38] font-semibold text-sm">查看詳情 →</a>
-            </div>
-        </div>
-        <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-            <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center">
-                <img src="https://www.jjgpaperbag.com/proimages/sr/烘焙麵包窗袋.jpg" alt="Bakery Series Paper Bags" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500">
-            </div>
-            <div class="p-5">
-                <span class="text-xs font-semibold tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">防油紙袋</span>
-                <h3 class="font-['Noto_Serif_TC',serif] text-lg font-bold mt-2 mb-1">Bakery Series Paper Bags</h3>
-                <a href="/zh-tw/products/greaseproof/bakery-series-paper-bags.html" class="text-[#1A5C38] font-semibold text-sm">查看詳情 →</a>
-            </div>
-        </div>
-        <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-            <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center">
-                <img src="https://www.jjgpaperbag.com/proimages/sr/0901-4.jpg" alt="Toast Bags" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500">
-            </div>
-            <div class="p-5">
-                <span class="text-xs font-semibold tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">防油紙袋</span>
-                <h3 class="font-['Noto_Serif_TC',serif] text-lg font-bold mt-2 mb-1">Toast Bags</h3>
-                <a href="/zh-tw/products/greaseproof/toast-bags.html" class="text-[#1A5C38] font-semibold text-sm">查看詳情 →</a>
-            </div>
-        </div>
-        <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-            <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center">
-                <img src="https://www.jjgpaperbag.com/proimages/sr/0901-5.jpg" alt="Toast Bags have Tearble Line" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500">
-            </div>
-            <div class="p-5">
-                <span class="text-xs font-semibold tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">防油紙袋</span>
-                <h3 class="font-['Noto_Serif_TC',serif] text-lg font-bold mt-2 mb-1">Toast Bags have Tearble Line</h3>
-                <a href="/zh-tw/products/greaseproof/toast-bags-have-tearble-line.html" class="text-[#1A5C38] font-semibold text-sm">查看詳情 →</a>
-            </div>
-        </div>
-        <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-            <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center">
-                <img src="https://www.jjgpaperbag.com/proimages/sr/0901-6.jpg" alt="Thank You Greaseproof Paper Bag" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500">
-            </div>
-            <div class="p-5">
-                <span class="text-xs font-semibold tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">防油紙袋</span>
-                <h3 class="font-['Noto_Serif_TC',serif] text-lg font-bold mt-2 mb-1">Thank You Greaseproof Paper Bag</h3>
-                <a href="/zh-tw/products/greaseproof/thank-you-greaseproof-paper-bag.html" class="text-[#1A5C38] font-semibold text-sm">查看詳情 →</a>
-            </div>
-        </div>
-        <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-            <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center">
-                <img src="https://www.jjgpaperbag.com/proimages/sr/LV袋-2.jpg" alt="LV Paper Bags" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500">
-            </div>
-            <div class="p-5">
-                <span class="text-xs font-semibold tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">防油紙袋</span>
-                <h3 class="font-['Noto_Serif_TC',serif] text-lg font-bold mt-2 mb-1">LV Paper Bags</h3>
-                <a href="/zh-tw/products/greaseproof/lv-paper-bags.html" class="text-[#1A5C38] font-semibold text-sm">查看詳情 →</a>
-            </div>
-        </div>
-        <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-            <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center">
-                <img src="https://www.jjgpaperbag.com/proimages/sr/雙層平袋-集合圖.jpg" alt="Double Layer Paper Bag" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500">
-            </div>
-            <div class="p-5">
-                <span class="text-xs font-semibold tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">防油紙袋</span>
-                <h3 class="font-['Noto_Serif_TC',serif] text-lg font-bold mt-2 mb-1">Double Layer Paper Bag</h3>
-                <a href="/zh-tw/products/greaseproof/double-layer-paper-bag.html" class="text-[#1A5C38] font-semibold text-sm">查看詳情 →</a>
-            </div>
-        </div>
-        <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-            <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center">
-                <img src="https://www.jjgpaperbag.com/proimages/sr/大圓口V袋(新聞版).jpg" alt="Solo Snack Bag (Round Open)" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500">
-            </div>
-            <div class="p-5">
-                <span class="text-xs font-semibold tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">防油紙袋</span>
-                <h3 class="font-['Noto_Serif_TC',serif] text-lg font-bold mt-2 mb-1">Solo Snack Bag (Round Open)</h3>
-                <a href="/zh-tw/products/greaseproof/solo-snack-bag-round-open.html" class="text-[#1A5C38] font-semibold text-sm">查看詳情 →</a>
-            </div>
-        </div>
-        <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-            <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center">
-                <img src="https://www.jjgpaperbag.com/proimages/sr/0901-9.jpg" alt="Checkered Food Grade Wrap Paper" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500">
-            </div>
-            <div class="p-5">
-                <span class="text-xs font-semibold tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">防油紙袋</span>
-                <h3 class="font-['Noto_Serif_TC',serif] text-lg font-bold mt-2 mb-1">Checkered Food Grade Wrap Paper</h3>
-                <a href="/zh-tw/products/greaseproof/checkered-food-grade-wrap-paper.html" class="text-[#1A5C38] font-semibold text-sm">查看詳情 →</a>
-            </div>
-        </div>
-        <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-            <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center">
-                <img src="https://www.jjgpaperbag.com/proimages/sr/防油針孔中窗袋-1.jpg" alt="Pinhole Window Greaseproof Bag" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500">
-            </div>
-            <div class="p-5">
-                <span class="text-xs font-semibold tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">防油紙袋</span>
-                <h3 class="font-['Noto_Serif_TC',serif] text-lg font-bold mt-2 mb-1">Pinhole Window Greaseproof Bag</h3>
-                <a href="/zh-tw/products/greaseproof/pinhole-window-greaseproof-bag.html" class="text-[#1A5C38] font-semibold text-sm">查看詳情 →</a>
-            </div>
-        </div>
-        <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-            <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center">
-                <img src="https://www.jjgpaperbag.com/proimages/sr/油條紙袋.jpg" alt="Fried Bread Stick Paper Bag" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500">
-            </div>
-            <div class="p-5">
-                <span class="text-xs font-semibold tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">防油紙袋</span>
-                <h3 class="font-['Noto_Serif_TC',serif] text-lg font-bold mt-2 mb-1">Fried Bread Stick Paper Bag</h3>
-                <a href="/zh-tw/products/greaseproof/fried-bread-stick-paper-bag.html" class="text-[#1A5C38] font-semibold text-sm">查看詳情 →</a>
-            </div>
-        </div>
-        <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-            <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center">
-                <img src="https://www.jjgpaperbag.com/proimages/sr/Bánh_Mì_Paper_Bag-1.png" alt="Banh Mi Paper Bags" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500">
-            </div>
-            <div class="p-5">
-                <span class="text-xs font-semibold tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">防油紙袋</span>
-                <h3 class="font-['Noto_Serif_TC',serif] text-lg font-bold mt-2 mb-1">Banh Mi Paper Bags</h3>
-                <a href="/zh-tw/products/greaseproof/banh-mi-paper-bags.html" class="text-[#1A5C38] font-semibold text-sm">查看詳情 →</a>
-            </div>
-        </div>
-        <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-            <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center">
-                <img src="https://www.jjgpaperbag.com/proimages/sr/圓孔袋-1.jpg" alt="Round Hole Bags" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500">
-            </div>
-            <div class="p-5">
-                <span class="text-xs font-semibold tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">防油紙袋</span>
-                <h3 class="font-['Noto_Serif_TC',serif] text-lg font-bold mt-2 mb-1">Round Hole Bags</h3>
-                <a href="/zh-tw/products/greaseproof/round-hole-bags.html" class="text-[#1A5C38] font-semibold text-sm">查看詳情 →</a>
-            </div>
-        </div>
-        <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-            <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center">
-                <img src="https://www.jjgpaperbag.com/proimages/sr/113.03.29-防油圓孔袋-1.jpg" alt="Greaseproof Paper Round Hole Bags" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500">
-            </div>
-            <div class="p-5">
-                <span class="text-xs font-semibold tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">防油紙袋</span>
-                <h3 class="font-['Noto_Serif_TC',serif] text-lg font-bold mt-2 mb-1">Greaseproof Paper Round Hole Bags</h3>
-                <a href="/zh-tw/products/greaseproof/greaseproof-paper-round-hole-bags.html" class="text-[#1A5C38] font-semibold text-sm">查看詳情 →</a>
-            </div>
-        </div>
-        <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-            <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center">
-                <img src="https://www.jjgpaperbag.com/proimages/sr/113.03.29-丸提圓孔袋-A.jpg" alt="Die Cut Handle Round Hole Bags" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500">
-            </div>
-            <div class="p-5">
-                <span class="text-xs font-semibold tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">防油紙袋</span>
-                <h3 class="font-['Noto_Serif_TC',serif] text-lg font-bold mt-2 mb-1">Die Cut Handle Round Hole Bags</h3>
-                <a href="/zh-tw/products/greaseproof/die-cut-handle-round-hole-bags.html" class="text-[#1A5C38] font-semibold text-sm">查看詳情 →</a>
-            </div>
-        </div>
-        <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-            <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center">
-                <img src="https://www.jjgpaperbag.com/proimages/sr/商用平袋-1.jpg" alt="Recycled Kraft Merchandise Paper Bags" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500">
-            </div>
-            <div class="p-5">
-                <span class="text-xs font-semibold tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">防油紙袋</span>
-                <h3 class="font-['Noto_Serif_TC',serif] text-lg font-bold mt-2 mb-1">Recycled Kraft Merchandise Paper Bags</h3>
-                <a href="/zh-tw/products/greaseproof/recycled-kraft-merchandise-paper-bags.html" class="text-[#1A5C38] font-semibold text-sm">查看詳情 →</a>
-            </div>
-        </div>
-        <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-            <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center">
-                <img src="https://www.jjgpaperbag.com/proimages/sr/113.07.09-環保透視複合袋-.jpg" alt="Bakery Paper Bags" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500">
-            </div>
-            <div class="p-5">
-                <span class="text-xs font-semibold tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">防油紙袋</span>
-                <h3 class="font-['Noto_Serif_TC',serif] text-lg font-bold mt-2 mb-1">Bakery Paper Bags</h3>
-                <a href="/zh-tw/products/greaseproof/bakery-paper-bags.html" class="text-[#1A5C38] font-semibold text-sm">查看詳情 →</a>
-            </div>
-        </div>
-        <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-            <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center">
-                <img src="https://www.jjgpaperbag.com/proimages/sr/114.03.13-EZ丸孔提袋-紅豆餅版針孔袋.jpg" alt="Easy-Use Die Cut Handle Paper Bags" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500">
-            </div>
-            <div class="p-5">
-                <span class="text-xs font-semibold tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">防油紙袋</span>
-                <h3 class="font-['Noto_Serif_TC',serif] text-lg font-bold mt-2 mb-1">Easy-Use Die Cut Handle Paper Bags</h3>
-                <a href="/zh-tw/products/greaseproof/easy-use-die-cut-handle-paper-bags.html" class="text-[#1A5C38] font-semibold text-sm">查看詳情 →</a>
-            </div>
-        </div>
-        <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-            <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center">
-                <img src="https://www.jjgpaperbag.com/proimages/sr/114.03.13-內淋膜紙袋.jpg" alt="The PE Coated Paper Bags" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500">
-            </div>
-            <div class="p-5">
-                <span class="text-xs font-semibold tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">防油紙袋</span>
-                <h3 class="font-['Noto_Serif_TC',serif] text-lg font-bold mt-2 mb-1">The PE Coated Paper Bags</h3>
-                <a href="/zh-tw/products/greaseproof/the-pe-coated-paper-bags.html" class="text-[#1A5C38] font-semibold text-sm">查看詳情 →</a>
-            </div>
-        </div>
-        <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-            <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center">
-                <img src="https://www.jjgpaperbag.com/proimages/sr/L袋紙袋.jpg" alt="Small 2 side open bag" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500">
-            </div>
-            <div class="p-5">
-                <span class="text-xs font-semibold tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">防油紙袋</span>
-                <h3 class="font-['Noto_Serif_TC',serif] text-lg font-bold mt-2 mb-1">Small 2 side open bag</h3>
-                <a href="/zh-tw/products/greaseproof/small-2-side-open-bag.html" class="text-[#1A5C38] font-semibold text-sm">查看詳情 →</a>
-            </div>
-        </div>
-        <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-            <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center">
-                <img src="https://www.jjgpaperbag.com/proimages/sr/新聞版本牛淋膜L袋-1.jpg" alt="News 2 side Open Paper Bag" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500">
-            </div>
-            <div class="p-5">
-                <span class="text-xs font-semibold tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">防油紙袋</span>
-                <h3 class="font-['Noto_Serif_TC',serif] text-lg font-bold mt-2 mb-1">News 2 side Open Paper Bag</h3>
-                <a href="/zh-tw/products/greaseproof/news-2-side-open-paper-bag.html" class="text-[#1A5C38] font-semibold text-sm">查看詳情 →</a>
-            </div>
-        </div>
-        <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-            <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center">
-                <img src="https://www.jjgpaperbag.com/proimages/sr/113.07.09-新版L袋三個.jpg" alt="Fancy 2 Side Open Paper Bag" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500">
-            </div>
-            <div class="p-5">
-                <span class="text-xs font-semibold tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">防油紙袋</span>
-                <h3 class="font-['Noto_Serif_TC',serif] text-lg font-bold mt-2 mb-1">Fancy 2 Side Open Paper Bag</h3>
-                <a href="/zh-tw/products/greaseproof/fancy-2-side-open-paper-bag.html" class="text-[#1A5C38] font-semibold text-sm">查看詳情 →</a>
-            </div>
-        </div>
-        <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-            <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center">
-                <img src="https://www.jjgpaperbag.com/proimages/sr/product/Deli_Wrap/Gold_s.jpg" alt="Deli Wrap" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500">
-            </div>
-            <div class="p-5">
-                <span class="text-xs font-semibold tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">防油紙袋</span>
-                <h3 class="font-['Noto_Serif_TC',serif] text-lg font-bold mt-2 mb-1">Deli Wrap</h3>
-                <a href="/zh-tw/products/greaseproof/deli-wrap.html" class="text-[#1A5C38] font-semibold text-sm">查看詳情 →</a>
-            </div>
-        </div>
-        <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-            <div class="aspect-[4/3] overflow-hidden bg-white flex items-center justify-center">
-                <img src="https://www.jjgpaperbag.com/proimages/sr/115.02.06-有你真好版-可撕紙袋.jpg" alt="Tear-Open Paper Bag" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500">
-            </div>
-            <div class="p-5">
-                <span class="text-xs font-semibold tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">防油紙袋</span>
-                <h3 class="font-['Noto_Serif_TC',serif] text-lg font-bold mt-2 mb-1">Tear-Open Paper Bag</h3>
-                <a href="/zh-tw/products/greaseproof/tear-open-paper-bag.html" class="text-[#1A5C38] font-semibold text-sm">查看詳情 →</a>
-            </div>
-        </div></div>
-    </section>
-        </div>
     <footer class="bg-[#111] text-gray-400 pt-16 pb-8">
         <div class="max-w-[1440px] mx-auto px-6 lg:px-10">
             <div class="grid md:grid-cols-4 gap-10 pb-10 border-b border-white/10">
-                <div><img src="/images/index-logo.png" alt="JJG" class="h-10 mb-4 brightness-200"><p class="text-sm text-gray-500">台灣專業紙袋製造商</p></div>
-                <div><h4 class="text-white font-bold mb-4 text-sm">快速連結</h4><ul class="space-y-2 text-sm"><li><a href="/zh-tw/" class="hover:text-[#2E8B57]">首頁</a></li><li><a href="/zh-tw/products.html" class="hover:text-[#2E8B57]">產品介紹</a></li><li><a href="/zh-tw/contact.html" class="hover:text-[#2E8B57]">聯絡我們</a></li></ul></div>
-                <div><h4 class="text-white font-bold mb-4 text-sm">產品系列</h4><ul class="space-y-2 text-sm"><li><a href="/zh-tw/products/greaseproof.html" class="hover:text-[#2E8B57]">防油紙袋</a></li><li><a href="/zh-tw/products/kraft.html" class="hover:text-[#2E8B57]">牛皮紙袋</a></li><li><a href="/zh-tw/products/flathandle.html" class="hover:text-[#2E8B57]">平把手提袋</a></li></ul></div>
-                <div><h4 class="text-white font-bold mb-4 text-sm">聯絡資訊</h4><ul class="space-y-2 text-sm"><li>📍 台中市大甲區游九路6號</li><li>📞 +886-4-26223215</li><li>✉️ export@jjgpaperbag.com</li></ul></div>
+                <div><img src="/jjgpack/images/index-logo.png" alt="JJG" class="h-10 mb-4 brightness-200"></div>
+                <div><h4 class="text-white font-bold mb-4 text-sm">首頁</h4><ul class="space-y-2 text-sm"><li><a href="/jjgpack/zh-tw/products.html" class="hover:text-[#2E8B57]">產品介紹</a></li></ul></div>
+                <div><h4 class="text-white font-bold mb-4 text-sm">Links</h4><ul class="space-y-2 text-sm"><li><a href="/jjgpack/zh-tw/contact.html" class="hover:text-[#2E8B57]">聯絡我們</a></li></ul></div>
             </div>
-            <div class="pt-6 text-center text-xs text-gray-600">© 2026 壯佳果股份有限公司</div>
+            <div class="pt-6 text-center text-xs text-gray-600">© 2026 JJG Paper Bag</div>
         </div>
     </footer>
-    <script type="module" src="/main.js"></script>
 </body>
 </html>

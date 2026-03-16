@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Christmas Series Square Bottom Paper Bag | JJG Paper Bag</title>
+    <link rel="icon" href="/jjgpack/images/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+TC:wght@400;700&family=Noto+Serif+TC:wght@700&display=swap" rel="stylesheet">
+    <link href="/jjgpack/style.css" rel="stylesheet">
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+<body x-data="{ mobileMenu: false , activeImage: 'https://www.jjgpaperbag.com/proimages/sr/聖誕節方袋.jpg' }" class="bg-[#F5F0E8] text-[#1A1A1A] font-['Inter','Noto_Sans_TC',sans-serif]">
+    <header class="fixed top-0 left-0 right-0 z-50 glass">
+        <nav class="max-w-[1440px] mx-auto px-6 lg:px-10 h-[76px] flex items-center justify-between">
+            <a href="/jjgpack/index.html">
+                <img src="/jjgpack/images/index-logo.png" alt="JJG" class="h-11">
+            </a>
+            <div class="hidden lg:flex items-center gap-1">
+                <a href="/jjgpack/index.html" class="px-4 py-2 text-[#555] hover:text-[#1A5C38] font-medium text-[15px]">Home</a>
+                <a href="/jjgpack/about.html" class="px-4 py-2 text-[#555] hover:text-[#1A5C38] font-medium text-[15px]">About</a>
+                <a href="/jjgpack/products.html" class="px-4 py-2 text-[#1A5C38] font-semibold text-[15px]">Products</a>
+                <a href="/jjgpack/news.html" class="px-4 py-2 text-[#555] hover:text-[#1A5C38] font-medium text-[15px]">News</a>
+                <a href="/jjgpack/contact.html" class="px-4 py-2 text-[#555] hover:text-[#1A5C38] font-medium text-[15px]">Contact</a>
+            </div>
+            <div class="hidden lg:flex items-center gap-5">
+                <a href="/jjgpack/products/kraft/christmas-series-square-bottom-paper-bag.html" class="text-sm text-[#1A5C38] font-bold">EN</a>
+                <a href="/jjgpack/zh-tw/products/kraft/christmas-series-square-bottom-paper-bag.html" class="text-sm text-[#888]">繁中</a>
+                <a href="/jjgpack/contact.html" class="btn-primary text-sm !py-2.5 !px-6 !rounded-lg"><span>Contact</span></a>
+            </div>
+            <button @click="mobileMenu=!mobileMenu" class="lg:hidden p-2"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" /></svg></button>
+        </nav>
+    </header>
+    <div class="pt-[76px] min-h-[80vh]">
+        
+            <div class="max-w-[1440px] mx-auto px-6 lg:px-10 py-12">
+                <div class="grid lg:grid-cols-2 gap-16">
+                    <div class="space-y-4">
+                        <div class="bg-white rounded-2xl aspect-[4/3] flex items-center justify-center p-8 shadow-sm">
+                            <img :src="activeImage" class="max-w-full max-h-full object-contain">
+                        </div>
+                        <div class="grid grid-cols-4 gap-4"><button @click="activeImage='https://www.jjgpaperbag.com/proimages/sr/聖誕節方袋.jpg'" class="aspect-square border-2" :class="activeImage==='https://www.jjgpaperbag.com/proimages/sr/聖誕節方袋.jpg' ? 'border-[#1A5C38]' : 'border-transparent'"><img src="https://www.jjgpaperbag.com/proimages/sr/聖誕節方袋.jpg" class="w-full h-full object-cover"></button></div>
+                    </div>
+                    <div>
+                        <h1 class="text-4xl font-bold mb-6">Christmas Series Square Bottom Paper Bag</h1>
+                        <p class="text-lg text-gray-600 mb-8">Christmas Series Square Bottom Paper Bag</p>
+                        <div class="bg-white p-8 rounded-2xl shadow-sm mb-8">
+                            <h2 class="text-xl font-bold mb-4">Specifications</h2>
+                            <div class="whitespace-pre-line text-gray-700">Holiday themed prints on square bottom bags.</div>
+                        </div>
+                        <a href="/jjgpack/contact.html" class="btn-primary inline-block"><span>Inquire Now</span></a>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <footer class="bg-[#111] text-gray-400 pt-16 pb-8">
+        <div class="max-w-[1440px] mx-auto px-6 lg:px-10">
+            <div class="grid md:grid-cols-4 gap-10 pb-10 border-b border-white/10">
+                <div><img src="/jjgpack/images/index-logo.png" alt="JJG" class="h-10 mb-4 brightness-200"></div>
+                <div><h4 class="text-white font-bold mb-4 text-sm">Home</h4><ul class="space-y-2 text-sm"><li><a href="/jjgpack/products.html" class="hover:text-[#2E8B57]">Products</a></li></ul></div>
+                <div><h4 class="text-white font-bold mb-4 text-sm">Links</h4><ul class="space-y-2 text-sm"><li><a href="/jjgpack/contact.html" class="hover:text-[#2E8B57]">Contact</a></li></ul></div>
+            </div>
+            <div class="pt-6 text-center text-xs text-gray-600">© 2026 JJG Paper Bag</div>
+        </div>
+    </footer>
+</body>
+</html>
