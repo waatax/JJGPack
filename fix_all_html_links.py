@@ -3,48 +3,28 @@ import re
 import glob
 
 def fix_links_in_content(content):
-    # 1. Navigation links (.html, directories)
-    # Ensure they HAVE /JJGPACK/ if they are local routes.
-    content = re.sub(
-        r'href="/(?!JJGPACK/|https?://|#)([^"]*?)"',
-        r'href="/JJGPACK/\1"',
-        content
-    )
-
-    # 2. Assets (Images, JS, CSS)
-    # Ensure they HAVE /JJGPACK/ if they are local routes.
-    content = re.sub(
-        r'src="/(?!JJGPACK/|https?://)([^"]*?)"',
-        r'src="/JJGPACK/\1"',
-        content
-    )
+    # This script will REMOVE the manual /JJGPACK/ prefix from paths
+    # and ensure they are absolute root-relative paths starting with /
     
-    # Specific fix for common asset hrefs (like style.css)
-    content = re.sub(
-        r'href="/(?!JJGPACK/|https?://|#)([^"]*?\.(?:css|js|ico|webmanifest))"',
-        r'href="/JJGPACK/\1"',
-        content
-    )
-
-    # 3. Clean up any double prefixes
-    content = content.replace('/JJGPACK/JJGPACK/', '/JJGPACK/')
-    content = content.replace('/JJGPACK/jjgpack/', '/JJGPACK/')
-    content = content.replace('/jjgpack/', '/JJGPACK/')
+    # 1. Remove manual prefix from src and href
+    content = re.sub(r'href="/JJGPACK/([^"]*?)"', r'href="/\1"', content)
+    content = re.sub(r'src="/JJGPACK/([^"]*?)"', r'src="/\1"', content)
     
-    # Specific fix for root "/"
-    content = content.replace('href="/JJGPACK/"', 'href="/JJGPACK/index.html"')
-    content = content.replace('href="/JJGPACK/zh-tw/"', 'href="/JJGPACK/zh-tw/index.html"')
-
-    # 4. Alpine.js / Hero Banners (images and proimages)
-    # Ensure they have prefix
-    content = re.sub(
-        r"(['\"])/(images|proimages)/",
-        r"\1/JJGPACK/\2/",
-        content
-    )
-    # Again, clean up double prefix from the above
-    content = content.replace('/JJGPACK/JJGPACK/', '/JJGPACK/')
-
+    # 2. Handle specific root cases
+    content = content.replace('href="/JJGPACK/"', 'href="/"')
+    content = content.replace('href="/JJGPACK/index.html"', 'href="/index.html"')
+    content = content.replace('href="/JJGPACK/zh-tw/"', 'href="/zh-tw/index.html"')
+    
+    # 3. Handle lowercase /jjgpack/
+    content = content.replace('/jjgpack/', '/')
+    
+    # 4. Handle Alpine.js/JS strings in attributes
+    content = content.replace("'/JJGPACK/", "'/")
+    content = content.replace('"/JJGPACK/', '"/')
+    
+    # Simple strings in JS that might not be in quotes (less likely in HTML attributes but just in case)
+    # content = content.replace(':/JJGPACK/', ':/') # e.g. :src="'/JJGPACK/images/...' "
+    
     return content
 
 def process_all_files():
@@ -68,4 +48,4 @@ def process_all_files():
 
 if __name__ == "__main__":
     process_all_files()
-    print("Done fixing links in all HTML files.")
+    print("Done cleaning up links in all HTML files.")

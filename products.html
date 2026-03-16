@@ -7,12 +7,12 @@
         <title>Products | JJG Paper Bag - 壯佳果包裝</title>
         <meta name="description"
                 content="Browse our complete catalog of eco-friendly paper bags: greaseproof, kraft, flat handle, aluminum foil, and more." />
-        <link rel="icon" href="/JJGPACK/images/favicon.ico" />
+        <link rel="icon" href="/images/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;600;700&family=Noto+Serif+TC:wght@700;900&family=Playfair+Display:wght@400;700;900&display=swap"
                 rel="stylesheet">
-        <link href="/JJGPACK/style.css" rel="stylesheet">
+        <link href="/style.css" rel="stylesheet">
 </head>
 
 <body x-data="{ mobileMenu: false, activeCategory: 'all' }"
@@ -21,26 +21,26 @@
         <!-- NAV -->
         <header class="sticky top-0 z-50 bg-white/95 backdrop-blur shadow-sm">
                 <nav class="max-w-[1400px] mx-auto px-4 lg:px-8 h-[88px] flex items-center justify-between">
-                        <a href="/JJGPACK/index.html" class="flex items-center gap-2"><img src="/JJGPACK/images/index-logo.png" alt="JJG"
+                        <a href="/index.html" class="flex items-center gap-2"><img src="/images/index-logo.png" alt="JJG"
                                         class="h-[68px]"></a>
                         <div class="hidden lg:flex items-center gap-8">
-                                <a href="/JJGPACK/index.html"
+                                <a href="/index.html"
                                         class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">Home</a>
-                                <a href="/JJGPACK/about.html"
+                                <a href="/about.html"
                                         class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">About
                                         Us</a>
-                                <a href="/JJGPACK/products.html" class="text-[#1A5C38] font-semibold text-[15px]">Products</a>
-                                <a href="/JJGPACK/news.html"
+                                <a href="/products.html" class="text-[#1A5C38] font-semibold text-[15px]">Products</a>
+                                <a href="/news.html"
                                         class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">News</a>
-                                <a href="/JJGPACK/contact.html"
+                                <a href="/contact.html"
                                         class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">Contact
                                         Us</a>
                         </div>
                         <div class="hidden lg:flex items-center gap-4">
-                                <a href="/JJGPACK/products.html" class="text-[#666] text-sm font-medium">EN</a><span
-                                        class="text-gray-300">|</span><a href="/JJGPACK/zh-tw/products.html"
+                                <a href="/products.html" class="text-[#666] text-sm font-medium">EN</a><span
+                                        class="text-gray-300">|</span><a href="/zh-tw/products.html"
                                         class="text-[#666] text-sm font-medium">繁中</a>
-                                <a href="/JJGPACK/contact.html"
+                                <a href="/contact.html"
                                         class="bg-[#1A5C38] hover:bg-[#2E8B57] text-white px-5 py-2.5 rounded-lg font-bold text-sm uppercase tracking-wider transition shadow">Contact
                                         Us</a>
                         </div>
@@ -52,20 +52,20 @@
                 </nav>
                 <div x-show="mobileMenu" x-transition class="lg:hidden bg-white border-t shadow-lg"
                         style="display:none">
-                        <div class="px-4 py-4 space-y-2"><a href="/JJGPACK/index.html"
-                                        class="block py-2 px-3 rounded hover:bg-[#F5F0E8]">Home</a><a href="/JJGPACK/about.html"
+                        <div class="px-4 py-4 space-y-2"><a href="/index.html"
+                                        class="block py-2 px-3 rounded hover:bg-[#F5F0E8]">Home</a><a href="/about.html"
                                         class="block py-2 px-3 rounded hover:bg-[#F5F0E8]">About Us</a><a
-                                        href="/JJGPACK/products.html"
+                                        href="/products.html"
                                         class="block py-2 px-3 rounded bg-[#F5F0E8] font-semibold text-[#1A5C38]">Products</a><a
-                                        href="/JJGPACK/news.html" class="block py-2 px-3 rounded hover:bg-[#F5F0E8]">News</a><a
-                                        href="/JJGPACK/contact.html" class="block py-2 px-3 rounded hover:bg-[#F5F0E8]">Contact
+                                        href="/news.html" class="block py-2 px-3 rounded hover:bg-[#F5F0E8]">News</a><a
+                                        href="/contact.html" class="block py-2 px-3 rounded hover:bg-[#F5F0E8]">Contact
                                         Us</a></div>
                 </div>
         </header>
 
         <!-- Breadcrumb -->
         <div class="max-w-[1400px] mx-auto px-4 lg:px-8 py-4">
-                <nav class="text-sm text-[#666]"><a href="/JJGPACK/index.html" class="hover:text-[#2E8B57]">Home</a> <span
+                <nav class="text-sm text-[#666]"><a href="/index.html" class="hover:text-[#2E8B57]">Home</a> <span
                                 class="mx-2">›</span> <span class="text-[#1A5C38] font-medium">Products</span></nav>
         </div>
 
@@ -119,153 +119,153 @@
                         <!-- FLAT HANDLE -->
                         <div x-show="activeCategory==='all'||activeCategory==='flathandle'"
                                 class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-                                <a href="/JJGPACK/products/flat-handle/flat-handle-bag.html" class="block aspect-[4/3] overflow-hidden">
-                                    <img src="/JJGPACK/proimages/detail/flat-handle-bag.jpg" alt="Flat Handle Paper Bag"
+                                <a href="/products/flat-handle/flat-handle-bag.html" class="block aspect-[4/3] overflow-hidden">
+                                    <img src="/proimages/detail/flat-handle-bag.jpg" alt="Flat Handle Paper Bag"
                                          class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                                 </a>
                                 <div class="p-5">
                                     <span class="text-xs font-semibold uppercase tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">Flat Handle</span>
                                     <h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">
-                                        <a href="/JJGPACK/products/flat-handle/flat-handle-bag.html" class="hover:text-[#2E8B57]">Flat Handle Paper Bag</a>
+                                        <a href="/products/flat-handle/flat-handle-bag.html" class="hover:text-[#2E8B57]">Flat Handle Paper Bag</a>
                                     </h3>
                                     <p class="text-[#666] text-sm mb-3">High stability, comfortable grip, food-grade water-based ink.</p>
-                                    <a href="/JJGPACK/products/flat-handle/flat-handle-bag.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">View Details →</a>
+                                    <a href="/products/flat-handle/flat-handle-bag.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">View Details →</a>
                                 </div>
                         </div>
 
                         <!-- BROWN KRAFT -->
                         <div x-show="activeCategory==='all'||activeCategory==='kraft'"
                                 class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-                                <a href="/JJGPACK/products/kraft/square-paper-bag.html" class="block aspect-[4/3] overflow-hidden">
-                                    <img src="/JJGPACK/proimages/detail/square-bag.jpg" alt="Square Bottom Paper Bag"
+                                <a href="/products/kraft/square-paper-bag.html" class="block aspect-[4/3] overflow-hidden">
+                                    <img src="/proimages/detail/square-bag.jpg" alt="Square Bottom Paper Bag"
                                          class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                                 </a>
                                 <div class="p-5">
                                     <span class="text-xs font-semibold uppercase tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">Brown Kraft</span>
                                     <h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">
-                                        <a href="/JJGPACK/products/kraft/square-paper-bag.html" class="hover:text-[#2E8B57]">Square Bottom Paper Bag</a>
+                                        <a href="/products/kraft/square-paper-bag.html" class="hover:text-[#2E8B57]">Square Bottom Paper Bag</a>
                                     </h3>
                                     <p class="text-[#666] text-sm mb-3">Self-standing design, high-strength long-fiber kraft paper.</p>
-                                    <a href="/JJGPACK/products/kraft/square-paper-bag.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">View Details →</a>
+                                    <a href="/products/kraft/square-paper-bag.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">View Details →</a>
                                 </div>
                         </div>
 
                         <!-- GREASEPROOF -->
                         <div x-show="activeCategory==='all'||activeCategory==='greaseproof'"
                                 class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-                                <a href="/JJGPACK/products/greaseproof/bakery-side-window-bag.html" class="block aspect-[4/3] overflow-hidden">
-                                    <img src="/JJGPACK/proimages/detail/bakery-side-window.jpg" alt="Bakery Side Window Bag"
+                                <a href="/products/greaseproof/bakery-side-window-bag.html" class="block aspect-[4/3] overflow-hidden">
+                                    <img src="/proimages/detail/bakery-side-window.jpg" alt="Bakery Side Window Bag"
                                          class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                                 </a>
                                 <div class="p-5">
                                     <span class="text-xs font-semibold uppercase tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">Greaseproof</span>
                                     <h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">
-                                        <a href="/JJGPACK/products/greaseproof/bakery-side-window-bag.html" class="hover:text-[#2E8B57]">Bakery Side Window Bag</a>
+                                        <a href="/products/greaseproof/bakery-side-window-bag.html" class="hover:text-[#2E8B57]">Bakery Side Window Bag</a>
                                     </h3>
                                     <p class="text-[#666] text-sm mb-3">PE laminated, grease-resistant with high-clarity transparent window.</p>
-                                    <a href="/JJGPACK/products/greaseproof/bakery-side-window-bag.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">View Details →</a>
+                                    <a href="/products/greaseproof/bakery-side-window-bag.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">View Details →</a>
                                 </div>
                         </div>
 
                         <!-- WHITE KRAFT -->
                         <div x-show="activeCategory==='all'||activeCategory==='white'"
                                 class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-                                <a href="/JJGPACK/products/white-kraft/white-kraft-bag.html" class="block aspect-[4/3] overflow-hidden">
-                                    <img src="/JJGPACK/proimages/detail/white-kraft-bag.png" alt="White Kraft Paper Bag"
+                                <a href="/products/white-kraft/white-kraft-bag.html" class="block aspect-[4/3] overflow-hidden">
+                                    <img src="/proimages/detail/white-kraft-bag.png" alt="White Kraft Paper Bag"
                                          class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                                 </a>
                                 <div class="p-5">
                                     <span class="text-xs font-semibold uppercase tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">White Kraft</span>
                                     <h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">
-                                        <a href="/JJGPACK/products/white-kraft/white-kraft-bag.html" class="hover:text-[#2E8B57]">White Kraft Paper Bag</a>
+                                        <a href="/products/white-kraft/white-kraft-bag.html" class="hover:text-[#2E8B57]">White Kraft Paper Bag</a>
                                     </h3>
                                     <p class="text-[#666] text-sm mb-3">Premium white kraft, clean appearance for retail and medical use.</p>
-                                    <a href="/JJGPACK/products/white-kraft/white-kraft-bag.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">View Details →</a>
+                                    <a href="/products/white-kraft/white-kraft-bag.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">View Details →</a>
                                 </div>
                         </div>
 
                         <!-- ALUMINUM FOIL -->
                         <div x-show="activeCategory==='all'||activeCategory==='foil'"
                                 class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-                                <a href="/JJGPACK/products/aluminum-foil/aluminum-foil-bag.html" class="block aspect-[4/3] overflow-hidden">
-                                    <img src="/JJGPACK/proimages/detail/aluminum-foil-bag.png" alt="Aluminum Foil Paper Bag"
+                                <a href="/products/aluminum-foil/aluminum-foil-bag.html" class="block aspect-[4/3] overflow-hidden">
+                                    <img src="/proimages/detail/aluminum-foil-bag.png" alt="Aluminum Foil Paper Bag"
                                          class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                                 </a>
                                 <div class="p-5">
                                     <span class="text-xs font-semibold uppercase tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">Aluminum Foil</span>
                                     <h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">
-                                        <a href="/JJGPACK/products/aluminum-foil/aluminum-foil-bag.html" class="hover:text-[#2E8B57]">Aluminum Foil Paper Bag</a>
+                                        <a href="/products/aluminum-foil/aluminum-foil-bag.html" class="hover:text-[#2E8B57]">Aluminum Foil Paper Bag</a>
                                     </h3>
                                     <p class="text-[#666] text-sm mb-3">Excellent heat retention for roasted chicken and takeaways.</p>
-                                    <a href="/JJGPACK/products/aluminum-foil/aluminum-foil-bag.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">View Details →</a>
+                                    <a href="/products/aluminum-foil/aluminum-foil-bag.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">View Details →</a>
                                 </div>
                         </div>
 
                         <!-- PE LAMINATION -->
                         <div x-show="activeCategory==='all'||activeCategory==='pe'"
                                 class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-                                <a href="/JJGPACK/products/pe-lamination/l-bag.html" class="block aspect-[4/3] overflow-hidden">
-                                    <img src="/JJGPACK/proimages/detail/l-bag.jpg" alt="PE Lamination L-Bag"
+                                <a href="/products/pe-lamination/l-bag.html" class="block aspect-[4/3] overflow-hidden">
+                                    <img src="/proimages/detail/l-bag.jpg" alt="PE Lamination L-Bag"
                                          class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                                 </a>
                                 <div class="p-5">
                                     <span class="text-xs font-semibold uppercase tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">PE Lamination</span>
                                     <h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">
-                                        <a href="/JJGPACK/products/pe-lamination/l-bag.html" class="hover:text-[#2E8B57]">Burger Pocket L-Bag</a>
+                                        <a href="/products/pe-lamination/l-bag.html" class="hover:text-[#2E8B57]">Burger Pocket L-Bag</a>
                                     </h3>
                                     <p class="text-[#666] text-sm mb-3">Leak-proof and grease-resistant burger and sandwich pocket.</p>
-                                    <a href="/JJGPACK/products/pe-lamination/l-bag.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">View Details →</a>
+                                    <a href="/products/pe-lamination/l-bag.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">View Details →</a>
                                 </div>
                         </div>
 
                         <!-- FRUIT PROTECTION -->
                         <div x-show="activeCategory==='all'||activeCategory==='fruit'"
                                 class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-                                <a href="/JJGPACK/products/fruit-protection/mango-bag.html" class="block aspect-[4/3] overflow-hidden">
-                                    <img src="/JJGPACK/proimages/detail/mango-bag.jpg" alt="Fruit Protection Bag"
+                                <a href="/products/fruit-protection/mango-bag.html" class="block aspect-[4/3] overflow-hidden">
+                                    <img src="/proimages/detail/mango-bag.jpg" alt="Fruit Protection Bag"
                                          class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                                 </a>
                                 <div class="p-5">
                                     <span class="text-xs font-semibold uppercase tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">Fruit Protection</span>
                                     <h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">
-                                        <a href="/JJGPACK/products/fruit-protection/mango-bag.html" class="hover:text-[#2E8B57]">Mango Protection Bag</a>
+                                        <a href="/products/fruit-protection/mango-bag.html" class="hover:text-[#2E8B57]">Mango Protection Bag</a>
                                     </h3>
                                     <p class="text-[#666] text-sm mb-3">Double-layer protection from pests and weather for growing fruits.</p>
-                                    <a href="/JJGPACK/products/fruit-protection/mango-bag.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">View Details →</a>
+                                    <a href="/products/fruit-protection/mango-bag.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">View Details →</a>
                                 </div>
                         </div>
 
                         <!-- PAPER STRAW -->
                         <div x-show="activeCategory==='all'||activeCategory==='straw'"
                                 class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-                                <a href="/JJGPACK/products/paper-straw/paper-straw.html" class="block aspect-[4/3] overflow-hidden">
-                                    <img src="/JJGPACK/proimages/detail/paper-straw.jpg" alt="Paper Straw"
+                                <a href="/products/paper-straw/paper-straw.html" class="block aspect-[4/3] overflow-hidden">
+                                    <img src="/proimages/detail/paper-straw.jpg" alt="Paper Straw"
                                          class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                                 </a>
                                 <div class="p-5">
                                     <span class="text-xs font-semibold uppercase tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">Paper Straw</span>
                                     <h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">
-                                        <a href="/JJGPACK/products/paper-straw/paper-straw.html" class="hover:text-[#2E8B57]">Biodegradable Paper Straw</a>
+                                        <a href="/products/paper-straw/paper-straw.html" class="hover:text-[#2E8B57]">Biodegradable Paper Straw</a>
                                     </h3>
                                     <p class="text-[#666] text-sm mb-3">100% Taiwan made, plastic-free, eco-friendly drinking solution.</p>
-                                    <a href="/JJGPACK/products/paper-straw/paper-straw.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">View Details →</a>
+                                    <a href="/products/paper-straw/paper-straw.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">View Details →</a>
                                 </div>
                         </div>
 
                         <!-- OTHERS / SPECIALTY -->
                         <div x-show="activeCategory==='all'||activeCategory==='others'"
                                 class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-                                <a href="/JJGPACK/products/others/specialty-bags.html" class="block aspect-[4/3] overflow-hidden">
-                                    <img src="/JJGPACK/proimages/detail/bakery-side-window.jpg" alt="Specialty Bags"
+                                <a href="/products/others/specialty-bags.html" class="block aspect-[4/3] overflow-hidden">
+                                    <img src="/proimages/detail/bakery-side-window.jpg" alt="Specialty Bags"
                                          class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                                 </a>
                                 <div class="p-5">
                                     <span class="text-xs font-semibold uppercase tracking-wider text-[#666] bg-gray-100 px-2 py-0.5 rounded-full">Others</span>
                                     <h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">
-                                        <a href="/JJGPACK/products/others/specialty-bags.html" class="hover:text-[#2E8B57]">Custom & Specialty Bags</a>
+                                        <a href="/products/others/specialty-bags.html" class="hover:text-[#2E8B57]">Custom & Specialty Bags</a>
                                     </h3>
                                     <p class="text-[#666] text-sm mb-3">Bespoke solutions for unique requirements and custom material needs.</p>
-                                    <a href="/JJGPACK/products/others/specialty-bags.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">View Details →</a>
+                                    <a href="/products/others/specialty-bags.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">View Details →</a>
                                 </div>
                         </div>
                 </div>
@@ -278,7 +278,7 @@
                                 Packaging?</h2>
                         <p class="text-white/80 text-lg mb-8">We offer OEM/ODM services with custom printing, sizes, and
                                 materials.</p>
-                        <a href="/JJGPACK/contact.html"
+                        <a href="/contact.html"
                                 class="bg-white text-[#1A5C38] px-10 py-3.5 rounded-lg font-bold uppercase tracking-wider hover:bg-[#F5F0E8] transition inline-block">Get
                                 a Quote</a>
                 </div>
@@ -288,7 +288,7 @@
         <footer class="bg-[#1A1A1A] text-gray-400 pt-16 pb-8">
                 <div class="max-w-[1400px] mx-auto px-4 lg:px-8">
                         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10 pb-10 border-b border-gray-800">
-                                <div><img src="/JJGPACK/images/index-logo.png" alt="JJG" class="h-10 mb-4 brightness-200">
+                                <div><img src="/images/index-logo.png" alt="JJG" class="h-10 mb-4 brightness-200">
                                         <p class="text-sm leading-relaxed">Professional paper bag manufacturer in Taiwan
                                                 with 70+ years of experience.</p>
                                 </div>
@@ -296,11 +296,11 @@
                                         <h4 class="text-white font-bold mb-4 uppercase text-sm tracking-wider">Quick
                                                 Links</h4>
                                         <ul class="space-y-2 text-sm">
-                                                <li><a href="/JJGPACK/index.html" class="hover:text-[#2E8B57]">Home</a></li>
-                                                <li><a href="/JJGPACK/about.html" class="hover:text-[#2E8B57]">About Us</a></li>
-                                                <li><a href="/JJGPACK/products.html" class="hover:text-[#2E8B57]">Products</a>
+                                                <li><a href="/index.html" class="hover:text-[#2E8B57]">Home</a></li>
+                                                <li><a href="/about.html" class="hover:text-[#2E8B57]">About Us</a></li>
+                                                <li><a href="/products.html" class="hover:text-[#2E8B57]">Products</a>
                                                 </li>
-                                                <li><a href="/JJGPACK/contact.html" class="hover:text-[#2E8B57]">Contact Us</a>
+                                                <li><a href="/contact.html" class="hover:text-[#2E8B57]">Contact Us</a>
                                                 </li>
                                         </ul>
                                 </div>
@@ -308,7 +308,7 @@
                                         <h4 class="text-white font-bold mb-4 uppercase text-sm tracking-wider">Products
                                         </h4>
                                         <ul class="space-y-2 text-sm">
-                                                <li><a href="/JJGPACK/products.html" class="hover:text-[#2E8B57]">All
+                                                <li><a href="/products.html" class="hover:text-[#2E8B57]">All
                                                                 Products</a></li>
                                         </ul>
                                 </div>
@@ -330,7 +330,7 @@
                         </div>
                 </div>
         </footer>
-        <script type="module" src="/JJGPACK/main.js"></script>
+        <script type="module" src="/main.js"></script>
 </body>
 
 </html>

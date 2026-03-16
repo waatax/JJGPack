@@ -105,29 +105,29 @@ products = [
         "name": "White Kraft Paper Bag",
         "name_zh": "白牛皮紙袋",
         "image": "/proimages/detail/white-kraft-bag.png",
-        "desc": "Premium white kraft paper bag with a clean, professional aesthetic. Ideal for high-end retail, pharmaceuticals, and gift packaging.",
-        "desc_zh": "高品質白牛皮紙袋，具有簡潔專業的美感。 非常適合高端零售、製藥和禮品包裝。",
+        "desc": "Premium white kraft paper bag offering a clean and professional look. Ideal for high-end retail, pharmaceuticals, and gift packaging.",
+        "desc_zh": "高品質白牛皮紙袋，外觀潔淨專業。 非常適合高端零售、製藥和禮品包裝。",
         "features": [
-            "Premium clean white finish",
-            "Breathability pinholes optional",
-            "Sharp contrast for custom printing",
-            "Variety of grammage options"
+            "Clean white aesthetic",
+            "Strong side and bottom structure",
+            "Multiple size options",
+            "FSC-certified paper option"
         ],
         "features_zh": [
-            "高級純白飾面",
-            "可選透氣針孔",
-            "客製印刷效果鮮明",
-            "多種克重選擇"
+            "簡約白色美學",
+            "強韌的側邊和底部結構",
+            "多種尺寸選擇",
+            "可選 FSC 認證紙張"
         ],
         "specs": [
-            {"label": "Material", "value": "Bleached Kraft Paper"},
+            {"label": "Material", "value": "Premium White Kraft"},
             {"label": "Color", "value": "Natural White"},
-            {"label": "Finish", "value": "Smooth / Ribbed"}
+            {"label": "Usage", "value": "Cosmetics, Pharmacy, Gifts"}
         ],
         "specs_zh": [
-            {"label": "材質", "value": "漂白牛皮紙"},
-            {"label": "顏色", "value": "天然白"},
-            {"label": "表面", "value": "平滑 / 條紋"}
+            {"label": "材質", "value": "特級白牛皮紙"},
+            {"label": "顏色", "value": "原色白"},
+            {"label": "用途", "value": "化妝品、藥店、禮品"}
         ]
     },
     {
@@ -137,29 +137,61 @@ products = [
         "name": "Aluminum Foil Paper Bag",
         "name_zh": "鋁箔紙袋",
         "image": "/proimages/detail/aluminum-foil-bag.png",
-        "desc": "Heat-insulated and oil-resistant bags specifically designed for hot food takeout. The aluminum lining keeps food warm and prevents oil leakage.",
-        "desc_zh": "專為熱食外帶設計的隔熱且耐油的包裝袋。 鋁箔內層可保持食物溫度並防止油脂滲漏。",
+        "desc": "Specialized bag with internal aluminum foil lining for excellent heat retention and grease resistance. The preferred choice for roasted chicken and hot takeaway food.",
+        "desc_zh": "內層鋁箔襯裡的特製袋，具有優異的保溫和防油性能。 烤雞和熱外帶食品的首選。",
         "features": [
-            "Excellent heat retention",
-            "High grease and oil resistance",
-            "Leak-proof construction",
-            "Ideal for roasted chicken and ribs"
+            "Internal foil for heat retention",
+            "Superior grease resistance",
+            "Keeps food hot and flavorful",
+            "Strong side-seal construction"
         ],
         "features_zh": [
-            "優異的保溫性能",
-            "高度耐油脂",
-            "防漏構造",
-            "烤雞和肋排的理想選擇"
+            "內層鋁箔保溫技術",
+            "卓越的抗油脂性能",
+            "保持食物熱度和風味",
+            "強韌的側封結構"
         ],
         "specs": [
-            {"label": "Material", "value": "Kraft Paper + Aluminum Foil"},
-            {"label": "Temp Limit", "value": "Up to 100°C"},
-            {"label": "Sizes", "value": "Multiple standard sizes"}
+            {"label": "Material", "value": "Kraft + Aluminum Foil"},
+            {"label": "Heat Retention", "value": "Excellent"},
+            {"label": "Usage", "value": "Roasted Chicken, BBQ, Takeout"}
         ],
         "specs_zh": [
             {"label": "材質", "value": "牛皮紙 + 鋁箔"},
-            {"label": "耐溫", "value": "最高 100°C"},
-            {"label": "尺寸", "value": "多種標準尺寸"}
+            {"label": "保溫性能", "value": "優異"},
+            {"label": "用途", "value": "烤雞、燒烤、外帶"}
+        ]
+    },
+    {
+        "id": "l-bag",
+        "category": "PE Lamination",
+        "category_zh": "淋膜紙袋",
+        "name": "Burger Pocket L-Bag",
+        "name_zh": "L型袋 (漢堡袋)",
+        "image": "/proimages/detail/l-bag.jpg",
+        "desc": "Convenient L-style open pocket with internal PE lamination. Designed specifically for burgers, sandwiches, and hot dogs to prevent leaks and make on-the-go eating easy.",
+        "desc_zh": "內層 PE 淋膜的便捷 L 型開口袋。 專為漢堡、三明治和熱狗設計，防止滲漏，讓旅途中進食變得輕鬆。",
+        "features": [
+            "L-style opening for easy access",
+            "PE-coated for leak-proof performance",
+            "Grease-resistant",
+            "Compact and space-efficient"
+        ],
+        "features_zh": [
+            "L型開口設計方便食用",
+            "PE 淋膜防滲漏性能",
+            "耐油處理",
+            "輕巧且節省空間"
+        ],
+        "specs": [
+            {"label": "Material", "value": "Paper + PE Coating"},
+            {"label": "Opening", "value": "L-Style (Two Sides)"},
+            {"label": "Usage", "value": "Burgers, Sandwiches, Waffles"}
+        ],
+        "specs_zh": [
+            {"label": "材質", "value": "紙 + PE 淋膜"},
+            {"label": "開口方式", "value": "L型（兩側開口）"},
+            {"label": "用途", "value": "漢堡、三明治、格子餅"}
         ]
     },
     {
@@ -167,63 +199,31 @@ products = [
         "category": "Fruit Protection",
         "category_zh": "水果套袋",
         "name": "Mango Protection Bag",
-        "name_zh": "凱特1號-雙層 (芒果套袋)",
+        "name_zh": "凱特1號-雙層 (芒果袋)",
         "image": "/proimages/detail/mango-bag.jpg",
-        "desc": "Double-layer protection bag designed for mangoes. Protects fruit from pests, birds, and harsh weather conditions while allowing proper airflow and biological development.",
-        "desc_zh": "專為芒果設計的雙層保護袋。 保護水果免受病蟲害、鳥類和惡劣天氣條件的影響，同時允許空氣流通和生物發育。",
+        "desc": "High-performance double-layer paper bag designed for fruit protection. Shields growing fruit from pests, birds, and harsh weather conditions, ensuring a higher quality harvest.",
+        "desc_zh": "高性能雙層水果保護紙袋。 保護生長中的水果免受害蟲、鳥類和惡劣天氣條件的影響，確保更高質量的收成。",
         "features": [
             "Double-layer for maximum protection",
-            "Biodegradable materials",
-            "Prevents skin damage and scratches",
-            "Easy application with integrated wire"
+            "Breathable material for fruit growth",
+            "Waterproof outer treatment",
+            "Easy to attach and secure"
         ],
         "features_zh": [
-            "雙層設計提供最大保護",
-            "可生物分解材料",
-            "防止表皮損傷 和 擦傷",
-            "配有鐵絲，容易套袋"
+            "雙層設計提供最大程度的保護",
+            "有利於水果生長的透氣材質",
+            "外層防水處理",
+            "易於安裝與固定"
         ],
         "specs": [
-            {"label": "Type", "value": "Double-layer (Black/Blue)"},
-            {"label": "Material", "value": "Waterproof Treated Paper"},
-            {"label": "Target", "value": "Mangoes (Irwin, Keitt)"}
+            {"label": "Layer", "value": "Double Layer"},
+            {"label": "Color", "value": "Customized per fruit type"},
+            {"label": "Eco Impact", "value": "100% Biodegradable"}
         ],
         "specs_zh": [
-            {"label": "類型", "value": "雙層（黑/藍）"},
-            {"label": "材質", "value": "防水處理紙"},
-            {"label": "對象", "value": "芒果（愛文、凱特）"}
-        ]
-    },
-    {
-        "id": "l-bag",
-        "category": "PE Lamination",
-        "category_zh": "淋膜紙袋",
-        "name": "L-bag (Burger Pocket)",
-        "name_zh": "L型袋 (雙面開口漢堡袋)",
-        "image": "/proimages/detail/l-bag.jpg",
-        "desc": "Convenient L-opening bag for quick consumption of burgers, sandwiches, and hot dogs. PE lamination ensures full grease resistance and leak prevention.",
-        "desc_zh": "方便的 L 型開口袋，非常適合快速食用漢堡、三明治和熱狗。 PE 淋膜確保完全防油並防止滲漏。",
-        "features": [
-            "L-side opening for easy eating",
-            "Full PE lamination for liquid barrier",
-            "High grease resistance",
-            "Space-saving flat storage"
-        ],
-        "features_zh": [
-            "L型側面開口，方便食用",
-            "全 PE 淋膜，阻隔液體",
-            "高度耐油脂",
-            "節省空間的扁平儲存"
-        ],
-        "specs": [
-            {"label": "Material", "value": "Kraft / White Paper + PE"},
-            {"label": "Usage", "value": "Burgers, Waffles, Crepes"},
-            {"label": "Print", "value": "Standard Generic / Custom"}
-        ],
-        "specs_zh": [
-            {"label": "材質", "value": "牛皮紙 / 白紙 + PE"},
-            {"label": "用途", "value": "漢堡、鬆餅、可麗餅"},
-            {"label": "印刷", "value": "標準通用 / 客製化"}
+            {"label": "層數", "value": "雙層設計"},
+            {"label": "顏色", "value": "根據水果類型客製"},
+            {"label": "環保影響", "value": "100% 可生物分解"}
         ]
     },
     {
@@ -233,61 +233,61 @@ products = [
         "name": "Biodegradable Paper Straw",
         "name_zh": "環保紙吸管",
         "image": "/proimages/detail/paper-straw.jpg",
-        "desc": "100% biodegradable and compostable paper straws. Made from premium virgin wood pulp, providing a sturdy and high-quality drinking experience without the environmental impact of plastic.",
-        "desc_zh": "100% 可生物分解和可堆肥的紙吸管。 由優質原生木漿製成，提供堅固高品質的飲用體驗，且不會像塑料那樣對環境造成影響。",
+        "desc": "Sustainable alternative to plastic straws, made in Taiwan from 100% biodegradable materials. High structural integrity and safe for all types of beverages.",
+        "desc_zh": "塑料吸管的可持續替代品，100% 由可生物分解材料在台灣製造。 結構完整性高，對所有類型的飲料都安全。",
         "features": [
-            "100% Taiwan made",
-            "FSC primary long fiber pulp",
-            "Sturdy construction (non-soggy)",
-            "Safe for adults and children"
+            "100% Biodegradable and PFAS-Free",
+            "Stable in liquid for extended periods",
+            "Smooth edges and premium feel",
+            "Available in multiple diameters"
         ],
         "features_zh": [
-            "100% 台灣製造",
-            "FSC 原生長纖維紙漿",
-            "構造堅固（不易軟化）",
-            "成人和兒童均可安全使用"
+            "100% 可生物分解且不含 PFAS",
+            "在液體中長時間保持穩定",
+            "邊緣光滑，手感優質",
+            "提供多種直徑選擇"
         ],
         "specs": [
-            {"label": "Material", "value": "Food Grade Virgin Pulp"},
-            {"label": "Standard", "value": "FDA / LFGB Compliant"},
-            {"label": "Durable", "value": "Up to 6 hours in cold water"}
+            {"label": "Material", "value": "Virgin Pulp Paper"},
+            {"label": "Compliance", "value": "FDA, SGS Certified"},
+            {"label": "Origin", "value": "100% Made in Taiwan"}
         ],
         "specs_zh": [
-            {"label": "材質", "value": "食品級原生紙漿"},
-            {"label": "標準", "value": "符合 FDA / LFGB"},
-            {"label": "耐用性", "value": "冷水中可達 6 小時"}
+            {"label": "材質", "value": "原生木漿紙"},
+            {"label": "合規性", "value": "FDA, SGS 認證"},
+            {"label": "產地", "value": "100% 台灣製造"}
         ]
     },
     {
         "id": "specialty-bags",
         "category": "Others",
-        "category_zh": "其他特殊袋",
+        "category_zh": "其他",
         "name": "Custom & Specialty Bags",
         "name_zh": "客製化特殊袋",
         "image": "/proimages/detail/bakery-side-window.jpg",
-        "desc": "Bespoke packaging solutions for unique product requirements. We specialize in custom sizes, shapes, and material combinations to meet specific industry needs.",
-        "desc_zh": "針對獨特產品需求提供客製化包裝解決方案。 我們專注於客製化尺寸、形狀和材料組合，以滿足特定行業的需求。",
+        "desc": "Bespoke packaging solutions for unique product requirements. We combine different materials, printing techniques, and constructions to create the perfect bag for your brand.",
+        "desc_zh": "針對獨特產品需求提供量身定制的包裝解決方案。 我們結合不同的材質、印刷技術和結構，為您的品牌打造完美的包裝袋。",
         "features": [
-            "Tailored material selection",
-            "Custom structural design",
-            "Advanced multi-color printing",
-            "OEM / ODM development partner"
+            "Custom material combinations",
+            "Specialized coatings and finishes",
+            "Unique size and shape development",
+            "Full brand integration"
         ],
         "features_zh": [
-            "量身定制材料選擇",
-            "客製化結構設計",
-            "先進多色印刷",
-            "OEM / ODM 開發合作夥伴"
+            "多樣化材質組合",
+            "特種塗層與飾面處理",
+            "獨特的尺寸和形狀開發",
+            "品牌完整整合方案"
         ],
         "specs": [
-            {"label": "Material", "value": "Various combinations"},
-            {"label": "Customization", "value": "Size, Shape, Printing"},
-            {"label": "MOQ", "value": "Depends on specification"}
+            {"label": "Type", "value": "OEM / ODM Custom"},
+            {"label": "MOQ", "value": "Please contact for details"},
+            {"label": "Design", "value": "Full Customization"}
         ],
         "specs_zh": [
-            {"label": "材質", "value": "各種複合材質"},
-            {"label": "客製化", "value": "尺寸、形狀、印刷"},
-            {"label": "最小起訂量", "value": "視規格而定"}
+            {"label": "類型", "value": "OEM / ODM 客製"},
+            {"label": "起訂量", "value": "請聯繫詳洽"},
+            {"label": "設計", "value": "完全客製化"}
         ]
     }
 ]
@@ -309,17 +309,17 @@ EN_TEMPLATE = """<!DOCTYPE html>
     <!-- NAV -->
     <header class="sticky top-0 z-50 bg-white/95 backdrop-blur shadow-sm">
         <nav class="max-w-[1400px] mx-auto px-4 lg:px-8 h-[88px] flex items-center justify-between">
-            <a href="/JJGPACK/index.html" class="flex items-center gap-2"><img src="/images/index-logo.png" alt="JJG" class="h-[68px]"></a>
+            <a href="/index.html" class="flex items-center gap-2"><img src="/images/index-logo.png" alt="JJG" class="h-[68px]"></a>
             <div class="hidden lg:flex items-center gap-8">
-                <a href="/JJGPACK/index.html" class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">Home</a>
-                <a href="/JJGPACK/about.html" class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">About Us</a>
-                <a href="/JJGPACK/products.html" class="text-[#1A5C38] font-semibold text-[15px]">Products</a>
-                <a href="/JJGPACK/news.html" class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">News</a>
-                <a href="/JJGPACK/contact.html" class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">Contact Us</a>
+                <a href="/index.html" class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">Home</a>
+                <a href="/about.html" class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">About Us</a>
+                <a href="/products.html" class="text-[#1A5C38] font-semibold text-[15px]">Products</a>
+                <a href="/news.html" class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">News</a>
+                <a href="/contact.html" class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">Contact Us</a>
             </div>
             <div class="hidden lg:flex items-center gap-4">
-                <a href="/JJGPACK/products/{cat_slug}/{id}.html" class="text-[#1A5C38] text-sm font-semibold">EN</a><span class="text-gray-300">|</span><a href="/JJGPACK/zh-tw/products/{cat_slug}/{id}.html" class="text-[#666] hover:text-[#1A5C38] text-sm font-medium">繁中</a>
-                <a href="/JJGPACK/contact.html" class="bg-[#1A5C38] hover:bg-[#2E8B57] text-white px-5 py-2.5 rounded-lg font-bold text-sm uppercase tracking-wider transition">Contact Us</a>
+                <a href="/products/{cat_slug}/{id}.html" class="text-[#1A5C38] text-sm font-semibold">EN</a><span class="text-gray-300">|</span><a href="/zh-tw/products/{cat_slug}/{id}.html" class="text-[#666] hover:text-[#1A5C38] text-sm font-medium">繁中</a>
+                <a href="/contact.html" class="bg-[#1A5C38] hover:bg-[#2E8B57] text-white px-5 py-2.5 rounded-lg font-bold text-sm uppercase tracking-wider transition">Contact Us</a>
             </div>
         </nav>
     </header>
@@ -328,8 +328,8 @@ EN_TEMPLATE = """<!DOCTYPE html>
     <main class="max-w-[1400px] mx-auto px-4 lg:px-8 py-12">
         <!-- Breadcrumb -->
         <nav class="text-sm text-[#666] mb-8">
-            <a href="/JJGPACK/index.html" class="hover:text-[#2E8B57]">Home</a> <span class="mx-2">›</span> 
-            <a href="/JJGPACK/products.html" class="hover:text-[#2E8B57]">Products</a> <span class="mx-2">›</span> 
+            <a href="/index.html" class="hover:text-[#2E8B57]">Home</a> <span class="mx-2">›</span> 
+            <a href="/products.html" class="hover:text-[#2E8B57]">Products</a> <span class="mx-2">›</span> 
             <span class="text-[#1A5C38] font-medium">{name}</span>
         </nav>
 
@@ -364,7 +364,7 @@ EN_TEMPLATE = """<!DOCTYPE html>
                 </div>
 
                 <div class="flex flex-wrap gap-4 pt-4 border-t border-gray-100">
-                    <a href="/JJGPACK/contact.html" class="bg-[#1A5C38] hover:bg-[#2E8B57] text-white px-8 py-4 rounded-xl font-bold text-center transition tracking-wider uppercase flex-1 shadow-lg">Inquire Now</a>
+                    <a href="/contact.html" class="bg-[#1A5C38] hover:bg-[#2E8B57] text-white px-8 py-4 rounded-xl font-bold text-center transition tracking-wider uppercase flex-1 shadow-lg">Inquire Now</a>
                     <button onclick="window.print()" class="p-4 border border-gray-200 rounded-xl hover:bg-gray-50 transition text-[#666]">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" /></svg>
                     </button>
@@ -400,17 +400,17 @@ ZH_TEMPLATE = """<!DOCTYPE html>
     <!-- NAV -->
     <header class="sticky top-0 z-50 bg-white/95 backdrop-blur shadow-sm">
         <nav class="max-w-[1400px] mx-auto px-4 lg:px-8 h-[88px] flex items-center justify-between">
-            <a href="/JJGPACK/zh-tw/index.html" class="flex items-center gap-2"><img src="/images/index-logo.png" alt="JJG" class="h-[68px]"></a>
+            <a href="/zh-tw/index.html" class="flex items-center gap-2"><img src="/images/index-logo.png" alt="JJG" class="h-[68px]"></a>
             <div class="hidden lg:flex items-center gap-8">
-                <a href="/JJGPACK/zh-tw/index.html" class="text-[#666] hover:text-[#1A5C38] font-medium text-[15px] transition">首頁</a>
-                <a href="/JJGPACK/zh-tw/about.html" class="text-[#666] hover:text-[#1A5C38] font-medium text-[15px] transition">關於我們</a>
-                <a href="/JJGPACK/zh-tw/products.html" class="text-[#1A5C38] font-semibold text-[15px]">產品介紹</a>
-                <a href="/JJGPACK/zh-tw/news.html" class="text-[#666] hover:text-[#1A5C38] font-medium text-[15px] transition">最新消息</a>
-                <a href="/JJGPACK/zh-tw/contact.html" class="text-[#666] hover:text-[#1A5C38] font-medium text-[15px] transition">聯絡我們</a>
+                <a href="/zh-tw/index.html" class="text-[#666] hover:text-[#1A5C38] font-medium text-[15px] transition">首頁</a>
+                <a href="/zh-tw/about.html" class="text-[#666] hover:text-[#1A5C38] font-medium text-[15px] transition">關於我們</a>
+                <a href="/zh-tw/products.html" class="text-[#1A5C38] font-semibold text-[15px]">產品介紹</a>
+                <a href="/zh-tw/news.html" class="text-[#666] hover:text-[#1A5C38] font-medium text-[15px] transition">最新消息</a>
+                <a href="/zh-tw/contact.html" class="text-[#666] hover:text-[#1A5C38] font-medium text-[15px] transition">聯絡我們</a>
             </div>
             <div class="hidden lg:flex items-center gap-4">
-                <a href="/JJGPACK/products/{cat_slug}/{id}.html" class="text-[#666] hover:text-[#1A5C38] text-sm font-medium">EN</a><span class="text-gray-300">|</span><a href="/JJGPACK/zh-tw/products/{cat_slug}/{id}.html" class="text-[#1A5C38] text-sm font-semibold">繁中</a>
-                <a href="/JJGPACK/zh-tw/contact.html" class="bg-[#1A5C38] hover:bg-[#2E8B57] text-white px-5 py-2.5 rounded-lg font-bold text-sm tracking-wider transition">聯絡我們</a>
+                <a href="/products/{cat_slug}/{id}.html" class="text-[#666] hover:text-[#1A5C38] text-sm font-medium">EN</a><span class="text-gray-300">|</span><a href="/zh-tw/products/{cat_slug}/{id}.html" class="text-[#1A5C38] text-sm font-semibold">繁中</a>
+                <a href="/zh-tw/contact.html" class="bg-[#1A5C38] hover:bg-[#2E8B57] text-white px-5 py-2.5 rounded-lg font-bold text-sm tracking-wider transition">聯絡我們</a>
             </div>
         </nav>
     </header>
@@ -419,8 +419,8 @@ ZH_TEMPLATE = """<!DOCTYPE html>
     <main class="max-w-[1400px] mx-auto px-4 lg:px-8 py-12">
         <!-- Breadcrumb -->
         <nav class="text-sm text-[#666] mb-8">
-            <a href="/JJGPACK/zh-tw/index.html" class="hover:text-[#2E8B57]">首頁</a> <span class="mx-2">›</span> 
-            <a href="/JJGPACK/zh-tw/products.html" class="hover:text-[#2E8B57]">產品介紹</a> <span class="mx-2">›</span> 
+            <a href="/zh-tw/index.html" class="hover:text-[#2E8B57]">首頁</a> <span class="mx-2">›</span> 
+            <a href="/zh-tw/products.html" class="hover:text-[#2E8B57]">產品介紹</a> <span class="mx-2">›</span> 
             <span class="text-[#1A5C38] font-medium">{name_zh}</span>
         </nav>
 
@@ -448,14 +448,14 @@ ZH_TEMPLATE = """<!DOCTYPE html>
 
                 <h3 class="text-xl font-bold mb-4 flex items-center gap-2">
                     <svg class="w-6 h-6 text-[#2E8B57]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" /></svg>
-                    產品規格
+                    詳細規格
                 </h3>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
                     {specs_zh}
                 </div>
 
                 <div class="flex flex-wrap gap-4 pt-4 border-t border-gray-100">
-                    <a href="/JJGPACK/zh-tw/contact.html" class="bg-[#1A5C38] hover:bg-[#2E8B57] text-white px-8 py-4 rounded-xl font-bold text-center transition flex-1 shadow-lg">立即詢價</a>
+                    <a href="/zh-tw/contact.html" class="bg-[#1A5C38] hover:bg-[#2E8B57] text-white px-8 py-4 rounded-xl font-bold text-center transition tracking-wider uppercase flex-1 shadow-lg">立即詢價</a>
                     <button onclick="window.print()" class="p-4 border border-gray-200 rounded-xl hover:bg-gray-50 transition text-[#666]">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" /></svg>
                     </button>
@@ -468,51 +468,76 @@ ZH_TEMPLATE = """<!DOCTYPE html>
     <footer class="bg-[#1A1A1A] text-gray-400 py-16">
         <div class="max-w-[1400px] mx-auto px-4 text-center">
             <img src="/images/index-logo.png" alt="JJG" class="h-10 mx-auto mb-6 brightness-200">
-            <p class="text-sm">70 餘年製造經驗 | 台灣專業紙袋廠</p>
+            <p class="text-sm">壯佳果股份有限公司 | 70年以上製造經驗 | 台灣製造</p>
         </div>
     </footer>
 </body>
 </html>"""
 
-for p in products:
-    cat_slug = p['category'].lower().replace(' ', '-')
-    
-    # EN
-    os.makedirs(f"products/{cat_slug}", exist_ok=True)
-    features_en = "\n".join([f'                    <li class="flex items-start gap-2"><svg class="w-5 h-5 text-[#2E8B57] mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4" /></svg> {f}</li>' for f in p['features']])
-    specs_en = "\n".join([f'                    <div class="bg-[#F9F7F4] p-4 rounded-lg"><p class="text-xs text-[#888] uppercase mb-1">{s["label"]}</p><p class="font-semibold">{s["value"]}</p></div>' for s in p['specs']])
-    
-    en_html = EN_TEMPLATE.format(
-        name=p['name'],
-        desc_meta=p['desc'][:160].replace('"', '&quot;'),
-        desc=p['desc'],
-        category=p['category'],
-        cat_slug=cat_slug,
-        id=p['id'],
-        image=p['image'],
-        features=features_en,
-        specs=specs_en
-    )
-    with open(f"products/{cat_slug}/{p['id']}.html", "w", encoding="utf-8") as f:
-        f.write(en_html)
+def generate():
+    for p in products:
+        cat_slug = p['category'].lower().replace(' ', '-')
+        
+        # English Version
+        features_html = ""
+        for f in p['features']:
+            features_html += f'<li class="flex items-start gap-3"><span class="w-1.5 h-1.5 rounded-full bg-[#2E8B57] mt-2 shrink-0"></span>{f}</li>\n'
+        
+        specs_html = ""
+        for s in p['specs']:
+            specs_html += f'''
+<div class="bg-gray-50 p-4 rounded-xl">
+    <span class="text-xs text-[#999] uppercase font-bold tracking-wider block mb-1">{s['label']}</span>
+    <span class="text-[#1A1A1A] font-semibold">{s['value']}</span>
+</div>'''
+        
+        en_content = EN_TEMPLATE.format(
+            id=p['id'],
+            name=p['name'],
+            category=p['category'],
+            cat_slug=cat_slug,
+            image=p['image'],
+            desc=p['desc'],
+            desc_meta=p['desc'][:160],
+            features=features_html,
+            specs=specs_html
+        )
+        
+        out_dir = f"products/{cat_slug}"
+        os.makedirs(out_dir, exist_ok=True)
+        with open(f"{out_dir}/{p['id']}.html", "w", encoding="utf-8") as f:
+            f.write(en_content)
+            
+        # Chinese Version
+        features_zh_html = ""
+        for f in p['features_zh']:
+            features_zh_html += f'<li class="flex items-start gap-3"><span class="w-1.5 h-1.5 rounded-full bg-[#2E8B57] mt-2 shrink-0"></span>{f}</li>\n'
+        
+        specs_zh_html = ""
+        for s in p['specs_zh']:
+            specs_zh_html += f'''
+<div class="bg-gray-50 p-4 rounded-xl">
+    <span class="text-xs text-[#999] uppercase font-bold tracking-wider block mb-1">{s['label']}</span>
+    <span class="text-[#1A1A1A] font-semibold">{s['value']}</span>
+</div>'''
+        
+        zh_content = ZH_TEMPLATE.format(
+            id=p['id'],
+            name_zh=p['name_zh'],
+            category_zh=p['category_zh'],
+            cat_slug=cat_slug,
+            image=p['image'],
+            desc_zh=p['desc_zh'],
+            desc_meta=p['desc_zh'][:160],
+            features_zh=features_zh_html,
+            specs_zh=specs_zh_html
+        )
+        
+        out_dir_zh = f"zh-tw/products/{cat_slug}"
+        os.makedirs(out_dir_zh, exist_ok=True)
+        with open(f"{out_dir_zh}/{p['id']}.html", "w", encoding="utf-8") as f:
+            f.write(zh_content)
 
-    # ZH-TW
-    os.makedirs(f"zh-tw/products/{cat_slug}", exist_ok=True)
-    features_zh = "\n".join([f'                    <li class="flex items-start gap-2"><svg class="w-5 h-5 text-[#2E8B57] mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4" /></svg> {f}</li>' for f in p['features_zh']])
-    specs_zh = "\n".join([f'                    <div class="bg-[#F9F7F4] p-4 rounded-lg"><p class="text-xs text-[#888] mb-1">{s["label"]}</p><p class="font-semibold font-[\'Noto_Sans_TC\',sans-serif]">{s["value"]}</p></div>' for s in p['specs_zh']])
-    
-    zh_html = ZH_TEMPLATE.format(
-        name_zh=p['name_zh'],
-        desc_meta=p['desc_zh'][:160].replace('"', '&quot;'),
-        desc_zh=p['desc_zh'],
-        category_zh=p['category_zh'],
-        cat_slug=cat_slug,
-        id=p['id'],
-        image=p['image'],
-        features_zh=features_zh,
-        specs_zh=specs_zh
-    )
-    with open(f"zh-tw/products/{cat_slug}/{p['id']}.html", "w", encoding="utf-8") as f:
-        f.write(zh_html)
-
-print("Detail pages generated successfully.")
+if __name__ == "__main__":
+    generate()
+    print("Detail pages generated successfully.")
