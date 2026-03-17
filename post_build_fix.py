@@ -28,7 +28,7 @@ def fix_links_in_content(content, base_path='/JJGPack'):
     # 3. Handle Alpine.js strings in arrays
     # Look for '/proimages/ or '/images/ or '/main.js' etc.
     content = re.sub(
-        r"(['\"])/(?!' + bp + r'/|https?://|#)(images/|proimages/|main\.js|style\.css)([^'\"]*?)(['\"])",
+        r"(['\"])/(?!" + bp + r"/|https?://|#)(images/|proimages/|main\.js|style\.css)([^'\"]*?)(['\"])",
         r"\1/" + bp + r"/\2\3\4",
         content
     )
