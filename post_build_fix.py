@@ -3,7 +3,7 @@ import re
 import glob
 import sys
 
-def fix_links_in_content(content, base_path='/JJGPACK'):
+def fix_links_in_content(content, base_path='/JJGPack'):
     # This script adds the base_path prefix to absolute internal links and assets.
     # It avoids double-prefixing.
     

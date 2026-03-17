@@ -9,11 +9,16 @@ def fix_links_in_content(content):
     # 1. Remove manual prefix from src and href
     content = re.sub(r'href="/JJGPACK/([^"]*?)"', r'href="/\1"', content)
     content = re.sub(r'src="/JJGPACK/([^"]*?)"', r'src="/\1"', content)
+    content = re.sub(r'href="/JJGPack/([^"]*?)"', r'href="/\1"', content)
+    content = re.sub(r'src="/JJGPack/([^"]*?)"', r'src="/\1"', content)
     
     # 2. Handle specific root cases
     content = content.replace('href="/JJGPACK/"', 'href="/"')
     content = content.replace('href="/JJGPACK/index.html"', 'href="/index.html"')
     content = content.replace('href="/JJGPACK/zh-tw/"', 'href="/zh-tw/index.html"')
+    content = content.replace('href="/JJGPack/"', 'href="/"')
+    content = content.replace('href="/JJGPack/index.html"', 'href="/index.html"')
+    content = content.replace('href="/JJGPack/zh-tw/"', 'href="/zh-tw/index.html"')
     
     # 3. Handle lowercase /jjgpack/
     content = content.replace('/jjgpack/', '/')
@@ -21,6 +26,8 @@ def fix_links_in_content(content):
     # 4. Handle Alpine.js/JS strings in attributes
     content = content.replace("'/JJGPACK/", "'/")
     content = content.replace('"/JJGPACK/', '"/')
+    content = content.replace("'/JJGPack/", "'/")
+    content = content.replace('"/JJGPack/', '"/')
     
     # Simple strings in JS that might not be in quotes (less likely in HTML attributes but just in case)
     # content = content.replace(':/JJGPACK/', ':/') # e.g. :src="'/JJGPACK/images/...' "

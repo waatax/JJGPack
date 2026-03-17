@@ -2,7 +2,7 @@ import { resolve } from 'path'
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-	base: '/JJGPACK/',
+	base: '/JJGPack/',
 	server: {
 		port: 5175,
 	},
