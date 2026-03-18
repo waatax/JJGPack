@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-TW">
 
 <head>
@@ -11,7 +11,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;600;700&family=Noto+Serif+TC:wght@700;900&family=Playfair+Display:wght@400;700;900&display=swap"
                 rel="stylesheet">
-        <link href="/style.css" rel="stylesheet">
+  <script type="module" src="/main.js"></script>
+  <link rel="stylesheet" href="/style.css">
 </head>
 
 <body x-data="{ mobileMenu: false, tab: 'news' }"
@@ -20,16 +21,13 @@
                 <nav class="max-w-[1400px] mx-auto px-4 lg:px-8 h-[88px] flex items-center justify-between"><a
                                 href="/zh-tw/index.html" class="flex items-center gap-2"><img src="/images/index-logo.png"
                                         alt="壯佳果" class="h-[68px]"></a>
-                        <div class="hidden lg:flex items-center gap-8"><a href="/zh-tw/index.html"
-                                        class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">首頁</a><a
-                                        href="/zh-tw/about.html"
-                                        class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">關於我們</a><a
-                                        href="/zh-tw/products.html"
-                                        class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">產品介紹</a><a
-                                        href="/zh-tw/news.html"
-                                        class="text-[#1A5C38] font-semibold text-[15px]">最新消息</a><a
-                                        href="/zh-tw/contact.html"
-                                        class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">聯絡我們</a>
+                        <div class="hidden lg:flex items-center gap-8">
+                                <a href="/zh-tw/index.html" class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">首頁</a>
+                                <a href="/zh-tw/about.html" class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">關於我們</a>
+                                <a href="/zh-tw/products.html" class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">產品介紹</a>
+                                <a href="/zh-tw/news.html" class="text-[#1A5C38] font-semibold text-[15px]">最新消息</a>
+                                <a href="/zh-tw/catalog.html" class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">型錄EDM</a>
+                                <a href="/zh-tw/contact.html" class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">聯絡我們</a>
                         </div>
                         <div class="hidden lg:flex items-center gap-4"><a href="/news.html"
                                         class="text-[#666] text-sm font-medium">EN</a><span
@@ -294,7 +292,6 @@
                         <div class="pt-6 text-center text-xs text-gray-600">© 2026 壯佳果股份有限公司 版權所有</div>
                 </div>
         </footer>
-        <script type="module" src="/main.js"></script>
 </body>
 
 </html>

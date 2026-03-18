@@ -13,7 +13,8 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;600;700&family=Noto+Serif+TC:wght@700;900&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&display=swap"
     rel="stylesheet">
-  <link href="/style.css" rel="stylesheet">
+  <script type="module" src="/main.js"></script>
+  <link rel="stylesheet" href="/style.css">
 </head>
 
 <body x-data="{ mobileMenu: false, currentSlide: 0 }"
@@ -28,18 +29,13 @@
       </a>
 
       <div class="hidden lg:flex items-center gap-1">
-        <a href="/index.html"
-          class="relative px-4 py-2 text-[#1A5C38] font-semibold text-[15px] transition-all after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-5 after:h-0.5 after:bg-[#1A5C38] after:rounded-full">Home</a>
-        <a href="/about.html"
-          class="px-4 py-2 text-[#555] hover:text-[#1A5C38] font-medium text-[15px] transition-all relative after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-0.5 after:bg-[#1A5C38] after:rounded-full hover:after:w-5 after:transition-all">About
-          Us</a>
-        <a href="/products.html"
-          class="px-4 py-2 text-[#555] hover:text-[#1A5C38] font-medium text-[15px] transition-all relative after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-0.5 after:bg-[#1A5C38] after:rounded-full hover:after:w-5 after:transition-all">Products</a>
-        <a href="/news.html"
-          class="px-4 py-2 text-[#555] hover:text-[#1A5C38] font-medium text-[15px] transition-all relative after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-0.5 after:bg-[#1A5C38] after:rounded-full hover:after:w-5 after:transition-all">News</a>
-        <a href="/contact.html"
-          class="px-4 py-2 text-[#555] hover:text-[#1A5C38] font-medium text-[15px] transition-all relative after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-0.5 after:bg-[#1A5C38] after:rounded-full hover:after:w-5 after:transition-all">Contact</a>
-      </div>
+                                <a href="/index.html" class="relative px-4 py-2 text-[#1A5C38] font-semibold text-[15px] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-5 after:h-0.5 after:bg-[#1A5C38] after:rounded-full">Home</a>
+                                <a href="/about.html" class="px-4 py-2 text-[#555] hover:text-[#1A5C38] font-medium text-[15px] transition-all relative after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-0.5 after:bg-[#1A5C38] after:rounded-full hover:after:w-5 after:transition-all">About Us</a>
+                                <a href="/products.html" class="px-4 py-2 text-[#555] hover:text-[#1A5C38] font-medium text-[15px] transition-all relative after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-0.5 after:bg-[#1A5C38] after:rounded-full hover:after:w-5 after:transition-all">Products</a>
+                                <a href="/news.html" class="px-4 py-2 text-[#555] hover:text-[#1A5C38] font-medium text-[15px] transition-all relative after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-0.5 after:bg-[#1A5C38] after:rounded-full hover:after:w-5 after:transition-all">News</a>
+                                <a href="/catalog.html" class="px-4 py-2 text-[#555] hover:text-[#1A5C38] font-medium text-[15px] transition-all relative after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-0.5 after:bg-[#1A5C38] after:rounded-full hover:after:w-5 after:transition-all">E-Catalog</a>
+                                <a href="/contact.html" class="px-4 py-2 text-[#555] hover:text-[#1A5C38] font-medium text-[15px] transition-all relative after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-0.5 after:bg-[#1A5C38] after:rounded-full hover:after:w-5 after:transition-all">Contact Us</a>
+                        </div>
 
       <div class="hidden lg:flex items-center gap-5">
         <div class="flex items-center gap-1 text-sm">
@@ -63,18 +59,13 @@
       x-transition:leave-end="opacity-0 -translate-y-2" class="lg:hidden glass border-t border-gray-200/50"
       style="display:none">
       <div class="px-6 py-5 space-y-1">
-        <a href="/index.html" class="block py-2.5 px-4 rounded-lg bg-[#1A5C38]/5 font-semibold text-[#1A5C38]">Home</a>
-        <a href="/about.html" class="block py-2.5 px-4 rounded-lg hover:bg-[#1A5C38]/5 text-[#555] transition">About
-          Us</a>
-        <a href="/products.html"
-          class="block py-2.5 px-4 rounded-lg hover:bg-[#1A5C38]/5 text-[#555] transition">Products</a>
-        <a href="/news.html" class="block py-2.5 px-4 rounded-lg hover:bg-[#1A5C38]/5 text-[#555] transition">News</a>
-        <a href="/contact.html"
-          class="block py-2.5 px-4 rounded-lg hover:bg-[#1A5C38]/5 text-[#555] transition">Contact</a>
-        <div class="flex gap-3 pt-3 border-t border-gray-200/50 mt-2">
-          <a href="/index.html" class="text-sm font-semibold text-[#1A5C38]">EN</a>
-          <a href="/zh-tw/index.html" class="text-sm font-medium text-[#888]">繁中</a>
-        </div>
+                                <a href="/index.html" class="relative px-4 py-2 text-[#1A5C38] font-semibold text-[15px] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-5 after:h-0.5 after:bg-[#1A5C38] after:rounded-full">Home</a>
+                                <a href="/about.html" class="px-4 py-2 text-[#555] hover:text-[#1A5C38] font-medium text-[15px] transition-all relative after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-0.5 after:bg-[#1A5C38] after:rounded-full hover:after:w-5 after:transition-all">About Us</a>
+                                <a href="/products.html" class="px-4 py-2 text-[#555] hover:text-[#1A5C38] font-medium text-[15px] transition-all relative after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-0.5 after:bg-[#1A5C38] after:rounded-full hover:after:w-5 after:transition-all">Products</a>
+                                <a href="/news.html" class="px-4 py-2 text-[#555] hover:text-[#1A5C38] font-medium text-[15px] transition-all relative after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-0.5 after:bg-[#1A5C38] after:rounded-full hover:after:w-5 after:transition-all">News</a>
+                                <a href="/catalog.html" class="px-4 py-2 text-[#555] hover:text-[#1A5C38] font-medium text-[15px] transition-all relative after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-0.5 after:bg-[#1A5C38] after:rounded-full hover:after:w-5 after:transition-all">E-Catalog</a>
+                                <a href="/contact.html" class="px-4 py-2 text-[#555] hover:text-[#1A5C38] font-medium text-[15px] transition-all relative after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-0.5 after:bg-[#1A5C38] after:rounded-full hover:after:w-5 after:transition-all">Contact Us</a>
+                        </div>
       </div>
     </div>
   </header>
@@ -470,8 +461,9 @@
           <ul class="space-y-3 text-sm">
             <li><a href="/index.html" class="hover:text-[#2E8B57] transition">Home</a></li>
             <li><a href="/about.html" class="hover:text-[#2E8B57] transition">About Us</a></li>
-            <li><a href="/products/kraft/square-paper-bag.html" class="hover:text-[#2E8B57] transition">Products</a></li>
+            <li><a href="/products.html" class="hover:text-[#2E8B57] transition">Products</a></li>
             <li><a href="/news.html" class="hover:text-[#2E8B57] transition">News</a></li>
+            <li><a href="/catalog.html" class="hover:text-[#2E8B57] transition">E-Catalog</a></li>
             <li><a href="/contact.html" class="hover:text-[#2E8B57] transition">Contact Us</a></li>
           </ul>
         </div>
@@ -506,7 +498,6 @@
       </div>
     </div>
   </footer>
-  <script type="module" src="/main.js"></script>
 </body>
 
 </html>

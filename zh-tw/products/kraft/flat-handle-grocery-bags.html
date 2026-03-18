@@ -1,68 +1,56 @@
 <!DOCTYPE html>
-<html lang="zh-tw">
+<html lang="zh-TW">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Flat Handle Grocery Bags | JJG Paper Bag</title>
-    <link rel="icon" href="/images/favicon.ico" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+TC:wght@400;700&family=Noto+Serif+TC:wght@700&display=swap" rel="stylesheet">
-    <link href="/style.css" rel="stylesheet">
-    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flat Handle Grocery Bags | JJG Pack - 壯佳果包裝</title>
+  <link rel="icon" href="/images/favicon.ico" />
+  <script type="module" src="/main.js"></script>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;600;700&family=Noto+Serif+TC:wght@700;900&family=Playfair+Display:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
 <body x-data="{ mobileMenu: false , activeImage: 'https://www.jjgpaperbag.com/proimages/sr/product/Brown_Carry_Paper_Bag/carry_bag_1.jpg' }" class="bg-[#F5F0E8] text-[#1A1A1A] font-['Inter','Noto_Sans_TC',sans-serif]">
-    <header class="fixed top-0 left-0 right-0 z-50 glass">
-        <nav class="max-w-[1440px] mx-auto px-6 lg:px-10 h-[92px] flex items-center justify-between">
-            <a href="/zh-tw/index.html">
-                <img src="/images/index-logo.png" alt="JJG" class="h-[62px]">
-            </a>
-            <div class="hidden lg:flex items-center gap-1">
-                <a href="/zh-tw/index.html" class="px-4 py-2 text-[#555] hover:text-[#1A5C38] font-medium text-[15px]">首頁</a>
-                <a href="/zh-tw/about.html" class="px-4 py-2 text-[#555] hover:text-[#1A5C38] font-medium text-[15px]">關於我們</a>
-                <a href="/zh-tw/products.html" class="px-4 py-2 text-[#1A5C38] font-semibold text-[15px]">產品介紹</a>
-                <a href="/zh-tw/news.html" class="px-4 py-2 text-[#555] hover:text-[#1A5C38] font-medium text-[15px]">最新消息</a>
-                <a href="/zh-tw/contact.html" class="px-4 py-2 text-[#555] hover:text-[#1A5C38] font-medium text-[15px]">聯絡我們</a>
-            </div>
-            <div class="hidden lg:flex items-center gap-5">
-                <a href="/products/kraft/flat-handle-grocery-bags.html" class="text-sm text-[#888]">EN</a>
-                <a href="/zh-tw/products/kraft/flat-handle-grocery-bags.html" class="text-sm text-[#1A5C38] font-bold">繁中</a>
-                <a href="/zh-tw/contact.html" class="btn-primary text-sm !py-2.5 !px-6 !rounded-lg"><span>聯絡我們</span></a>
-            </div>
-            <button @click="mobileMenu=!mobileMenu" class="lg:hidden p-2"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" /></svg></button>
-        </nav>
-    </header>
-    <div class="pt-[76px] min-h-[80vh]">
-        
-            <div class="max-w-[1440px] mx-auto px-6 lg:px-10 py-12">
-                <div class="grid lg:grid-cols-2 gap-16">
-                    <div class="space-y-4">
-                        <div class="bg-white rounded-2xl aspect-[4/3] flex items-center justify-center p-8 shadow-sm">
-                            <img :src="activeImage" class="max-w-full max-h-full object-contain">
-                        </div>
-                        <div class="grid grid-cols-4 gap-4"><button @click="activeImage='https://www.jjgpaperbag.com/proimages/sr/product/Brown_Carry_Paper_Bag/carry_bag_1.jpg'" class="aspect-square border-2" :class="activeImage==='https://www.jjgpaperbag.com/proimages/sr/product/Brown_Carry_Paper_Bag/carry_bag_1.jpg' ? 'border-[#1A5C38]' : 'border-transparent'"><img src="https://www.jjgpaperbag.com/proimages/sr/product/Brown_Carry_Paper_Bag/carry_bag_1.jpg" class="w-full h-full object-cover"></button><button @click="activeImage='https://www.jjgpaperbag.com/proimages/sr/product/Brown_Carry_Paper_Bag/carry_bag_2.jpg'" class="aspect-square border-2" :class="activeImage==='https://www.jjgpaperbag.com/proimages/sr/product/Brown_Carry_Paper_Bag/carry_bag_2.jpg' ? 'border-[#1A5C38]' : 'border-transparent'"><img src="https://www.jjgpaperbag.com/proimages/sr/product/Brown_Carry_Paper_Bag/carry_bag_2.jpg" class="w-full h-full object-cover"></button></div>
-                    </div>
-                    <div>
-                        <h1 class="text-4xl font-bold mb-6">Flat Handle Grocery Bags</h1>
-                        <p class="text-lg text-gray-600 mb-8">Flat Handle Grocery Bags</p>
-                        <div class="bg-white p-8 rounded-2xl shadow-sm mb-8">
-                            <h2 class="text-xl font-bold mb-4">產品規格</h2>
-                            <div class="whitespace-pre-line text-gray-700">Eco-friendly, sturdy flat handles. Suitable for grocery and take-out.</div>
-                        </div>
-                        <a href="/zh-tw/contact.html" class="btn-primary inline-block"><span>立即詢價</span></a>
-                    </div>
-                </div>
-            </div>
-    </div>
-    <footer class="bg-[#111] text-gray-400 pt-16 pb-8">
-        <div class="max-w-[1440px] mx-auto px-6 lg:px-10">
-            <div class="grid md:grid-cols-4 gap-10 pb-10 border-b border-white/10">
-                <div><img src="/images/index-logo.png" alt="JJG" class="h-10 mb-4 brightness-200"></div>
-                <div><h4 class="text-white font-bold mb-4 text-sm">首頁</h4><ul class="space-y-2 text-sm"><li><a href="/zh-tw/products.html" class="hover:text-[#2E8B57]">產品介紹</a></li></ul></div>
-                <div><h4 class="text-white font-bold mb-4 text-sm">Links</h4><ul class="space-y-2 text-sm"><li><a href="/zh-tw/contact.html" class="hover:text-[#2E8B57]">聯絡我們</a></li></ul></div>
-            </div>
-            <div class="pt-6 text-center text-xs text-gray-600">© 2026 JJG Paper Bag</div>
+  <header class="fixed top-0 left-0 right-0 z-50 glass transition-all duration-500">
+    <nav class="max-w-[1440px] mx-auto px-6 h-[92px] flex items-center justify-between">
+      <a href="/zh-tw/index.html" class="flex items-center gap-3"><img src="/images/index-logo.png" alt="JJG" class="h-[62px]"></a>
+      
+      <div class="hidden lg:flex items-center gap-1">
+        <a href="/zh-tw/index.html" class="px-4 py-2 text-[#555] hover:text-[#1A5C38] font-medium text-[15px] transition-all relative after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-0.5 after:bg-[#1A5C38] after:rounded-full hover:after:w-5 after:transition-all">首頁</a>
+        <a href="/zh-tw/about.html" class="px-4 py-2 text-[#555] hover:text-[#1A5C38] font-medium text-[15px] transition-all relative after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-0.5 after:bg-[#1A5C38] after:rounded-full hover:after:w-5 after:transition-all">關於我們</a>
+        <a href="/zh-tw/products.html" class="px-4 py-2 text-[#1A5C38] font-semibold text-[15px] relative after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-5 after:h-0.5 after:bg-[#1A5C38] after:rounded-full">產品介紹</a>
+        <a href="/zh-tw/news.html" class="px-4 py-2 text-[#555] hover:text-[#1A5C38] font-medium text-[15px] transition-all relative after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-0.5 after:bg-[#1A5C38] after:rounded-full hover:after:w-5 after:transition-all">最新消息</a>
+        <a href="/zh-tw/catalog.html" class="px-4 py-2 text-[#555] hover:text-[#1A5C38] font-medium text-[15px] transition-all relative after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-0.5 after:bg-[#1A5C38] after:rounded-full hover:after:w-5 after:transition-all">型錄EDM</a>
+        <a href="/zh-tw/contact.html" class="px-4 py-2 text-[#555] hover:text-[#1A5C38] font-medium text-[15px] transition-all relative after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-0.5 after:bg-[#1A5C38] after:rounded-full hover:after:w-5 after:transition-all">聯絡我們</a>
+      </div>
+
+      <div class="hidden lg:flex items-center gap-5">
+        <div class="flex items-center gap-1 text-sm">
+          <a href="/flat-handle-grocery-bags.html" class="text-[#888] hover:text-[#1A5C38]">EN</a>
+          <a href="/zh-tw/flat-handle-grocery-bags.html" class="text-[#1A5C38] font-semibold">繁中</a>
         </div>
-    </footer>
+        <a href="/zh-tw/contact.html" class="btn-primary text-sm !py-2.5 !px-6 !rounded-lg"><span>聯絡我們</span></a>
+      </div>
+      <button @click="mobileMenu=!mobileMenu" class="lg:hidden p-2"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" /></svg></button>
+    </nav>
+  </header>
+  <div class="pt-[92px]">
+<section class="max-w-[1440px] mx-auto px-6 py-8"><nav class="text-sm text-[#666] mb-10"><a href="/zh-tw/index.html">首頁</a> › <a href="/zh-tw/products.html">產品介紹</a> › <a href="/zh-tw/products/kraft.html">牛皮紙袋</a> › <span class="text-[#1A5C38] font-medium">Flat Handle Grocery Bags</span></nav><div class="grid lg:grid-cols-2 gap-16 items-start"><div class="space-y-6"><div class="bg-white rounded-3xl overflow-hidden shadow-premium aspect-[4/3] flex items-center justify-center p-4"><img :src="activeImage" alt="Flat Handle Grocery Bags" class="w-full h-full object-contain"></div><div class="grid grid-cols-4 sm:grid-cols-5 gap-4"><button @click="activeImage='https://www.jjgpaperbag.com/proimages/sr/product/Brown_Carry_Paper_Bag/carry_bag_1.jpg'" class="aspect-square rounded-xl overflow-hidden border-2 transition" :class="activeImage==='https://www.jjgpaperbag.com/proimages/sr/product/Brown_Carry_Paper_Bag/carry_bag_1.jpg' ? 'border-[#1A5C38] shadow-md' : 'border-transparent hover:border-gray-200'"><img src="https://www.jjgpaperbag.com/proimages/sr/product/Brown_Carry_Paper_Bag/carry_bag_1.jpg" class="w-full h-full object-cover"></button><button @click="activeImage='https://www.jjgpaperbag.com/proimages/sr/product/Brown_Carry_Paper_Bag/carry_bag_2.jpg'" class="aspect-square rounded-xl overflow-hidden border-2 transition" :class="activeImage==='https://www.jjgpaperbag.com/proimages/sr/product/Brown_Carry_Paper_Bag/carry_bag_2.jpg' ? 'border-[#1A5C38] shadow-md' : 'border-transparent hover:border-gray-200'"><img src="https://www.jjgpaperbag.com/proimages/sr/product/Brown_Carry_Paper_Bag/carry_bag_2.jpg" class="w-full h-full object-cover"></button></div></div><div class="animate-fade-in-right"><span class="inline-block text-xs font-bold uppercase tracking-wider text-[#1A5C38] bg-[#1A5C38]/8 px-4 py-1.5 rounded-full mb-6">牛皮紙袋</span><h1 class="font-['Playfair_Display',serif] text-4xl md:text-5xl font-bold mb-6">Flat Handle Grocery Bags</h1><p class="text-lg text-[#555] leading-relaxed mb-10">Eco-friendly, sturdy flat handles.</p><div class="bg-white rounded-2xl p-8 shadow-premium mb-10 border border-gray-100"><h2 class="text-xl font-bold mb-6 flex items-center gap-2"><svg class="w-5 h-5 text-[#1A5C38]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>產品規格</h2><div class="text-[#555] whitespace-pre-line leading-relaxed space-y-2">Eco-friendly, sturdy flat handles. Suitable for grocery and take-out.</div></div><div class="flex flex-wrap gap-4"><a href="/zh-tw/contact.html" class="btn-primary !px-10"><span>索取報價</span></a><a href="mailto:export@jjgpaperbag.com" class="btn-outline">郵件諮詢</a></div></div></div></section>
+  </div>
+  <footer class="bg-[#111] text-gray-400 pt-20 pb-8">
+    <div class="max-w-[1440px] mx-auto px-6 lg:px-10">
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12 pb-12 border-b border-white/10">
+        <div><img src="/images/index-logo.png" alt="JJG" class="h-[68px] mb-5 brightness-200"><p class="text-sm leading-relaxed text-gray-500">壯佳果股份有限公司 — 台灣專業紙袋製造商，擁有 70 多年的生產經驗。</p></div>
+        <div><h4 class="text-white font-bold mb-5 text-sm tracking-[0.15em] uppercase">快速連結</h4><ul class="space-y-3 text-sm"><li><a href="/zh-tw/index.html" class="hover:text-[#2E8B57] transition">首頁</a></li><li><a href="/zh-tw/products.html" class="hover:text-[#2E8B57] transition">產品介紹</a></li><li><a href="/zh-tw/contact.html" class="hover:text-[#2E8B57] transition">聯絡我們</a></li></ul></div>
+        <div><h4 class="text-white font-bold mb-5 text-sm tracking-[0.15em] uppercase">產品系列</h4><ul class="space-y-3 text-sm"><li><a href="/zh-tw/products.html" class="hover:text-[#2E8B57] transition">所有產品</a></li></ul></div>
+        <div><h4 class="text-white font-bold mb-5 text-sm tracking-[0.15em] uppercase">聯絡資訊</h4><ul class="space-y-4 text-sm"><li>📍 No.6, You 9th Rd. Dajia Dist., Taichung City 43769 Taiwan</li><li>📞 +886-4-26223215</li><li>✉️ export@jjgpaperbag.com</li></ul></div>
+      </div>
+      <div class="pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+        <p class="text-xs text-gray-600">© 2026 壯佳果股份有限公司 Juang Jia Guoo Co., Ltd. All rights reserved.</p>
+        <div class="flex gap-4 text-xs text-gray-600"><a href="/zh-tw/index.html" class="hover:text-[#2E8B57] transition">繁體中文</a><span>|</span><a href="/index.html" class="hover:text-[#2E8B57] transition">English</a></div>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

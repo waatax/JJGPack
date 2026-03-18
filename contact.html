@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -12,7 +12,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;600;700&family=Noto+Serif+TC:wght@700;900&family=Playfair+Display:wght@400;700;900&display=swap"
                 rel="stylesheet">
-        <link href="/style.css" rel="stylesheet">
+  <script type="module" src="/main.js"></script>
+  <link rel="stylesheet" href="/style.css">
 </head>
 
 <body x-data="{ mobileMenu: false }" class="bg-[#F5F0E8] text-[#1A1A1A] font-['Inter','Noto_Sans_TC',sans-serif]">
@@ -21,20 +22,16 @@
                         <a href="/index.html" class="flex items-center gap-2"><img src="/images/index-logo.png" alt="JJG"
                                         class="h-[68px]"></a>
                         <div class="hidden lg:flex items-center gap-8">
-                                <a href="/index.html"
-                                        class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">Home</a>
-                                <a href="/about.html"
-                                        class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">About
-                                        Us</a>
-                                <a href="/products.html"
-                                        class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">Products</a>
-                                <a href="/news.html"
-                                        class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">News</a>
+                                <a href="/index.html" class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">Home</a>
+                                <a href="/about.html" class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">About Us</a>
+                                <a href="/products.html" class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">Products</a>
+                                <a href="/news.html" class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">News</a>
+                                <a href="/catalog.html" class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">E-Catalog</a>
                                 <a href="/contact.html" class="text-[#1A5C38] font-semibold text-[15px]">Contact Us</a>
                         </div>
                         <div class="hidden lg:flex items-center gap-4">
-                                <a href="#" class="text-[#666] text-sm font-medium">EN</a><span
-                                        class="text-gray-300">|</span><a href="#"
+                                <a href="/contact.html" class="text-[#666] text-sm font-medium">EN</a><span
+                                        class="text-gray-300">|</span><a href="/zh-tw/contact.html"
                                         class="text-[#666] text-sm font-medium">繁中</a>
                                 <a href="/contact.html"
                                         class="bg-[#1A5C38] hover:bg-[#2E8B57] text-white px-5 py-2.5 rounded-lg font-bold text-sm uppercase tracking-wider transition shadow">Contact
@@ -48,14 +45,14 @@
                 </nav>
                 <div x-show="mobileMenu" x-transition class="lg:hidden bg-white border-t shadow-lg"
                         style="display:none">
-                        <div class="px-4 py-4 space-y-2"><a href="/index.html"
-                                        class="block py-2 px-3 rounded hover:bg-[#F5F0E8]">Home</a><a href="/about.html"
-                                        class="block py-2 px-3 rounded hover:bg-[#F5F0E8]">About Us</a><a
-                                        href="/products.html"
-                                        class="block py-2 px-3 rounded hover:bg-[#F5F0E8]">Products</a><a
-                                        href="/contact.html"
-                                        class="block py-2 px-3 rounded bg-[#F5F0E8] font-semibold text-[#1A5C38]">Contact
-                                        Us</a></div>
+                        <div class="px-4 py-4 space-y-2">
+                                <a href="/index.html" class="block py-2 px-3 rounded hover:bg-[#F5F0E8]">Home</a>
+                                <a href="/about.html" class="block py-2 px-3 rounded hover:bg-[#F5F0E8]">About Us</a>
+                                <a href="/products.html" class="block py-2 px-3 rounded hover:bg-[#F5F0E8]">Products</a>
+                                <a href="/news.html" class="block py-2 px-3 rounded hover:bg-[#F5F0E8]">News</a>
+                                <a href="/catalog.html" class="block py-2 px-3 rounded hover:bg-[#F5F0E8]">E-Catalog</a>
+                                <a href="/contact.html" class="block py-2 px-3 rounded bg-[#F5F0E8] font-semibold text-[#1A5C38]">Contact Us</a>
+                        </div>
                 </div>
         </header>
 
@@ -156,13 +153,14 @@
                                         <p class="text-sm">Professional paper bag manufacturer, 70+ years.</p>
                                 </div>
                                 <div>
-                                        <h4 class="text-white font-bold mb-4 uppercase text-sm tracking-wider">Quick
-                                                Links</h4>
-                                        <ul class="space-y-2 text-sm">
-                                                <li><a href="/index.html" class="hover:text-[#2E8B57]">Home</a></li>
-                                                <li><a href="/about.html" class="hover:text-[#2E8B57]">About Us</a></li>
-                                                <li><a href="/products.html" class="hover:text-[#2E8B57]">Products</a>
-                                                </li>
+                                        <h4 class="text-white font-bold mb-5 text-sm tracking-[0.15em]">Quick Links</h4>
+                                        <ul class="space-y-3 text-sm">
+                                                <li><a href="/index.html" class="hover:text-[#2E8B57] transition">Home</a></li>
+                                                <li><a href="/about.html" class="hover:text-[#2E8B57] transition">About Us</a></li>
+                                                <li><a href="/products.html" class="hover:text-[#2E8B57] transition">Products</a></li>
+                                                <li><a href="/news.html" class="hover:text-[#2E8B57] transition">News</a></li>
+                                                <li><a href="/catalog.html" class="hover:text-[#2E8B57] transition">E-Catalog</a></li>
+                                                <li><a href="/contact.html" class="hover:text-[#2E8B57] transition">Contact Us</a></li>
                                         </ul>
                                 </div>
                                 <div>
@@ -188,7 +186,6 @@
                         </div>
                 </div>
         </footer>
-        <script type="module" src="/main.js"></script>
 </body>
 
 </html>

@@ -12,7 +12,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;600;700&family=Noto+Serif+TC:wght@700;900&family=Playfair+Display:wght@400;700;900&display=swap"
                 rel="stylesheet">
-        <link href="/style.css" rel="stylesheet">
+  <script type="module" src="/main.js"></script>
+  <link rel="stylesheet" href="/style.css">
 </head>
 
 <body x-data="{ mobileMenu: false, activeCategory: 'all' }"
@@ -24,17 +25,12 @@
                         <a href="/index.html" class="flex items-center gap-2"><img src="/images/index-logo.png" alt="JJG"
                                         class="h-[68px]"></a>
                         <div class="hidden lg:flex items-center gap-8">
-                                <a href="/index.html"
-                                        class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">Home</a>
-                                <a href="/about.html"
-                                        class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">About
-                                        Us</a>
+                                <a href="/index.html" class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">Home</a>
+                                <a href="/about.html" class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">About Us</a>
                                 <a href="/products.html" class="text-[#1A5C38] font-semibold text-[15px]">Products</a>
-                                <a href="/news.html"
-                                        class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">News</a>
-                                <a href="/contact.html"
-                                        class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">Contact
-                                        Us</a>
+                                <a href="/news.html" class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">News</a>
+                                <a href="/catalog.html" class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">E-Catalog</a>
+                                <a href="/contact.html" class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">Contact Us</a>
                         </div>
                         <div class="hidden lg:flex items-center gap-4">
                                 <a href="/products.html" class="text-[#666] text-sm font-medium">EN</a><span
@@ -52,14 +48,14 @@
                 </nav>
                 <div x-show="mobileMenu" x-transition class="lg:hidden bg-white border-t shadow-lg"
                         style="display:none">
-                        <div class="px-4 py-4 space-y-2"><a href="/index.html"
-                                        class="block py-2 px-3 rounded hover:bg-[#F5F0E8]">Home</a><a href="/about.html"
-                                        class="block py-2 px-3 rounded hover:bg-[#F5F0E8]">About Us</a><a
-                                        href="/products.html"
-                                        class="block py-2 px-3 rounded bg-[#F5F0E8] font-semibold text-[#1A5C38]">Products</a><a
-                                        href="/news.html" class="block py-2 px-3 rounded hover:bg-[#F5F0E8]">News</a><a
-                                        href="/contact.html" class="block py-2 px-3 rounded hover:bg-[#F5F0E8]">Contact
-                                        Us</a></div>
+                        <div class="px-4 py-4 space-y-2">
+                                <a href="/index.html" class="block py-2 px-3 rounded hover:bg-[#F5F0E8]">Home</a>
+                                <a href="/about.html" class="block py-2 px-3 rounded hover:bg-[#F5F0E8]">About Us</a>
+                                <a href="/products.html" class="block py-2 px-3 rounded bg-[#F5F0E8] font-semibold text-[#1A5C38]">Products</a>
+                                <a href="/news.html" class="block py-2 px-3 rounded hover:bg-[#F5F0E8]">News</a>
+                                <a href="/catalog.html" class="block py-2 px-3 rounded hover:bg-[#F5F0E8]">E-Catalog</a>
+                                <a href="/contact.html" class="block py-2 px-3 rounded hover:bg-[#F5F0E8]">Contact Us</a>
+                        </div>
                 </div>
         </header>
 
@@ -89,23 +85,23 @@
                         <button @click="activeCategory='kraft'"
                                 :class="activeCategory==='kraft'?'bg-[#1A5C38] text-white':'bg-white text-[#666] hover:bg-[#F5F0E8]'"
                                 class="px-4 py-2 rounded-lg text-sm font-medium transition">Brown Kraft</button>
-                        <button @click="activeCategory='flathandle'"
-                                :class="activeCategory==='flathandle'?'bg-[#1A5C38] text-white':'bg-white text-[#666] hover:bg-[#F5F0E8]'"
+                        <button @click="activeCategory='flat-handle'"
+                                :class="activeCategory==='flat-handle'?'bg-[#1A5C38] text-white':'bg-white text-[#666] hover:bg-[#F5F0E8]'"
                                 class="px-4 py-2 rounded-lg text-sm font-medium transition">Flat Handle</button>
-                        <button @click="activeCategory='white'"
-                                :class="activeCategory==='white'?'bg-[#1A5C38] text-white':'bg-white text-[#666] hover:bg-[#F5F0E8]'"
+                        <button @click="activeCategory='white-kraft'"
+                                :class="activeCategory==='white-kraft'?'bg-[#1A5C38] text-white':'bg-white text-[#666] hover:bg-[#F5F0E8]'"
                                 class="px-4 py-2 rounded-lg text-sm font-medium transition">White Kraft</button>
-                        <button @click="activeCategory='foil'"
-                                :class="activeCategory==='foil'?'bg-[#1A5C38] text-white':'bg-white text-[#666] hover:bg-[#F5F0E8]'"
+                        <button @click="activeCategory='aluminum-foil'"
+                                :class="activeCategory==='aluminum-foil'?'bg-[#1A5C38] text-white':'bg-white text-[#666] hover:bg-[#F5F0E8]'"
                                 class="px-4 py-2 rounded-lg text-sm font-medium transition">Aluminum Foil</button>
-                        <button @click="activeCategory='fruit'"
-                                :class="activeCategory==='fruit'?'bg-[#1A5C38] text-white':'bg-white text-[#666] hover:bg-[#F5F0E8]'"
+                        <button @click="activeCategory='fruit-protection'"
+                                :class="activeCategory==='fruit-protection'?'bg-[#1A5C38] text-white':'bg-white text-[#666] hover:bg-[#F5F0E8]'"
                                 class="px-4 py-2 rounded-lg text-sm font-medium transition">Fruit Protection</button>
-                        <button @click="activeCategory='pe'"
-                                :class="activeCategory==='pe'?'bg-[#1A5C38] text-white':'bg-white text-[#666] hover:bg-[#F5F0E8]'"
+                        <button @click="activeCategory='pe-lamination'"
+                                :class="activeCategory==='pe-lamination'?'bg-[#1A5C38] text-white':'bg-white text-[#666] hover:bg-[#F5F0E8]'"
                                 class="px-4 py-2 rounded-lg text-sm font-medium transition">PE-Lamination</button>
-                        <button @click="activeCategory='straw'"
-                                :class="activeCategory==='straw'?'bg-[#1A5C38] text-white':'bg-white text-[#666] hover:bg-[#F5F0E8]'"
+                        <button @click="activeCategory='paper-straw'"
+                                :class="activeCategory==='paper-straw'?'bg-[#1A5C38] text-white':'bg-white text-[#666] hover:bg-[#F5F0E8]'"
                                 class="px-4 py-2 rounded-lg text-sm font-medium transition">Paper Straw</button>
                         <button @click="activeCategory='others'"
                                 :class="activeCategory==='others'?'bg-[#1A5C38] text-white':'bg-white text-[#666] hover:bg-[#F5F0E8]'"
@@ -117,7 +113,7 @@
         <section id="product-grid" class="max-w-[1400px] mx-auto px-4 lg:px-8 pb-20">
                 <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                         <!-- FLAT HANDLE -->
-                        <div x-show="activeCategory==='all'||activeCategory==='flathandle'"
+                        <div x-show="activeCategory==='all'||activeCategory==='flat-handle'"
                                 class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
                                 <a href="/products/flat-handle/flat-handle-bag.html" class="block aspect-[4/3] overflow-hidden">
                                     <img src="/proimages/detail/flat-handle-bag.jpg" alt="Flat Handle Paper Bag"
@@ -168,7 +164,7 @@
                         </div>
 
                         <!-- WHITE KRAFT -->
-                        <div x-show="activeCategory==='all'||activeCategory==='white'"
+                        <div x-show="activeCategory==='all'||activeCategory==='white-kraft'"
                                 class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
                                 <a href="/products/white-kraft/white-kraft-bag.html" class="block aspect-[4/3] overflow-hidden">
                                     <img src="/proimages/detail/white-kraft-bag.png" alt="White Kraft Paper Bag"
@@ -185,7 +181,7 @@
                         </div>
 
                         <!-- ALUMINUM FOIL -->
-                        <div x-show="activeCategory==='all'||activeCategory==='foil'"
+                        <div x-show="activeCategory==='all'||activeCategory==='aluminum-foil'"
                                 class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
                                 <a href="/products/aluminum-foil/aluminum-foil-bag.html" class="block aspect-[4/3] overflow-hidden">
                                     <img src="/proimages/detail/aluminum-foil-bag.png" alt="Aluminum Foil Paper Bag"
@@ -202,7 +198,7 @@
                         </div>
 
                         <!-- PE LAMINATION -->
-                        <div x-show="activeCategory==='all'||activeCategory==='pe'"
+                        <div x-show="activeCategory==='all'||activeCategory==='pe-lamination'"
                                 class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
                                 <a href="/products/pe-lamination/l-bag.html" class="block aspect-[4/3] overflow-hidden">
                                     <img src="/proimages/detail/l-bag.jpg" alt="PE Lamination L-Bag"
@@ -219,7 +215,7 @@
                         </div>
 
                         <!-- FRUIT PROTECTION -->
-                        <div x-show="activeCategory==='all'||activeCategory==='fruit'"
+                        <div x-show="activeCategory==='all'||activeCategory==='fruit-protection'"
                                 class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
                                 <a href="/products/fruit-protection/mango-bag.html" class="block aspect-[4/3] overflow-hidden">
                                     <img src="/proimages/detail/mango-bag.jpg" alt="Fruit Protection Bag"
@@ -236,7 +232,7 @@
                         </div>
 
                         <!-- PAPER STRAW -->
-                        <div x-show="activeCategory==='all'||activeCategory==='straw'"
+                        <div x-show="activeCategory==='all'||activeCategory==='paper-straw'"
                                 class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
                                 <a href="/products/paper-straw/paper-straw.html" class="block aspect-[4/3] overflow-hidden">
                                     <img src="/proimages/detail/paper-straw.jpg" alt="Paper Straw"
@@ -268,7 +264,21 @@
                                     <a href="/products/others/specialty-bags.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">View Details →</a>
                                 </div>
                         </div>
-                </div>
+                        <div x-show="activeCategory==='all'||activeCategory==='others'||activeCategory==='kraft'"
+                                class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
+                                <a href="https://www.jjgpaperbag.com/product-Die-Cut-Handle-paper-bag-brown-kraft-6.html" target="_blank" class="block aspect-[4/3] overflow-hidden">
+                                    <img src="https://www.jjgpaperbag.com/proimages/sr/product/DieCut_Bag/DM4.jpg" alt="Die Cut Handle Bag"
+                                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                                </a>
+                                <div class="p-5">
+                                    <span class="text-xs font-semibold uppercase tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">Recycled Kraft</span>
+                                    <h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">
+                                        <a href="https://www.jjgpaperbag.com/product-Die-Cut-Handle-paper-bag-brown-kraft-6.html" target="_blank" class="hover:text-[#2E8B57]">Die Cut Handle Bag</a>
+                                    </h3>
+                                    <p class="text-[#666] text-sm mb-3">Ideal for groceries and takeaway orders, featuring die-cut handles.</p>
+                                    <a href="https://www.jjgpaperbag.com/product-Die-Cut-Handle-paper-bag-brown-kraft-6.html" target="_blank" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">View Details →</a>
+                                </div>
+                        </div></div>
         </section>
 
         <!-- CTA -->
@@ -293,15 +303,14 @@
                                                 with 70+ years of experience.</p>
                                 </div>
                                 <div>
-                                        <h4 class="text-white font-bold mb-4 uppercase text-sm tracking-wider">Quick
-                                                Links</h4>
-                                        <ul class="space-y-2 text-sm">
-                                                <li><a href="/index.html" class="hover:text-[#2E8B57]">Home</a></li>
-                                                <li><a href="/about.html" class="hover:text-[#2E8B57]">About Us</a></li>
-                                                <li><a href="/products.html" class="hover:text-[#2E8B57]">Products</a>
-                                                </li>
-                                                <li><a href="/contact.html" class="hover:text-[#2E8B57]">Contact Us</a>
-                                                </li>
+                                        <h4 class="text-white font-bold mb-5 text-sm tracking-[0.15em]">Quick Links</h4>
+                                        <ul class="space-y-3 text-sm">
+                                                <li><a href="/index.html" class="hover:text-[#2E8B57] transition">Home</a></li>
+                                                <li><a href="/about.html" class="hover:text-[#2E8B57] transition">About Us</a></li>
+                                                <li><a href="/products.html" class="hover:text-[#2E8B57] transition">Products</a></li>
+                                                <li><a href="/news.html" class="hover:text-[#2E8B57] transition">News</a></li>
+                                                <li><a href="/catalog.html" class="hover:text-[#2E8B57] transition">E-Catalog</a></li>
+                                                <li><a href="/contact.html" class="hover:text-[#2E8B57] transition">Contact Us</a></li>
                                         </ul>
                                 </div>
                                 <div>
@@ -330,7 +339,6 @@
                         </div>
                 </div>
         </footer>
-        <script type="module" src="/main.js"></script>
 </body>
 
 </html>

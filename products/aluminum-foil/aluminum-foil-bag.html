@@ -1,106 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aluminum Foil Paper Bag | JJG Paper Bag</title>
-    <meta name="description" content="Specialized bag with internal aluminum foil lining for excellent heat retention and grease resistance. The preferred choice for roasted chicken and hot takeaway" />
-    <link rel="icon" href="/images/favicon.ico" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
-    <link href="/style.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aluminum Foil Bag | JJG Pack - 壯佳果包裝</title>
+  <link rel="icon" href="/images/favicon.ico" />
+  <script type="module" src="/main.js"></script>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;600;700&family=Noto+Serif+TC:wght@700;900&family=Playfair+Display:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
-<body x-data="{ mobileMenu: false }" class="bg-[#F5F0E8] text-[#1A1A1A] font-['Inter',sans-serif]">
-    <!-- NAV -->
-    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur shadow-sm">
-        <nav class="max-w-[1400px] mx-auto px-4 lg:px-8 h-[88px] flex items-center justify-between">
-            <a href="/index.html" class="flex items-center gap-2"><img src="/images/index-logo.png" alt="JJG" class="h-[68px]"></a>
-            <div class="hidden lg:flex items-center gap-8">
-                <a href="/index.html" class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">Home</a>
-                <a href="/about.html" class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">About Us</a>
-                <a href="/products.html" class="text-[#1A5C38] font-semibold text-[15px]">Products</a>
-                <a href="/news.html" class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">News</a>
-                <a href="/contact.html" class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">Contact Us</a>
-            </div>
-            <div class="hidden lg:flex items-center gap-4">
-                <a href="/products/aluminum-foil/aluminum-foil-bag.html" class="text-[#1A5C38] text-sm font-semibold">EN</a><span class="text-gray-300">|</span><a href="/zh-tw/products/aluminum-foil/aluminum-foil-bag.html" class="text-[#666] hover:text-[#1A5C38] text-sm font-medium">繁中</a>
-                <a href="/contact.html" class="bg-[#1A5C38] hover:bg-[#2E8B57] text-white px-5 py-2.5 rounded-lg font-bold text-sm uppercase tracking-wider transition">Contact Us</a>
-            </div>
-        </nav>
-    </header>
+<body x-data="{ mobileMenu: false , activeImage: '/proimages/detail/aluminum-foil-bag.png' }" class="bg-[#F5F0E8] text-[#1A1A1A] font-['Inter','Noto_Sans_TC',sans-serif]">
+  <header class="fixed top-0 left-0 right-0 z-50 glass transition-all duration-500">
+    <nav class="max-w-[1440px] mx-auto px-6 h-[92px] flex items-center justify-between">
+      <a href="/index.html" class="flex items-center gap-3"><img src="/images/index-logo.png" alt="JJG" class="h-[62px]"></a>
+      
+      <div class="hidden lg:flex items-center gap-1">
+        <a href="/index.html" class="px-4 py-2 text-[#555] hover:text-[#1A5C38] font-medium text-[15px] transition-all relative after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-0.5 after:bg-[#1A5C38] after:rounded-full hover:after:w-5 after:transition-all">Home</a>
+        <a href="/about.html" class="px-4 py-2 text-[#555] hover:text-[#1A5C38] font-medium text-[15px] transition-all relative after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-0.5 after:bg-[#1A5C38] after:rounded-full hover:after:w-5 after:transition-all">About Us</a>
+        <a href="/products.html" class="px-4 py-2 text-[#1A5C38] font-semibold text-[15px] relative after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-5 after:h-0.5 after:bg-[#1A5C38] after:rounded-full">Products</a>
+        <a href="/news.html" class="px-4 py-2 text-[#555] hover:text-[#1A5C38] font-medium text-[15px] transition-all relative after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-0.5 after:bg-[#1A5C38] after:rounded-full hover:after:w-5 after:transition-all">News</a>
+        <a href="/catalog.html" class="px-4 py-2 text-[#555] hover:text-[#1A5C38] font-medium text-[15px] transition-all relative after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-0.5 after:bg-[#1A5C38] after:rounded-full hover:after:w-5 after:transition-all">E-Catalog</a>
+        <a href="/contact.html" class="px-4 py-2 text-[#555] hover:text-[#1A5C38] font-medium text-[15px] transition-all relative after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-0.5 after:bg-[#1A5C38] after:rounded-full hover:after:w-5 after:transition-all">Contact Us</a>
+      </div>
 
-    <!-- MAIN PRODUCT SECTION -->
-    <main class="max-w-[1400px] mx-auto px-4 lg:px-8 py-12">
-        <!-- Breadcrumb -->
-        <nav class="text-sm text-[#666] mb-8">
-            <a href="/index.html" class="hover:text-[#2E8B57]">Home</a> <span class="mx-2">›</span> 
-            <a href="/products.html" class="hover:text-[#2E8B57]">Products</a> <span class="mx-2">›</span> 
-            <span class="text-[#1A5C38] font-medium">Aluminum Foil Paper Bag</span>
-        </nav>
-
-        <div class="grid lg:grid-cols-2 gap-12 bg-white rounded-3xl overflow-hidden shadow-premium-lg">
-            <!-- Product Image -->
-            <div class="bg-gray-50 flex items-center justify-center p-8 lg:p-12">
-                <div class="relative group cursor-zoom-in">
-                    <img src="/proimages/detail/aluminum-foil-bag.png" alt="Aluminum Foil Paper Bag" class="rounded-2xl shadow-xl w-full h-auto object-cover max-h-[600px]">
-                </div>
-            </div>
-
-            <!-- Product Info -->
-            <div class="p-8 lg:p-12">
-                <span class="text-[#B5813C] uppercase text-sm font-bold tracking-[0.2em] mb-4 inline-block">Aluminum Foil</span>
-                <h1 class="font-['Playfair_Display',serif] text-4xl lg:text-5xl font-bold mb-6 text-[#1A5C38]">Aluminum Foil Paper Bag</h1>
-                <p class="text-[#555] text-lg leading-relaxed mb-8">Specialized bag with internal aluminum foil lining for excellent heat retention and grease resistance. The preferred choice for roasted chicken and hot takeaway food.</p>
-                
-                <h3 class="text-xl font-bold mb-4 flex items-center gap-2">
-                    <svg class="w-6 h-6 text-[#2E8B57]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg>
-                    Key Features
-                </h3>
-                <ul class="space-y-3 mb-10 text-[#555]">
-                    <li class="flex items-start gap-3"><span class="w-1.5 h-1.5 rounded-full bg-[#2E8B57] mt-2 shrink-0"></span>Internal foil for heat retention</li>
-<li class="flex items-start gap-3"><span class="w-1.5 h-1.5 rounded-full bg-[#2E8B57] mt-2 shrink-0"></span>Superior grease resistance</li>
-<li class="flex items-start gap-3"><span class="w-1.5 h-1.5 rounded-full bg-[#2E8B57] mt-2 shrink-0"></span>Keeps food hot and flavorful</li>
-<li class="flex items-start gap-3"><span class="w-1.5 h-1.5 rounded-full bg-[#2E8B57] mt-2 shrink-0"></span>Strong side-seal construction</li>
-
-                </ul>
-
-                <h3 class="text-xl font-bold mb-4 flex items-center gap-2">
-                    <svg class="w-6 h-6 text-[#2E8B57]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" /></svg>
-                    Specifications
-                </h3>
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
-                    
-<div class="bg-gray-50 p-4 rounded-xl">
-    <span class="text-xs text-[#999] uppercase font-bold tracking-wider block mb-1">Material</span>
-    <span class="text-[#1A1A1A] font-semibold">Kraft + Aluminum Foil</span>
-</div>
-<div class="bg-gray-50 p-4 rounded-xl">
-    <span class="text-xs text-[#999] uppercase font-bold tracking-wider block mb-1">Heat Retention</span>
-    <span class="text-[#1A1A1A] font-semibold">Excellent</span>
-</div>
-<div class="bg-gray-50 p-4 rounded-xl">
-    <span class="text-xs text-[#999] uppercase font-bold tracking-wider block mb-1">Usage</span>
-    <span class="text-[#1A1A1A] font-semibold">Roasted Chicken, BBQ, Takeout</span>
-</div>
-                </div>
-
-                <div class="flex flex-wrap gap-4 pt-4 border-t border-gray-100">
-                    <a href="/contact.html" class="bg-[#1A5C38] hover:bg-[#2E8B57] text-white px-8 py-4 rounded-xl font-bold text-center transition tracking-wider uppercase flex-1 shadow-lg">Inquire Now</a>
-                    <button onclick="window.print()" class="p-4 border border-gray-200 rounded-xl hover:bg-gray-50 transition text-[#666]">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" /></svg>
-                    </button>
-                </div>
-            </div>
+      <div class="hidden lg:flex items-center gap-5">
+        <div class="flex items-center gap-1 text-sm">
+          <a href="/aluminum-foil-bag.html" class="text-[#1A5C38] font-semibold">EN</a>
+          <a href="/zh-tw/aluminum-foil-bag.html" class="text-[#888] hover:text-[#1A5C38]">繁中</a>
         </div>
-    </main>
-
-    <!-- FOOTER -->
-    <footer class="bg-[#1A1A1A] text-gray-400 py-16">
-        <div class="max-w-[1400px] mx-auto px-4 text-center">
-            <img src="/images/index-logo.png" alt="JJG" class="h-10 mx-auto mb-6 brightness-200">
-            <p class="text-sm">70+ Years of Manufacturing Excellence | Taiwan</p>
-        </div>
-    </footer>
+        <a href="/contact.html" class="btn-primary text-sm !py-2.5 !px-6 !rounded-lg"><span>Contact Us</span></a>
+      </div>
+      <button @click="mobileMenu=!mobileMenu" class="lg:hidden p-2"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" /></svg></button>
+    </nav>
+  </header>
+  <div class="pt-[92px]">
+<section class="max-w-[1440px] mx-auto px-6 py-8"><nav class="text-sm text-[#666] mb-10"><a href="/index.html">Home</a> › <a href="/products.html">Products</a> › <a href="/products/aluminum-foil.html">Aluminum Foil Bag</a> › <span class="text-[#1A5C38] font-medium">Aluminum Foil Bag</span></nav><div class="grid lg:grid-cols-2 gap-16 items-start"><div class="space-y-6"><div class="bg-white rounded-3xl overflow-hidden shadow-premium aspect-[4/3] flex items-center justify-center p-4"><img :src="activeImage" alt="Aluminum Foil Bag" class="w-full h-full object-contain"></div><div class="grid grid-cols-4 sm:grid-cols-5 gap-4"><button @click="activeImage='/proimages/detail/aluminum-foil-bag.png'" class="aspect-square rounded-xl overflow-hidden border-2 transition" :class="activeImage==='/proimages/detail/aluminum-foil-bag.png' ? 'border-[#1A5C38] shadow-md' : 'border-transparent hover:border-gray-200'"><img src="/proimages/detail/aluminum-foil-bag.png" class="w-full h-full object-cover"></button></div></div><div class="animate-fade-in-right"><span class="inline-block text-xs font-bold uppercase tracking-wider text-[#1A5C38] bg-[#1A5C38]/8 px-4 py-1.5 rounded-full mb-6">Aluminum Foil Bag</span><h1 class="font-['Playfair_Display',serif] text-4xl md:text-5xl font-bold mb-6">Aluminum Foil Bag</h1><p class="text-lg text-[#555] leading-relaxed mb-10">Excellent heat retention for roasted chicken and takeaways.</p><div class="bg-white rounded-2xl p-8 shadow-premium mb-10 border border-gray-100"><h2 class="text-xl font-bold mb-6 flex items-center gap-2"><svg class="w-5 h-5 text-[#1A5C38]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>Specifications</h2><div class="text-[#555] whitespace-pre-line leading-relaxed space-y-2">Standard aluminum foil lined heat retention bag.</div></div><div class="flex flex-wrap gap-4"><a href="/contact.html" class="btn-primary !px-10"><span>Get a Quote</span></a><a href="mailto:export@jjgpaperbag.com" class="btn-outline">Email Inquiry</a></div></div></div></section>
+  </div>
+  <footer class="bg-[#111] text-gray-400 pt-20 pb-8">
+    <div class="max-w-[1440px] mx-auto px-6 lg:px-10">
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12 pb-12 border-b border-white/10">
+        <div><img src="/images/index-logo.png" alt="JJG" class="h-[68px] mb-5 brightness-200"><p class="text-sm leading-relaxed text-gray-500">Professional paper bag manufacturer in Taiwan with 70+ years of experience.</p></div>
+        <div><h4 class="text-white font-bold mb-5 text-sm tracking-[0.15em] uppercase">Quick Links</h4><ul class="space-y-3 text-sm"><li><a href="/index.html" class="hover:text-[#2E8B57] transition">Home</a></li><li><a href="/products.html" class="hover:text-[#2E8B57] transition">Products</a></li><li><a href="/contact.html" class="hover:text-[#2E8B57] transition">Contact Us</a></li></ul></div>
+        <div><h4 class="text-white font-bold mb-5 text-sm tracking-[0.15em] uppercase">Products</h4><ul class="space-y-3 text-sm"><li><a href="/products.html" class="hover:text-[#2E8B57] transition">All Products</a></li></ul></div>
+        <div><h4 class="text-white font-bold mb-5 text-sm tracking-[0.15em] uppercase">Contact Info</h4><ul class="space-y-4 text-sm"><li>📍 No.6, You 9th Rd. Dajia Dist., Taichung City 43769 Taiwan</li><li>📞 +886-4-26223215</li><li>✉️ export@jjgpaperbag.com</li></ul></div>
+      </div>
+      <div class="pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+        <p class="text-xs text-gray-600">© 2026 壯佳果股份有限公司 Juang Jia Guoo Co., Ltd. All rights reserved.</p>
+        <div class="flex gap-4 text-xs text-gray-600"><a href="/zh-tw/index.html" class="hover:text-[#2E8B57] transition">繁體中文</a><span>|</span><a href="/index.html" class="hover:text-[#2E8B57] transition">English</a></div>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
