@@ -34,6 +34,21 @@
       </div>
       <button @click="mobileMenu=!mobileMenu" class="lg:hidden p-2"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" /></svg></button>
     </nav>
+    <!-- Mobile Menu -->
+    <div x-show="mobileMenu" x-transition:enter="transition ease-out duration-300"
+      x-transition:enter-start="opacity-0 -translate-y-2" x-transition:enter-end="opacity-100 translate-y-0"
+      x-transition:leave="transition ease-in duration-200" x-transition:leave-start="opacity-100"
+      x-transition:leave-end="opacity-0 -translate-y-2" class="lg:hidden glass border-t border-gray-200/50"
+      style="display:none">
+      <div class="px-6 py-5 space-y-1">
+        <a href="/zh-tw/index.html" class="block py-2 px-3 rounded hover:bg-[#F5F0E8] transition-colors">首頁</a>
+        <a href="/zh-tw/about.html" class="block py-2 px-3 rounded hover:bg-[#F5F0E8] transition-colors">關於我們</a>
+        <a href="/zh-tw/products.html" class="block py-2 px-3 rounded hover:bg-[#F5F0E8] transition-colors">產品介紹</a>
+        <a href="/zh-tw/news.html" class="block py-2 px-3 rounded hover:bg-[#F5F0E8] transition-colors">最新消息</a>
+        <a href="/zh-tw/catalog.html" class="block py-2 px-3 rounded hover:bg-[#F5F0E8] transition-colors">型錄EDM</a>
+        <a href="/zh-tw/contact.html" class="block py-2 px-3 rounded hover:bg-[#F5F0E8] transition-colors">聯絡我們</a>
+      </div>
+    </div>
   </header>
   <div class="pt-[92px]">
 <section class="max-w-[1440px] mx-auto px-6 py-8"><nav class="text-sm text-[#666] mb-10"><a href="/zh-tw/index.html">首頁</a> › <a href="/zh-tw/products.html">產品介紹</a> › <a href="/zh-tw/products/greaseproof.html">防油紙袋</a> › <span class="text-[#1A5C38] font-medium">Pinhole Window Greaseproof Bag</span></nav><div class="grid lg:grid-cols-2 gap-16 items-start"><div class="space-y-6"><div class="bg-white rounded-3xl overflow-hidden shadow-premium aspect-[4/3] flex items-center justify-center p-4"><img :src="activeImage" alt="Pinhole Window Greaseproof Bag" class="w-full h-full object-contain"></div><div class="grid grid-cols-4 sm:grid-cols-5 gap-4"><button @click="activeImage='https://www.jjgpaperbag.com/proimages/sr/防油針孔中窗袋-1.jpg'" class="aspect-square rounded-xl overflow-hidden border-2 transition" :class="activeImage==='https://www.jjgpaperbag.com/proimages/sr/防油針孔中窗袋-1.jpg' ? 'border-[#1A5C38] shadow-md' : 'border-transparent hover:border-gray-200'"><img src="https://www.jjgpaperbag.com/proimages/sr/防油針孔中窗袋-1.jpg" class="w-full h-full object-cover"></button></div></div><div class="animate-fade-in-right"><span class="inline-block text-xs font-bold uppercase tracking-wider text-[#1A5C38] bg-[#1A5C38]/8 px-4 py-1.5 rounded-full mb-6">防油紙袋</span><h1 class="font-['Playfair_Display',serif] text-4xl md:text-5xl font-bold mb-6">Pinhole Window Greaseproof Bag</h1><p class="text-lg text-[#555] leading-relaxed mb-10">Pinhole Window Greaseproof Bag. Great for demonstration and tasty. Breathable pinholes keep food fresh.</p><div class="bg-white rounded-2xl p-8 shadow-premium mb-10 border border-gray-100"><h2 class="text-xl font-bold mb-6 flex items-center gap-2"><svg class="w-5 h-5 text-[#1A5C38]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>產品規格</h2><div class="text-[#555] whitespace-pre-line leading-relaxed space-y-2">Custom print available (Food-grade ink).</div></div><div class="flex flex-wrap gap-4"><a href="/zh-tw/contact.html" class="btn-primary !px-10"><span>索取報價</span></a><a href="mailto:export@jjgpaperbag.com" class="btn-outline">郵件諮詢</a></div></div></div></section>
