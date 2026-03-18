@@ -18,7 +18,7 @@
 <body x-data="{ mobileMenu: false, activeCategory: 'all' }"
         class="bg-[#F5F0E8] text-[#1A1A1A] font-['Inter','Noto_Sans_TC',sans-serif]">
         <header class="sticky top-0 z-50 bg-white/95 backdrop-blur shadow-sm">
-                <nav class="max-w-[1400px] mx-auto px-4 lg:px-8 h-[88px] flex items-center justify-between">
+                <nav class="max-w-[1400px] mx-auto px-5 sm:px-6 lg:px-8 h-[88px] flex items-center justify-between">
                         <a href="/zh-tw/index.html" class="flex items-center gap-2"><img src="/images/index-logo.png" alt="壯佳果"
                                         class="h-[68px]"></a>
                         <div class="hidden lg:flex items-center gap-1">
@@ -43,15 +43,15 @@
                                 </svg></button>
                 </nav>
         </header>
-        <div class="max-w-[1400px] mx-auto px-4 lg:px-8 py-4">
+        <div class="max-w-[1400px] mx-auto px-5 sm:px-6 lg:px-8 py-4">
                 <nav class="text-sm text-[#666]"><a href="/zh-tw/index.html" class="hover:text-[#2E8B57]">首頁</a> <span
                                 class="mx-2">›</span> <span class="text-[#1A5C38] font-medium">產品介紹</span></nav>
         </div>
-        <section class="max-w-[1400px] mx-auto px-4 lg:px-8 pb-8">
-                <h1 class="font-['Noto_Serif_TC',serif] text-4xl md:text-5xl font-bold mb-4">產品介紹</h1>
+        <section class="max-w-[1400px] mx-auto px-5 sm:px-6 lg:px-8 pb-8">
+                <h1 class="font-['Noto_Serif_TC',serif] text-3xl md:text-5xl font-bold mb-4">產品介紹</h1>
                 <p class="text-[#666] text-lg max-w-2xl">全系列環保紙袋產品，適用於食品服務、零售及商業包裝需求。</p>
         </section>
-        <section class="max-w-[1400px] mx-auto px-4 lg:px-8 pb-6">
+        <section class="max-w-[1400px] mx-auto px-5 sm:px-6 lg:px-8 pb-6">
                 <div class="flex flex-wrap gap-2">
                         <button @click="activeCategory='all'"
                                 :class="activeCategory==='all'?'bg-[#1A5C38] text-white':'bg-white text-[#666] hover:bg-[#F5F0E8]'"
@@ -85,7 +85,7 @@
                                 class="px-4 py-2 rounded-lg text-sm font-medium transition">其他</button>
                 </div>
         </section>
-        <section class="max-w-[1400px] mx-auto px-4 lg:px-8 pb-20">
+        <section class="max-w-[1400px] mx-auto px-5 sm:px-6 lg:px-8 pb-20">
                 <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                         <!-- FLAT HANDLE -->
                         <div x-show="activeCategory==='all'||activeCategory==='flat-handle'"
@@ -256,7 +256,7 @@
         </div></div>
         </section>
         <section class="bg-[#1A5C38] py-16">
-                <div class="max-w-[1400px] mx-auto px-4 lg:px-8 text-center">
+                <div class="max-w-[1400px] mx-auto px-5 sm:px-6 lg:px-8 text-center">
                         <h2 class="font-['Noto_Serif_TC',serif] text-3xl font-bold text-white mb-4">需要客製化包裝？</h2>
                         <p class="text-white/80 text-lg mb-8">我們提供 OEM/ODM 服務，客製印刷、尺寸及材質。</p><a
                                 href="/zh-tw/contact.html"
@@ -264,7 +264,7 @@
                 </div>
         </section>
         <footer class="bg-[#1A1A1A] text-gray-400 pt-16 pb-8">
-                <div class="max-w-[1400px] mx-auto px-4 lg:px-8">
+                <div class="max-w-[1400px] mx-auto px-5 sm:px-6 lg:px-8">
                         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10 pb-10 border-b border-gray-800">
                                 <div><img src="/images/index-logo.png" alt="JJG" class="h-10 mb-4 brightness-200">
                                         <p class="text-sm">台灣專業紙袋製造商，超過 70 年經驗。</p>

@@ -18,7 +18,7 @@
 <body x-data="{ mobileMenu: false, tab: 'news' }"
         class="bg-[#F5F0E8] text-[#1A1A1A] font-['Inter','Noto_Sans_TC',sans-serif]">
         <header class="sticky top-0 z-50 bg-white/95 backdrop-blur shadow-sm">
-                <nav class="max-w-[1400px] mx-auto px-4 lg:px-8 h-[88px] flex items-center justify-between"><a
+                <nav class="max-w-[1400px] mx-auto px-5 sm:px-6 lg:px-8 h-[88px] flex items-center justify-between"><a
                                 href="/zh-tw/index.html" class="flex items-center gap-2"><img src="/images/index-logo.png"
                                         alt="壯佳果" class="h-[68px]"></a>
                         <div class="hidden lg:flex items-center gap-1">
@@ -41,13 +41,13 @@
                                 </svg></button>
                 </nav>
         </header>
-        <div class="max-w-[1400px] mx-auto px-4 lg:px-8 py-4">
+        <div class="max-w-[1400px] mx-auto px-5 sm:px-6 lg:px-8 py-4">
                 <nav class="text-sm text-[#666]"><a href="/zh-tw/index.html" class="hover:text-[#2E8B57]">首頁</a> <span
                                 class="mx-2">›</span> <span class="text-[#1A5C38] font-medium">最新消息</span></nav>
         </div>
 
-        <section class="max-w-[1400px] mx-auto px-4 lg:px-8 pb-4">
-                <h1 class="font-['Noto_Serif_TC',serif] text-4xl md:text-5xl font-bold mb-4">最新消息</h1>
+        <section class="max-w-[1400px] mx-auto px-5 sm:px-6 lg:px-8 pb-4">
+                <h1 class="font-['Noto_Serif_TC',serif] text-3xl md:text-5xl font-bold mb-4">最新消息</h1>
                 <p class="text-[#666] text-lg mb-8">掌握最新公司動態、展覽活動及紙袋產業知識。</p>
                 <div class="flex gap-2 mb-10">
                         <button @click="tab='news'"
@@ -62,8 +62,8 @@
                 </div>
         </section>
 
-        <section class="max-w-[1400px] mx-auto px-4 lg:px-8 pb-20">
-                <div x-show="tab==='news'" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <section class="max-w-[1400px] mx-auto px-5 sm:px-6 lg:px-8 pb-20">
+                <div x-show="tab==='news'" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
                         <article
                                 class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group">
                                 <div
@@ -166,7 +166,7 @@
                                 </div>
                         </article>
                 </div>
-                <div x-show="tab==='exhibitions'" style="display:none" class="grid md:grid-cols-2 gap-8">
+                <div x-show="tab==='exhibitions'" style="display:none" class="grid md:grid-cols-2 gap-6 md:gap-8">
                         <article
                                 class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group">
                                 <div
@@ -208,7 +208,7 @@
                                 </div>
                         </article>
                 </div>
-                <div x-show="tab==='wiki'" style="display:none" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div x-show="tab==='wiki'" style="display:none" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
                         <article class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all">
                                 <div
                                         class="aspect-[16/10] bg-gradient-to-br from-[#F5F0E8] to-[#e8dfd0] flex items-center justify-center p-8">
@@ -258,7 +258,7 @@
         </section>
 
         <footer class="bg-[#1A1A1A] text-gray-400 pt-16 pb-8">
-                <div class="max-w-[1400px] mx-auto px-4 lg:px-8">
+                <div class="max-w-[1400px] mx-auto px-5 sm:px-6 lg:px-8">
                         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10 pb-10 border-b border-gray-800">
                                 <div><img src="/images/index-logo.png" alt="JJG" class="h-10 mb-4 brightness-200">
                                         <p class="text-sm">台灣專業紙袋製造商，超過 70 年經驗。</p>

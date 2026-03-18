@@ -22,7 +22,7 @@
 
   <!-- ========== HEADER ========== -->
   <header class="fixed top-0 left-0 right-0 z-50 transition-all duration-500 glass">
-    <nav class="max-w-[1440px] mx-auto px-6 lg:px-10 h-[92px] flex items-center justify-between">
+    <nav class="max-w-[1440px] mx-auto px-5 sm:px-8 lg:px-10 h-[92px] flex items-center justify-between">
       <a href="/index.html" class="flex items-center gap-3 group">
         <img src="/images/index-logo.png" alt="JJG Paper Bag"
           class="h-[62px] transition-transform duration-300 group-hover:scale-105">
@@ -71,7 +71,7 @@
   </header>
 
   <!-- ========== HERO ========== -->
-  <section class="relative h-[92vh] max-h-[900px] min-h-[600px] overflow-hidden pt-[76px]">
+  <section class="relative h-[100svh] lg:h-[92vh] max-h-[900px] min-h-[600px] overflow-hidden pt-[76px]">
     <div class="absolute inset-0">
       <template
         x-for="(img, idx) in ['/proimages/banner/230220-banner.jpg','/proimages/banner/220511-banner-70yrs.jpeg','/proimages/banner/220509-banner-Quality.jpeg','/proimages/banner/221027-banner-certificate.jpg']"
@@ -87,14 +87,14 @@
     <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
 
     <div class="relative z-10 h-full flex items-center">
-      <div class="max-w-[1440px] mx-auto px-6 lg:px-10 w-full">
+      <div class="max-w-[1440px] mx-auto px-5 sm:px-8 lg:px-10 w-full">
         <div class="max-w-2xl animate-fade-in-up">
           <div class="inline-flex items-center gap-2 glass-dark !bg-white/10 rounded-full px-4 py-1.5 mb-6">
             <span class="w-2 h-2 bg-[#4CAF50] rounded-full animate-pulse"></span>
             <span class="text-white/90 text-sm font-medium tracking-wide">Since 1960 · PFAS-Free Certified</span>
           </div>
           <h1
-            class="font-['Playfair_Display',serif] text-5xl md:text-6xl lg:text-7xl text-white font-black leading-[1.1] mb-6 drop-shadow-2xl">
+            class="font-['Playfair_Display',serif] text-[42px] leading-[1.2] md:text-6xl lg:text-7xl text-white font-black leading-[1.1] mb-6 drop-shadow-2xl">
             Sustainable<br>Packaging<br><em class="text-[#B5813C] not-italic">Solutions</em>
           </h1>
           <p class="text-lg md:text-xl text-white/85 mb-10 leading-relaxed max-w-lg font-light">70+ years of trusted
@@ -118,26 +118,26 @@
 
   <!-- ========== KEY STATS ========== -->
   <section class="relative -mt-20 z-30 pb-12">
-    <div class="max-w-[1200px] mx-auto px-6 lg:px-10">
+    <div class="max-w-[1200px] mx-auto px-5 sm:px-8 lg:px-10">
       <div class="glass rounded-2xl shadow-premium-lg p-8 md:p-10">
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center" x-data>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 text-center" x-data>
           <div>
-            <p class="text-4xl md:text-5xl font-['Playfair_Display',serif] font-bold text-[#1A5C38] mb-1 counter"
+            <p class="text-3xl md:text-5xl font-['Playfair_Display',serif] font-bold text-[#1A5C38] mb-1 counter"
               data-count="70" data-suffix="+">0</p>
             <p class="text-[#888] font-medium text-xs tracking-[0.15em] uppercase">Years Experience</p>
           </div>
           <div>
-            <p class="text-4xl md:text-5xl font-['Playfair_Display',serif] font-bold text-[#1A5C38] mb-1 counter"
+            <p class="text-3xl md:text-5xl font-['Playfair_Display',serif] font-bold text-[#1A5C38] mb-1 counter"
               data-count="50" data-suffix="+">0</p>
             <p class="text-[#888] font-medium text-xs tracking-[0.15em] uppercase">Product Types</p>
           </div>
           <div>
-            <p class="text-4xl md:text-5xl font-['Playfair_Display',serif] font-bold text-[#1A5C38] mb-1 counter"
+            <p class="text-3xl md:text-5xl font-['Playfair_Display',serif] font-bold text-[#1A5C38] mb-1 counter"
               data-count="100" data-suffix="+">0</p>
             <p class="text-[#888] font-medium text-xs tracking-[0.15em] uppercase">Export Countries</p>
           </div>
           <div>
-            <p class="text-4xl md:text-5xl font-['Playfair_Display',serif] font-bold text-[#B5813C] mb-1">FSC</p>
+            <p class="text-3xl md:text-5xl font-['Playfair_Display',serif] font-bold text-[#B5813C] mb-1">FSC</p>
             <p class="text-[#888] font-medium text-xs tracking-[0.15em] uppercase">Certified</p>
           </div>
         </div>
@@ -146,14 +146,14 @@
   </section>
 
   <!-- ========== FEATURED PRODUCTS ========== -->
-  <section class="py-24">
-    <div class="max-w-[1440px] mx-auto px-6 lg:px-10">
+  <section class="py-16 md:py-24">
+    <div class="max-w-[1440px] mx-auto px-5 sm:px-8 lg:px-10">
       <div class="text-center mb-16 reveal">
         <p class="text-[#B5813C] uppercase text-sm font-semibold tracking-[0.2em] mb-4">Our Products</p>
         <div class="section-divider"></div>
-        <h2 class="font-['Playfair_Display',serif] text-4xl md:text-5xl font-bold">Featured Products</h2>
+        <h2 class="font-['Playfair_Display',serif] text-3xl md:text-5xl font-bold">Featured Products</h2>
       </div>
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 reveal" data-reveal-child>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 reveal" data-reveal-child>
         <div class="bg-white rounded-2xl overflow-hidden shadow-premium card-hover group" data-reveal-child>
           <div class="aspect-[4/3] overflow-hidden img-overlay"><img src="/proimages/index/p1.jpg"
               alt="Flat Handle Paper Bag"
@@ -328,15 +328,15 @@
   </section>
 
   <!-- ========== WHY CHOOSE US ========== -->
-  <section class="py-24 bg-white reveal">
-    <div class="max-w-[1440px] mx-auto px-6 lg:px-10">
+  <section class="py-16 md:py-24 bg-white reveal">
+    <div class="max-w-[1440px] mx-auto px-5 sm:px-8 lg:px-10">
       <div class="text-center mb-16">
         <p class="text-[#B5813C] uppercase text-sm font-semibold tracking-[0.2em] mb-4">Why Choose Us</p>
         <div class="section-divider"></div>
-        <h2 class="font-['Playfair_Display',serif] text-4xl md:text-5xl font-bold">Quality · Safety · Reliable Supply
+        <h2 class="font-['Playfair_Display',serif] text-3xl md:text-5xl font-bold">Quality · Safety · Reliable Supply
         </h2>
       </div>
-      <div class="grid md:grid-cols-3 gap-8">
+      <div class="grid md:grid-cols-3 gap-6 md:gap-8">
         <div class="text-center p-10 rounded-2xl hover:bg-[#F5F0E8]/50 transition-all duration-500 group"
           data-reveal-child>
           <div
@@ -378,8 +378,8 @@
   </section>
 
   <!-- ========== CERTIFICATIONS ========== -->
-  <section class="py-20 reveal">
-    <div class="max-w-[1200px] mx-auto px-6 lg:px-10 text-center">
+  <section class="py-16 md:py-20 reveal">
+    <div class="max-w-[1200px] mx-auto px-5 sm:px-8 lg:px-10 text-center">
       <p class="text-[#B5813C] uppercase text-sm font-semibold tracking-[0.2em] mb-4">Certifications</p>
       <div class="section-divider"></div>
       <h2 class="font-['Playfair_Display',serif] text-3xl md:text-4xl font-bold mb-12">Internationally Certified Quality
@@ -392,8 +392,8 @@
   </section>
 
   <!-- ========== COMPANY INTRO ========== -->
-  <section class="py-24 bg-white reveal">
-    <div class="max-w-[1440px] mx-auto px-6 lg:px-10">
+  <section class="py-16 md:py-24 bg-white reveal">
+    <div class="max-w-[1440px] mx-auto px-5 sm:px-8 lg:px-10">
       <div class="grid lg:grid-cols-2 gap-20 items-center">
         <div class="relative">
           <img src="/images/video-bg.jpg" alt="JJG Paper Bag Factory" class="rounded-3xl shadow-premium-lg w-full">
@@ -405,7 +405,7 @@
         <div>
           <p class="text-[#B5813C] uppercase text-sm font-semibold tracking-[0.2em] mb-4">Welcome</p>
           <div class="w-[60px] h-1 bg-gradient-to-r from-[#1A5C38] to-[#B5813C] rounded mb-6"></div>
-          <h2 class="font-['Playfair_Display',serif] text-4xl md:text-5xl font-bold mb-6 leading-tight">Juang Jia Guoo
+          <h2 class="font-['Playfair_Display',serif] text-3xl md:text-5xl font-bold mb-6 leading-tight">Juang Jia Guoo
           </h2>
           <p class="text-[#555] leading-relaxed mb-5 text-lg">壯佳果股份有限公司 is a professional paper bag manufacturer in
             Taiwan with over 70 years of production experience, specializing in the development and manufacturing of
@@ -426,15 +426,15 @@
   </section>
 
   <!-- ========== CTA ========== -->
-  <section class="relative py-24 overflow-hidden">
+  <section class="relative py-16 md:py-24 overflow-hidden">
     <div class="absolute inset-0 bg-gradient-to-br from-[#0F3D24] via-[#1A5C38] to-[#2E8B57]"></div>
     <div class="absolute inset-0 opacity-10"><svg viewBox="0 0 1440 600" class="w-full h-full">
         <circle cx="200" cy="100" r="200" fill="white" />
         <circle cx="1300" cy="500" r="250" fill="white" />
         <circle cx="700" cy="350" r="150" fill="white" />
       </svg></div>
-    <div class="relative z-10 max-w-[1440px] mx-auto px-6 lg:px-10 text-center">
-      <h2 class="font-['Playfair_Display',serif] text-4xl md:text-5xl font-bold text-white mb-5">Ready to Get Started?
+    <div class="relative z-10 max-w-[1440px] mx-auto px-5 sm:px-8 lg:px-10 text-center">
+      <h2 class="font-['Playfair_Display',serif] text-3xl md:text-5xl font-bold text-white mb-5">Ready to Get Started?
       </h2>
       <p class="text-white/80 text-xl mb-10 max-w-2xl mx-auto font-light">Contact us for custom quotes, OEM/ODM
         partnerships, or product inquiries. We're here to help.</p>
@@ -449,8 +449,8 @@
 
   <!-- ========== FOOTER ========== -->
   <footer class="bg-[#111] text-gray-400 pt-20 pb-8">
-    <div class="max-w-[1440px] mx-auto px-6 lg:px-10">
-      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12 pb-12 border-b border-white/10">
+    <div class="max-w-[1440px] mx-auto px-5 sm:px-8 lg:px-10">
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12 pb-12 border-b border-white/10">
         <div>
           <img src="/images/index-logo.png" alt="JJG" class="h-[68px] mb-5 brightness-200">
           <p class="text-sm leading-relaxed text-gray-500">Professional paper bag manufacturer in Taiwan with 70+ years

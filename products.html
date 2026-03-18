@@ -21,10 +21,10 @@
 
         <!-- NAV -->
         <header class="sticky top-0 z-50 bg-white/95 backdrop-blur shadow-sm">
-                <nav class="max-w-[1400px] mx-auto px-4 lg:px-8 h-[88px] flex items-center justify-between">
+                <nav class="max-w-[1400px] mx-auto px-5 sm:px-6 lg:px-8 h-[88px] flex items-center justify-between">
                         <a href="/index.html" class="flex items-center gap-2"><img src="/images/index-logo.png" alt="JJG"
                                         class="h-[68px]"></a>
-                        <div class="hidden lg:flex items-center gap-8">
+                        <div class="hidden lg:flex items-center gap-6 md:gap-8">
                                 <a href="/index.html" class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">Home</a>
                                 <a href="/about.html" class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">About Us</a>
                                 <a href="/products.html" class="text-[#1A5C38] font-semibold text-[15px]">Products</a>
@@ -60,21 +60,21 @@
         </header>
 
         <!-- Breadcrumb -->
-        <div class="max-w-[1400px] mx-auto px-4 lg:px-8 py-4">
+        <div class="max-w-[1400px] mx-auto px-5 sm:px-6 lg:px-8 py-4">
                 <nav class="text-sm text-[#666]"><a href="/index.html" class="hover:text-[#2E8B57]">Home</a> <span
                                 class="mx-2">›</span> <span class="text-[#1A5C38] font-medium">Products</span></nav>
         </div>
 
         <!-- Page Header -->
-        <section class="max-w-[1400px] mx-auto px-4 lg:px-8 pb-8">
-                <h1 class="font-['Playfair_Display','Noto_Serif_TC',serif] text-4xl md:text-5xl font-bold mb-4">Our
+        <section class="max-w-[1400px] mx-auto px-5 sm:px-6 lg:px-8 pb-8">
+                <h1 class="font-['Playfair_Display','Noto_Serif_TC',serif] text-3xl md:text-5xl font-bold mb-4">Our
                         Products</h1>
                 <p class="text-[#666] text-lg max-w-2xl">Complete catalog of eco-friendly paper bags for food service,
                         retail, and commercial packaging needs.</p>
         </section>
 
         <!-- Category Filter -->
-        <section class="max-w-[1400px] mx-auto px-4 lg:px-8 pb-6">
+        <section class="max-w-[1400px] mx-auto px-5 sm:px-6 lg:px-8 pb-6">
                 <div class="flex flex-wrap gap-2">
                         <button @click="activeCategory='all'"
                                 :class="activeCategory==='all'?'bg-[#1A5C38] text-white':'bg-white text-[#666] hover:bg-[#F5F0E8]'"
@@ -110,7 +110,7 @@
         </section>
 
         <!-- Product Grid -->
-        <section id="product-grid" class="max-w-[1400px] mx-auto px-4 lg:px-8 pb-20">
+        <section id="product-grid" class="max-w-[1400px] mx-auto px-5 sm:px-6 lg:px-8 pb-20">
                 <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                         <!-- FLAT HANDLE -->
                         <div x-show="activeCategory==='all'||activeCategory==='flat-handle'"
@@ -283,7 +283,7 @@
 
         <!-- CTA -->
         <section class="bg-[#1A5C38] py-16">
-                <div class="max-w-[1400px] mx-auto px-4 lg:px-8 text-center">
+                <div class="max-w-[1400px] mx-auto px-5 sm:px-6 lg:px-8 text-center">
                         <h2 class="font-['Playfair_Display',serif] text-3xl font-bold text-white mb-4">Need Custom
                                 Packaging?</h2>
                         <p class="text-white/80 text-lg mb-8">We offer OEM/ODM services with custom printing, sizes, and
@@ -296,7 +296,7 @@
 
         <!-- Footer -->
         <footer class="bg-[#1A1A1A] text-gray-400 pt-16 pb-8">
-                <div class="max-w-[1400px] mx-auto px-4 lg:px-8">
+                <div class="max-w-[1400px] mx-auto px-5 sm:px-6 lg:px-8">
                         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10 pb-10 border-b border-gray-800">
                                 <div><img src="/images/index-logo.png" alt="JJG" class="h-10 mb-4 brightness-200">
                                         <p class="text-sm leading-relaxed">Professional paper bag manufacturer in Taiwan
