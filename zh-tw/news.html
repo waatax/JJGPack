@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="/style.css">
 </head>
 
-<body x-data="{ mobileMenu: false, tab: 'news' }"
+<body x-data="{ mobileMenu: false, tab: (window.location.hash.replace('#','') || 'wiki') }" x-init="window.addEventListener('hashchange', () => { tab = window.location.hash.replace('#','') || 'wiki' })"
         class="bg-[#F5F0E8] text-[#1A1A1A] font-['Inter','Noto_Sans_TC',sans-serif]">
         <header class="sticky top-0 z-50 bg-white/95 backdrop-blur shadow-sm">
                 <nav class="max-w-[1400px] mx-auto px-5 sm:px-6 lg:px-8 h-[88px] flex items-center justify-between"><a
@@ -65,21 +65,21 @@
                 <h1 class="font-['Noto_Serif_TC',serif] text-3xl md:text-5xl font-bold mb-4">最新消息</h1>
                 <p class="text-[#666] text-lg mb-8">掌握最新公司動態、展覽活動及紙袋產業知識。</p>
                 <div class="flex gap-2 mb-10">
-                        <button @click="tab='news'"
-                                :class="tab==='news'?'bg-[#1A5C38] text-white':'bg-white text-[#666] hover:bg-gray-50'"
-                                class="px-5 py-2.5 rounded-lg text-sm font-medium transition">公司新聞</button>
-                        <button @click="tab='exhibitions'"
-                                :class="tab==='exhibitions'?'bg-[#1A5C38] text-white':'bg-white text-[#666] hover:bg-gray-50'"
-                                class="px-5 py-2.5 rounded-lg text-sm font-medium transition">展覽活動</button>
-                        <button @click="tab='wiki'"
+                        <button @click="tab='wiki'; window.location.hash='wiki'"
                                 :class="tab==='wiki'?'bg-[#1A5C38] text-white':'bg-white text-[#666] hover:bg-gray-50'"
                                 class="px-5 py-2.5 rounded-lg text-sm font-medium transition">紙袋小百科</button>
+                        <button @click="tab='news'; window.location.hash='news'"
+                                :class="tab==='news'?'bg-[#1A5C38] text-white':'bg-white text-[#666] hover:bg-gray-50'"
+                                class="px-5 py-2.5 rounded-lg text-sm font-medium transition">公司新聞</button>
+                        <button @click="tab='exhibitions'; window.location.hash='exhibitions'"
+                                :class="tab==='exhibitions'?'bg-[#1A5C38] text-white':'bg-white text-[#666] hover:bg-gray-50'"
+                                class="px-5 py-2.5 rounded-lg text-sm font-medium transition">展覽活動</button>
                 </div>
         </section>
 
         <section class="max-w-[1400px] mx-auto px-5 sm:px-6 lg:px-8 pb-20">
                 <!-- ===== 公司新聞 Tab ===== -->
-                <div x-show="tab==='news'" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+                <div x-show="tab==='news'" style="display:none" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
                         <article
                                 class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group">
                                 <div
@@ -228,7 +228,7 @@
                 </div>
 
                 <!-- ===== 紙袋小百科 Tab ===== -->
-                <div x-show="tab==='wiki'" style="display:none" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+                <div x-show="tab==='wiki'" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
 
                         <!-- Article 1: 客製化 vs 公版 比較指南 -->
                         <article class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group cursor-pointer">
