@@ -107,7 +107,7 @@ def create_catalog_pages(template_en, template_zh):
         f.write(build_page(template_zh, True))
 
 def add_die_cut_bag(content, is_zh=False):
-    if "Die Cut Handle Bag" in content or "手提挖孔袋" in content:
+    if "Die Cut Handle Bag" in content or "丸孔手提袋" in content or "手提挖孔袋" in content:
         return content
         
     card_html = f"""        <!-- Die Cut Handle Bag -->
@@ -117,7 +117,7 @@ def add_die_cut_bag(content, is_zh=False):
           </div>
           <div class="p-7">
             <span class="inline-block text-xs font-bold uppercase tracking-wider text-[#1A5C38] bg-[#1A5C38]/8 px-3 py-1 rounded-full mb-3">Recycled Kraft</span>
-            <h3 class="font-['Playfair_Display',serif] text-xl font-bold mb-2 group-hover:text-[#1A5C38] transition">{"Die Cut Handle Bag" if not is_zh else "手提挖孔袋"}</h3>
+            <h3 class="font-['Playfair_Display',serif] text-xl font-bold mb-2 group-hover:text-[#1A5C38] transition">{"Die Cut Handle Bag" if not is_zh else "丸孔手提袋"}</h3>
             <p class="text-sm text-[#666] mb-5">{"Ideal for groceries and takeaway orders, featuring die-cut handles for stability and easy carrying." if not is_zh else "適用於雜貨和外賣訂單，採用模切手柄，穩定且易於攜帶。"}</p>
             <a href="https://www.jjgpaperbag.com/product-Die-Cut-Handle-paper-bag-brown-kraft-6.html" target="_blank" class="inline-flex items-center gap-2 text-[#1A5C38] font-bold text-sm group-hover:gap-3 transition-all">
               {"View Details" if not is_zh else "查看詳情"}

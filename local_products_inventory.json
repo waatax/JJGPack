@@ -1,0 +1,816 @@
+{
+  "en": [
+    {
+      "rel_path": "aluminum-foil.html",
+      "filename": "aluminum-foil.html",
+      "category": "products"
+    },
+    {
+      "rel_path": "flat-handle.html",
+      "filename": "flat-handle.html",
+      "category": "products"
+    },
+    {
+      "rel_path": "fruit-protection.html",
+      "filename": "fruit-protection.html",
+      "category": "products"
+    },
+    {
+      "rel_path": "greaseproof.html",
+      "filename": "greaseproof.html",
+      "category": "products"
+    },
+    {
+      "rel_path": "kraft.html",
+      "filename": "kraft.html",
+      "category": "products"
+    },
+    {
+      "rel_path": "others.html",
+      "filename": "others.html",
+      "category": "products"
+    },
+    {
+      "rel_path": "paper-straw.html",
+      "filename": "paper-straw.html",
+      "category": "products"
+    },
+    {
+      "rel_path": "pe-lamination.html",
+      "filename": "pe-lamination.html",
+      "category": "products"
+    },
+    {
+      "rel_path": "white-kraft.html",
+      "filename": "white-kraft.html",
+      "category": "products"
+    },
+    {
+      "rel_path": "aluminum-foil\\aluminum-foil-bag.html",
+      "filename": "aluminum-foil-bag.html",
+      "category": "aluminum-foil"
+    },
+    {
+      "rel_path": "aluminum-foil\\aluminum-foil-lined-bags.html",
+      "filename": "aluminum-foil-lined-bags.html",
+      "category": "aluminum-foil"
+    },
+    {
+      "rel_path": "aluminum-foil\\aluminum-foil-paper-bag.html",
+      "filename": "aluminum-foil-paper-bag.html",
+      "category": "aluminum-foil"
+    },
+    {
+      "rel_path": "flat-handle\\christmas-series-flat-handle-bag.html",
+      "filename": "christmas-series-flat-handle-bag.html",
+      "category": "flat-handle"
+    },
+    {
+      "rel_path": "flat-handle\\cream-color-flat-handle-bag.html",
+      "filename": "cream-color-flat-handle-bag.html",
+      "category": "flat-handle"
+    },
+    {
+      "rel_path": "flat-handle\\flat-handle-bag.html",
+      "filename": "flat-handle-bag.html",
+      "category": "flat-handle"
+    },
+    {
+      "rel_path": "flat-handle\\flat-handle-paper-bag.html",
+      "filename": "flat-handle-paper-bag.html",
+      "category": "flat-handle"
+    },
+    {
+      "rel_path": "flat-handle\\macaron-color-flat-handle-bag.html",
+      "filename": "macaron-color-flat-handle-bag.html",
+      "category": "flat-handle"
+    },
+    {
+      "rel_path": "flat-handle\\recycled-kraft-flat-handle-sacks.html",
+      "filename": "recycled-kraft-flat-handle-sacks.html",
+      "category": "flat-handle"
+    },
+    {
+      "rel_path": "flat-handle\\single-color-shopping-bags.html",
+      "filename": "single-color-shopping-bags.html",
+      "category": "flat-handle"
+    },
+    {
+      "rel_path": "fruit-protection\\mango-bag.html",
+      "filename": "mango-bag.html",
+      "category": "fruit-protection"
+    },
+    {
+      "rel_path": "fruit-protection\\mango-protection-bag.html",
+      "filename": "mango-protection-bag.html",
+      "category": "fruit-protection"
+    },
+    {
+      "rel_path": "greaseproof\\bakery-paper-bag.html",
+      "filename": "bakery-paper-bag.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\bakery-paper-bags.html",
+      "filename": "bakery-paper-bags.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\bakery-series-paper-bags.html",
+      "filename": "bakery-series-paper-bags.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\bakery-side-window-bag.html",
+      "filename": "bakery-side-window-bag.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\banh-mi-paper-bags.html",
+      "filename": "banh-mi-paper-bags.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\checkered-food-grade-wrap-paper.html",
+      "filename": "checkered-food-grade-wrap-paper.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\deli-wrap.html",
+      "filename": "deli-wrap.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\die-cut-handle-round-hole-bags.html",
+      "filename": "die-cut-handle-round-hole-bags.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\double-layer-paper-bag.html",
+      "filename": "double-layer-paper-bag.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\easy-use-die-cut-handle-paper-bags.html",
+      "filename": "easy-use-die-cut-handle-paper-bags.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\fancy-2-side-open-paper-bag.html",
+      "filename": "fancy-2-side-open-paper-bag.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\french-baguette-bag.html",
+      "filename": "french-baguette-bag.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\fried-bread-stick-paper-bag.html",
+      "filename": "fried-bread-stick-paper-bag.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\greaseproof-paper-round-hole-bags.html",
+      "filename": "greaseproof-paper-round-hole-bags.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\lv-paper-bags.html",
+      "filename": "lv-paper-bags.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\news-2-side-open-paper-bag.html",
+      "filename": "news-2-side-open-paper-bag.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\pfas-free-sandwich-bags.html",
+      "filename": "pfas-free-sandwich-bags.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\pinhole-window-greaseproof-bag.html",
+      "filename": "pinhole-window-greaseproof-bag.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\recycled-kraft-merchandise-paper-bags.html",
+      "filename": "recycled-kraft-merchandise-paper-bags.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\round-hole-bags.html",
+      "filename": "round-hole-bags.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\small-2-side-open-bag.html",
+      "filename": "small-2-side-open-bag.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\solo-snack-bag-round-open.html",
+      "filename": "solo-snack-bag-round-open.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\tear-open-paper-bag.html",
+      "filename": "tear-open-paper-bag.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\thank-you-greaseproof-paper-bag.html",
+      "filename": "thank-you-greaseproof-paper-bag.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\the-pe-coated-paper-bags.html",
+      "filename": "the-pe-coated-paper-bags.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\toast-bags-have-tearble-line.html",
+      "filename": "toast-bags-have-tearble-line.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\toast-bags.html",
+      "filename": "toast-bags.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "kraft\\8-square-bottom-paper-bag.html",
+      "filename": "8-square-bottom-paper-bag.html",
+      "category": "kraft"
+    },
+    {
+      "rel_path": "kraft\\baguette-bakery-bag.html",
+      "filename": "baguette-bakery-bag.html",
+      "category": "kraft"
+    },
+    {
+      "rel_path": "kraft\\bakery-series-paper-bags.html",
+      "filename": "bakery-series-paper-bags.html",
+      "category": "kraft"
+    },
+    {
+      "rel_path": "kraft\\bakery-window-bag.html",
+      "filename": "bakery-window-bag.html",
+      "category": "kraft"
+    },
+    {
+      "rel_path": "kraft\\christmas-series-square-bottom-paper-bag.html",
+      "filename": "christmas-series-square-bottom-paper-bag.html",
+      "category": "kraft"
+    },
+    {
+      "rel_path": "kraft\\cream-color-square-bag.html",
+      "filename": "cream-color-square-bag.html",
+      "category": "kraft"
+    },
+    {
+      "rel_path": "kraft\\die-cut-handle-bag.html",
+      "filename": "die-cut-handle-bag.html",
+      "category": "kraft"
+    },
+    {
+      "rel_path": "kraft\\flat-handle-grocery-bags.html",
+      "filename": "flat-handle-grocery-bags.html",
+      "category": "kraft"
+    },
+    {
+      "rel_path": "kraft\\hexagonal-bottom-paper-bag.html",
+      "filename": "hexagonal-bottom-paper-bag.html",
+      "category": "kraft"
+    },
+    {
+      "rel_path": "kraft\\merchandise-bags.html",
+      "filename": "merchandise-bags.html",
+      "category": "kraft"
+    },
+    {
+      "rel_path": "kraft\\sos-white-take-out-bags.html",
+      "filename": "sos-white-take-out-bags.html",
+      "category": "kraft"
+    },
+    {
+      "rel_path": "kraft\\square-paper-bag.html",
+      "filename": "square-paper-bag.html",
+      "category": "kraft"
+    },
+    {
+      "rel_path": "kraft\\to-go-sos-bags.html",
+      "filename": "to-go-sos-bags.html",
+      "category": "kraft"
+    },
+    {
+      "rel_path": "others\\bakery-side-window-bag.html",
+      "filename": "bakery-side-window-bag.html",
+      "category": "others"
+    },
+    {
+      "rel_path": "others\\custom-&-specialty-bags.html",
+      "filename": "custom-&-specialty-bags.html",
+      "category": "others"
+    },
+    {
+      "rel_path": "others\\paper-placement.html",
+      "filename": "paper-placement.html",
+      "category": "others"
+    },
+    {
+      "rel_path": "others\\specialty-bags.html",
+      "filename": "specialty-bags.html",
+      "category": "others"
+    },
+    {
+      "rel_path": "others\\wonderful-time-paper-placemats.html",
+      "filename": "wonderful-time-paper-placemats.html",
+      "category": "others"
+    },
+    {
+      "rel_path": "paper-straw\\biodegradable-bamboo-straw.html",
+      "filename": "biodegradable-bamboo-straw.html",
+      "category": "paper-straw"
+    },
+    {
+      "rel_path": "paper-straw\\biodegradable-paper-straw.html",
+      "filename": "biodegradable-paper-straw.html",
+      "category": "paper-straw"
+    },
+    {
+      "rel_path": "paper-straw\\paper-straw-brown.html",
+      "filename": "paper-straw-brown.html",
+      "category": "paper-straw"
+    },
+    {
+      "rel_path": "paper-straw\\paper-straw.html",
+      "filename": "paper-straw.html",
+      "category": "paper-straw"
+    },
+    {
+      "rel_path": "pe-lamination\\burger-pocket-l-bag.html",
+      "filename": "burger-pocket-l-bag.html",
+      "category": "pe-lamination"
+    },
+    {
+      "rel_path": "pe-lamination\\burger-pocket-paper-bag.html",
+      "filename": "burger-pocket-paper-bag.html",
+      "category": "pe-lamination"
+    },
+    {
+      "rel_path": "pe-lamination\\deli-wrap-paper.html",
+      "filename": "deli-wrap-paper.html",
+      "category": "pe-lamination"
+    },
+    {
+      "rel_path": "pe-lamination\\l-bag.html",
+      "filename": "l-bag.html",
+      "category": "pe-lamination"
+    },
+    {
+      "rel_path": "pe-lamination\\toast-bags.html",
+      "filename": "toast-bags.html",
+      "category": "pe-lamination"
+    },
+    {
+      "rel_path": "white-kraft\\new-flate-handle-paper-bags.html",
+      "filename": "new-flate-handle-paper-bags.html",
+      "category": "white-kraft"
+    },
+    {
+      "rel_path": "white-kraft\\recycled-kraft-grocery-bags.html",
+      "filename": "recycled-kraft-grocery-bags.html",
+      "category": "white-kraft"
+    },
+    {
+      "rel_path": "white-kraft\\take-out-bags-square-bottom-paper-bag.html",
+      "filename": "take-out-bags-square-bottom-paper-bag.html",
+      "category": "white-kraft"
+    },
+    {
+      "rel_path": "white-kraft\\white-kraft-bag.html",
+      "filename": "white-kraft-bag.html",
+      "category": "white-kraft"
+    },
+    {
+      "rel_path": "white-kraft\\white-kraft-bags.html",
+      "filename": "white-kraft-bags.html",
+      "category": "white-kraft"
+    },
+    {
+      "rel_path": "white-kraft\\white-kraft-paper-bag.html",
+      "filename": "white-kraft-paper-bag.html",
+      "category": "white-kraft"
+    }
+  ],
+  "zh_tw": [
+    {
+      "rel_path": "aluminum-foil.html",
+      "filename": "aluminum-foil.html",
+      "category": "products"
+    },
+    {
+      "rel_path": "flat-handle.html",
+      "filename": "flat-handle.html",
+      "category": "products"
+    },
+    {
+      "rel_path": "fruit-protection.html",
+      "filename": "fruit-protection.html",
+      "category": "products"
+    },
+    {
+      "rel_path": "greaseproof.html",
+      "filename": "greaseproof.html",
+      "category": "products"
+    },
+    {
+      "rel_path": "kraft.html",
+      "filename": "kraft.html",
+      "category": "products"
+    },
+    {
+      "rel_path": "others.html",
+      "filename": "others.html",
+      "category": "products"
+    },
+    {
+      "rel_path": "paper-straw.html",
+      "filename": "paper-straw.html",
+      "category": "products"
+    },
+    {
+      "rel_path": "pe-lamination.html",
+      "filename": "pe-lamination.html",
+      "category": "products"
+    },
+    {
+      "rel_path": "white-kraft.html",
+      "filename": "white-kraft.html",
+      "category": "products"
+    },
+    {
+      "rel_path": "aluminum-foil\\aluminum-foil-bag.html",
+      "filename": "aluminum-foil-bag.html",
+      "category": "aluminum-foil"
+    },
+    {
+      "rel_path": "aluminum-foil\\aluminum-foil-lined-bags.html",
+      "filename": "aluminum-foil-lined-bags.html",
+      "category": "aluminum-foil"
+    },
+    {
+      "rel_path": "aluminum-foil\\aluminum-foil-paper-bag.html",
+      "filename": "aluminum-foil-paper-bag.html",
+      "category": "aluminum-foil"
+    },
+    {
+      "rel_path": "flat-handle\\christmas-series-flat-handle-bag.html",
+      "filename": "christmas-series-flat-handle-bag.html",
+      "category": "flat-handle"
+    },
+    {
+      "rel_path": "flat-handle\\cream-color-flat-handle-bag.html",
+      "filename": "cream-color-flat-handle-bag.html",
+      "category": "flat-handle"
+    },
+    {
+      "rel_path": "flat-handle\\flat-handle-bag.html",
+      "filename": "flat-handle-bag.html",
+      "category": "flat-handle"
+    },
+    {
+      "rel_path": "flat-handle\\flat-handle-paper-bag.html",
+      "filename": "flat-handle-paper-bag.html",
+      "category": "flat-handle"
+    },
+    {
+      "rel_path": "flat-handle\\macaron-color-flat-handle-bag.html",
+      "filename": "macaron-color-flat-handle-bag.html",
+      "category": "flat-handle"
+    },
+    {
+      "rel_path": "flat-handle\\recycled-kraft-flat-handle-sacks.html",
+      "filename": "recycled-kraft-flat-handle-sacks.html",
+      "category": "flat-handle"
+    },
+    {
+      "rel_path": "flat-handle\\single-color-shopping-bags.html",
+      "filename": "single-color-shopping-bags.html",
+      "category": "flat-handle"
+    },
+    {
+      "rel_path": "fruit-protection\\mango-bag.html",
+      "filename": "mango-bag.html",
+      "category": "fruit-protection"
+    },
+    {
+      "rel_path": "fruit-protection\\mango-protection-bag.html",
+      "filename": "mango-protection-bag.html",
+      "category": "fruit-protection"
+    },
+    {
+      "rel_path": "greaseproof\\bakery-paper-bag.html",
+      "filename": "bakery-paper-bag.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\bakery-paper-bags.html",
+      "filename": "bakery-paper-bags.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\bakery-series-paper-bags.html",
+      "filename": "bakery-series-paper-bags.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\bakery-side-window-bag.html",
+      "filename": "bakery-side-window-bag.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\banh-mi-paper-bags.html",
+      "filename": "banh-mi-paper-bags.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\checkered-food-grade-wrap-paper.html",
+      "filename": "checkered-food-grade-wrap-paper.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\deli-wrap.html",
+      "filename": "deli-wrap.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\die-cut-handle-round-hole-bags.html",
+      "filename": "die-cut-handle-round-hole-bags.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\double-layer-paper-bag.html",
+      "filename": "double-layer-paper-bag.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\easy-use-die-cut-handle-paper-bags.html",
+      "filename": "easy-use-die-cut-handle-paper-bags.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\fancy-2-side-open-paper-bag.html",
+      "filename": "fancy-2-side-open-paper-bag.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\french-baguette-bag.html",
+      "filename": "french-baguette-bag.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\fried-bread-stick-paper-bag.html",
+      "filename": "fried-bread-stick-paper-bag.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\greaseproof-paper-round-hole-bags.html",
+      "filename": "greaseproof-paper-round-hole-bags.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\lv-paper-bags.html",
+      "filename": "lv-paper-bags.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\news-2-side-open-paper-bag.html",
+      "filename": "news-2-side-open-paper-bag.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\pfas-free-sandwich-bags.html",
+      "filename": "pfas-free-sandwich-bags.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\pinhole-window-greaseproof-bag.html",
+      "filename": "pinhole-window-greaseproof-bag.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\recycled-kraft-merchandise-paper-bags.html",
+      "filename": "recycled-kraft-merchandise-paper-bags.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\round-hole-bags.html",
+      "filename": "round-hole-bags.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\small-2-side-open-bag.html",
+      "filename": "small-2-side-open-bag.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\solo-snack-bag-round-open.html",
+      "filename": "solo-snack-bag-round-open.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\tear-open-paper-bag.html",
+      "filename": "tear-open-paper-bag.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\thank-you-greaseproof-paper-bag.html",
+      "filename": "thank-you-greaseproof-paper-bag.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\the-pe-coated-paper-bags.html",
+      "filename": "the-pe-coated-paper-bags.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\toast-bags-have-tearble-line.html",
+      "filename": "toast-bags-have-tearble-line.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "greaseproof\\toast-bags.html",
+      "filename": "toast-bags.html",
+      "category": "greaseproof"
+    },
+    {
+      "rel_path": "kraft\\8-square-bottom-paper-bag.html",
+      "filename": "8-square-bottom-paper-bag.html",
+      "category": "kraft"
+    },
+    {
+      "rel_path": "kraft\\baguette-bakery-bag.html",
+      "filename": "baguette-bakery-bag.html",
+      "category": "kraft"
+    },
+    {
+      "rel_path": "kraft\\bakery-series-paper-bags.html",
+      "filename": "bakery-series-paper-bags.html",
+      "category": "kraft"
+    },
+    {
+      "rel_path": "kraft\\bakery-window-bag.html",
+      "filename": "bakery-window-bag.html",
+      "category": "kraft"
+    },
+    {
+      "rel_path": "kraft\\christmas-series-square-bottom-paper-bag.html",
+      "filename": "christmas-series-square-bottom-paper-bag.html",
+      "category": "kraft"
+    },
+    {
+      "rel_path": "kraft\\cream-color-square-bag.html",
+      "filename": "cream-color-square-bag.html",
+      "category": "kraft"
+    },
+    {
+      "rel_path": "kraft\\die-cut-handle-bag.html",
+      "filename": "die-cut-handle-bag.html",
+      "category": "kraft"
+    },
+    {
+      "rel_path": "kraft\\flat-handle-grocery-bags.html",
+      "filename": "flat-handle-grocery-bags.html",
+      "category": "kraft"
+    },
+    {
+      "rel_path": "kraft\\hexagonal-bottom-paper-bag.html",
+      "filename": "hexagonal-bottom-paper-bag.html",
+      "category": "kraft"
+    },
+    {
+      "rel_path": "kraft\\merchandise-bags.html",
+      "filename": "merchandise-bags.html",
+      "category": "kraft"
+    },
+    {
+      "rel_path": "kraft\\sos-white-take-out-bags.html",
+      "filename": "sos-white-take-out-bags.html",
+      "category": "kraft"
+    },
+    {
+      "rel_path": "kraft\\square-paper-bag.html",
+      "filename": "square-paper-bag.html",
+      "category": "kraft"
+    },
+    {
+      "rel_path": "kraft\\to-go-sos-bags.html",
+      "filename": "to-go-sos-bags.html",
+      "category": "kraft"
+    },
+    {
+      "rel_path": "others\\bakery-side-window-bag.html",
+      "filename": "bakery-side-window-bag.html",
+      "category": "others"
+    },
+    {
+      "rel_path": "others\\custom-&-specialty-bags.html",
+      "filename": "custom-&-specialty-bags.html",
+      "category": "others"
+    },
+    {
+      "rel_path": "others\\paper-placement.html",
+      "filename": "paper-placement.html",
+      "category": "others"
+    },
+    {
+      "rel_path": "others\\specialty-bags.html",
+      "filename": "specialty-bags.html",
+      "category": "others"
+    },
+    {
+      "rel_path": "others\\wonderful-time-paper-placemats.html",
+      "filename": "wonderful-time-paper-placemats.html",
+      "category": "others"
+    },
+    {
+      "rel_path": "paper-straw\\biodegradable-bamboo-straw.html",
+      "filename": "biodegradable-bamboo-straw.html",
+      "category": "paper-straw"
+    },
+    {
+      "rel_path": "paper-straw\\biodegradable-paper-straw.html",
+      "filename": "biodegradable-paper-straw.html",
+      "category": "paper-straw"
+    },
+    {
+      "rel_path": "paper-straw\\paper-straw-brown.html",
+      "filename": "paper-straw-brown.html",
+      "category": "paper-straw"
+    },
+    {
+      "rel_path": "paper-straw\\paper-straw.html",
+      "filename": "paper-straw.html",
+      "category": "paper-straw"
+    },
+    {
+      "rel_path": "pe-lamination\\burger-pocket-l-bag.html",
+      "filename": "burger-pocket-l-bag.html",
+      "category": "pe-lamination"
+    },
+    {
+      "rel_path": "pe-lamination\\burger-pocket-paper-bag.html",
+      "filename": "burger-pocket-paper-bag.html",
+      "category": "pe-lamination"
+    },
+    {
+      "rel_path": "pe-lamination\\deli-wrap-paper.html",
+      "filename": "deli-wrap-paper.html",
+      "category": "pe-lamination"
+    },
+    {
+      "rel_path": "pe-lamination\\l-bag.html",
+      "filename": "l-bag.html",
+      "category": "pe-lamination"
+    },
+    {
+      "rel_path": "pe-lamination\\toast-bags.html",
+      "filename": "toast-bags.html",
+      "category": "pe-lamination"
+    },
+    {
+      "rel_path": "white-kraft\\new-flate-handle-paper-bags.html",
+      "filename": "new-flate-handle-paper-bags.html",
+      "category": "white-kraft"
+    },
+    {
+      "rel_path": "white-kraft\\recycled-kraft-grocery-bags.html",
+      "filename": "recycled-kraft-grocery-bags.html",
+      "category": "white-kraft"
+    },
+    {
+      "rel_path": "white-kraft\\take-out-bags-square-bottom-paper-bag.html",
+      "filename": "take-out-bags-square-bottom-paper-bag.html",
+      "category": "white-kraft"
+    },
+    {
+      "rel_path": "white-kraft\\white-kraft-bag.html",
+      "filename": "white-kraft-bag.html",
+      "category": "white-kraft"
+    },
+    {
+      "rel_path": "white-kraft\\white-kraft-bags.html",
+      "filename": "white-kraft-bags.html",
+      "category": "white-kraft"
+    },
+    {
+      "rel_path": "white-kraft\\white-kraft-paper-bag.html",
+      "filename": "white-kraft-paper-bag.html",
+      "category": "white-kraft"
+    }
+  ]
+}

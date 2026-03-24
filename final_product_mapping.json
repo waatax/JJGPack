@@ -1,0 +1,731 @@
+[
+  {
+    "local_en_path": "products/aluminum-foil.html",
+    "local_zh_path": "zh-tw/products/aluminum-foil.html",
+    "ref_filename": "category-Aluminum-Foil-paper-product-05.html",
+    "ref_zh_title": "防油保溫鋁箔紙袋",
+    "ref_en_title": "Aluminum Foil Paper Bag",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/category-Aluminum-Foil-paper-product-05.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/category-Aluminum-Foil-paper-product-05.html"
+  },
+  {
+    "local_en_path": "products/flat-handle.html",
+    "local_zh_path": "zh-tw/products/flat-handle.html",
+    "ref_filename": "product-FlatHandlePaperBag-brown-kraft-5.html",
+    "ref_zh_title": "扁繩手提紙袋",
+    "ref_en_title": "Flat Handle Grocery Bags",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-FlatHandlePaperBag-brown-kraft-5.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-FlatHandlePaperBag-brown-kraft-5.html"
+  },
+  {
+    "local_en_path": "products/fruit-protection.html",
+    "local_zh_path": "zh-tw/products/fruit-protection.html",
+    "ref_filename": "product-Dragon-fruit-Fruit-Protection-Bag-11.html",
+    "ref_zh_title": "火龍果袋",
+    "ref_en_title": "Dragon fruit",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Dragon-fruit-Fruit-Protection-Bag-11.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Dragon-fruit-Fruit-Protection-Bag-11.html"
+  },
+  {
+    "local_en_path": "products/greaseproof.html",
+    "local_zh_path": "zh-tw/products/greaseproof.html",
+    "ref_filename": "product-Thank-You-Greaseproof-Paper-Bag-ThankYouGreaseproofPaperBag.html",
+    "ref_zh_title": "有你真好防油紙袋",
+    "ref_en_title": "Thank You Greaseproof Paper Bag",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Thank-You-Greaseproof-Paper-Bag-ThankYouGreaseproofPaperBag.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Thank-You-Greaseproof-Paper-Bag-ThankYouGreaseproofPaperBag.html"
+  },
+  {
+    "local_en_path": "products/kraft.html",
+    "local_zh_path": "zh-tw/products/kraft.html",
+    "ref_filename": "product-Recycled-Kraft-Grocery-Bags-RecycledKraftGroceryBags.html",
+    "ref_zh_title": "環牛購物方紙袋",
+    "ref_en_title": "Recycled Kraft Grocery Bags",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Recycled-Kraft-Grocery-Bags-RecycledKraftGroceryBags.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Recycled-Kraft-Grocery-Bags-RecycledKraftGroceryBags.html"
+  },
+  {
+    "local_en_path": "products/others.html",
+    "local_zh_path": "zh-tw/products/others.html",
+    "ref_filename": "category-others-product-06.html",
+    "ref_zh_title": "其他產品",
+    "ref_en_title": "Others",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/category-others-product-06.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/webls-en/category-others-product-06.html"
+  },
+  {
+    "local_en_path": "products/paper-straw.html",
+    "local_zh_path": "zh-tw/products/paper-straw.html",
+    "ref_filename": "product-Brown-Paper-straw-Paper-straw-BWW.html",
+    "ref_zh_title": "紙吸管",
+    "ref_en_title": "Paper Straw",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Brown-Paper-straw-Paper-straw-BWW.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Brown-Paper-straw-Paper-straw-BWW.html"
+  },
+  {
+    "local_en_path": "products/pe-lamination.html",
+    "local_zh_path": "zh-tw/products/pe-lamination.html",
+    "ref_filename": "product-%E5%B9%B3%E5%BC%B5%E7%B4%99-PE-Lamination-paper-3.html",
+    "ref_zh_title": "平張紙",
+    "ref_en_title": "PE Lamination Paper Sheet",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-%E5%B9%B3%E5%BC%B5%E7%B4%99-PE-Lamination-paper-3.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-%E5%B9%B3%E5%BC%B5%E7%B4%99-PE-Lamination-paper-3.html"
+  },
+  {
+    "local_en_path": "products/white-kraft.html",
+    "local_zh_path": "zh-tw/products/white-kraft.html",
+    "ref_filename": "product-JJG-B1-White-Kraft-1.html",
+    "ref_zh_title": "白牛平紙袋",
+    "ref_en_title": "White Kraft Bags",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-JJG-B1-White-Kraft-1.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-JJG-B1-White-Kraft-1.html"
+  },
+  {
+    "local_en_path": "products/aluminum-foil\\aluminum-foil-bag.html",
+    "local_zh_path": "zh-tw/products/aluminum-foil\\aluminum-foil-bag.html",
+    "ref_filename": "category-Aluminum-Foil-paper-product-05.html",
+    "ref_zh_title": "防油保溫鋁箔紙袋",
+    "ref_en_title": "Aluminum Foil Paper Bag",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/category-Aluminum-Foil-paper-product-05.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/category-Aluminum-Foil-paper-product-05.html"
+  },
+  {
+    "local_en_path": "products/aluminum-foil\\aluminum-foil-lined-bags.html",
+    "local_zh_path": "zh-tw/products/aluminum-foil\\aluminum-foil-lined-bags.html",
+    "ref_filename": "category-Aluminum-Foil-paper-product-05.html",
+    "ref_zh_title": "防油保溫鋁箔紙袋",
+    "ref_en_title": "Aluminum Foil Paper Bag",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/category-Aluminum-Foil-paper-product-05.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/category-Aluminum-Foil-paper-product-05.html"
+  },
+  {
+    "local_en_path": "products/aluminum-foil\\aluminum-foil-paper-bag.html",
+    "local_zh_path": "zh-tw/products/aluminum-foil\\aluminum-foil-paper-bag.html",
+    "ref_filename": "category-Aluminum-Foil-paper-product-05.html",
+    "ref_zh_title": "防油保溫鋁箔紙袋",
+    "ref_en_title": "Aluminum Foil Paper Bag",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/category-Aluminum-Foil-paper-product-05.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/category-Aluminum-Foil-paper-product-05.html"
+  },
+  {
+    "local_en_path": "products/flat-handle\\christmas-series-flat-handle-bag.html",
+    "local_zh_path": "zh-tw/products/flat-handle\\christmas-series-flat-handle-bag.html",
+    "ref_filename": "product-Christmas-Series-Flat-Handle-Bag-christmas.html",
+    "ref_zh_title": "耶誕節系列扁把提紙袋",
+    "ref_en_title": "Christmas Series Flat Handle Bag",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Christmas-Series-Flat-Handle-Bag-christmas.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Christmas-Series-Flat-Handle-Bag-christmas.html"
+  },
+  {
+    "local_en_path": "products/flat-handle\\cream-color-flat-handle-bag.html",
+    "local_zh_path": "zh-tw/products/flat-handle\\cream-color-flat-handle-bag.html",
+    "ref_filename": "product-Cream-Color-Flat-Handle-Bag-CreamColorFlatHandleBag.html",
+    "ref_zh_title": "奶油白扁把提紙袋",
+    "ref_en_title": "Cream Color Flat Handle Bag",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Cream-Color-Flat-Handle-Bag-CreamColorFlatHandleBag.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Cream-Color-Flat-Handle-Bag-CreamColorFlatHandleBag.html"
+  },
+  {
+    "local_en_path": "products/flat-handle\\flat-handle-bag.html",
+    "local_zh_path": "zh-tw/products/flat-handle\\flat-handle-bag.html",
+    "ref_filename": "product-Cream-Color-Flat-Handle-Bag-CreamColorFlatHandleBag.html",
+    "ref_zh_title": "奶油白扁把提紙袋",
+    "ref_en_title": "Cream Color Flat Handle Bag",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Cream-Color-Flat-Handle-Bag-CreamColorFlatHandleBag.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Cream-Color-Flat-Handle-Bag-CreamColorFlatHandleBag.html"
+  },
+  {
+    "local_en_path": "products/flat-handle\\flat-handle-paper-bag.html",
+    "local_zh_path": "zh-tw/products/flat-handle\\flat-handle-paper-bag.html",
+    "ref_filename": "product-Cream-Color-Flat-Handle-Bag-CreamColorFlatHandleBag.html",
+    "ref_zh_title": "奶油白扁把提紙袋",
+    "ref_en_title": "Cream Color Flat Handle Bag",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Cream-Color-Flat-Handle-Bag-CreamColorFlatHandleBag.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Cream-Color-Flat-Handle-Bag-CreamColorFlatHandleBag.html"
+  },
+  {
+    "local_en_path": "products/flat-handle\\macaron-color-flat-handle-bag.html",
+    "local_zh_path": "zh-tw/products/flat-handle\\macaron-color-flat-handle-bag.html",
+    "ref_filename": "product-Macaron-Color-Flat-Handle-Bag-MacaronColorFlatHandleBag.html",
+    "ref_zh_title": "馬卡龍扁把提紙袋",
+    "ref_en_title": "Macaron Color Flat Handle Bag",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Macaron-Color-Flat-Handle-Bag-MacaronColorFlatHandleBag.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Macaron-Color-Flat-Handle-Bag-MacaronColorFlatHandleBag.html"
+  },
+  {
+    "local_en_path": "products/flat-handle\\recycled-kraft-flat-handle-sacks.html",
+    "local_zh_path": "zh-tw/products/flat-handle\\recycled-kraft-flat-handle-sacks.html",
+    "ref_filename": "product-Recycled-Kraft-Flat-handle-Sacks-RecycledKraftFlathandleSacks.html",
+    "ref_zh_title": "環牛扁把提紙袋",
+    "ref_en_title": "Recycled Kraft Flat handle Sacks",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Recycled-Kraft-Flat-handle-Sacks-RecycledKraftFlathandleSacks.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Recycled-Kraft-Flat-handle-Sacks-RecycledKraftFlathandleSacks.html"
+  },
+  {
+    "local_en_path": "products/flat-handle\\single-color-shopping-bags.html",
+    "local_zh_path": "zh-tw/products/flat-handle\\single-color-shopping-bags.html",
+    "ref_filename": "product-Single-Color-Shopping-Bags-SingleColorShoppingBags1.html",
+    "ref_zh_title": "滿版單色扁把提紙袋",
+    "ref_en_title": "Single Color Shopping Bags",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Single-Color-Shopping-Bags-SingleColorShoppingBags1.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Single-Color-Shopping-Bags-SingleColorShoppingBags1.html"
+  },
+  {
+    "local_en_path": "products/fruit-protection\\mango-bag.html",
+    "local_zh_path": "zh-tw/products/fruit-protection\\mango-bag.html",
+    "ref_filename": "product-RT24-4532-BL-Mango-bag-Fruit-Protection-Bag-15.html",
+    "ref_zh_title": "RT24-4532-BL 芒果袋",
+    "ref_en_title": "RT24-4532-BL Mango bag",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-RT24-4532-BL-Mango-bag-Fruit-Protection-Bag-15.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-RT24-4532-BL-Mango-bag-Fruit-Protection-Bag-15.html"
+  },
+  {
+    "local_en_path": "products/fruit-protection\\mango-protection-bag.html",
+    "local_zh_path": "zh-tw/products/fruit-protection\\mango-protection-bag.html",
+    "ref_filename": "product-RT24-4532-BL-Mango-bag-Fruit-Protection-Bag-15.html",
+    "ref_zh_title": "RT24-4532-BL 芒果袋",
+    "ref_en_title": "RT24-4532-BL Mango bag",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-RT24-4532-BL-Mango-bag-Fruit-Protection-Bag-15.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-RT24-4532-BL-Mango-bag-Fruit-Protection-Bag-15.html"
+  },
+  {
+    "local_en_path": "products/greaseproof\\bakery-paper-bag.html",
+    "local_zh_path": "zh-tw/products/greaseproof\\bakery-paper-bag.html",
+    "ref_filename": "product-French-Baguette-g-paper-5.html",
+    "ref_zh_title": "麵包開中窗紙袋",
+    "ref_en_title": "Bakery paper bag",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-French-Baguette-g-paper-5.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-French-Baguette-g-paper-5.html"
+  },
+  {
+    "local_en_path": "products/greaseproof\\bakery-paper-bags.html",
+    "local_zh_path": "zh-tw/products/greaseproof\\bakery-paper-bags.html",
+    "ref_filename": "product-Bakery-Series-Paper-Bags-BakerySeriesPaperBags.html",
+    "ref_zh_title": "烘焙麵包開窗紙袋",
+    "ref_en_title": "Bakery Series Paper Bags",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Bakery-Series-Paper-Bags-BakerySeriesPaperBags.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Bakery-Series-Paper-Bags-BakerySeriesPaperBags.html"
+  },
+  {
+    "local_en_path": "products/greaseproof\\bakery-series-paper-bags.html",
+    "local_zh_path": "zh-tw/products/greaseproof\\bakery-series-paper-bags.html",
+    "ref_filename": "product-Bakery-Series-Paper-Bags-BakerySeriesPaperBags.html",
+    "ref_zh_title": "烘焙麵包開窗紙袋",
+    "ref_en_title": "Bakery Series Paper Bags",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Bakery-Series-Paper-Bags-BakerySeriesPaperBags.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Bakery-Series-Paper-Bags-BakerySeriesPaperBags.html"
+  },
+  {
+    "local_en_path": "products/greaseproof\\bakery-side-window-bag.html",
+    "local_zh_path": "zh-tw/products/greaseproof\\bakery-side-window-bag.html",
+    "ref_filename": "product-Greaseproof-paper-g-paper-4.html",
+    "ref_zh_title": "麵包側窗紙袋",
+    "ref_en_title": "Bakery side window bag",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Greaseproof-paper-g-paper-4.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Greaseproof-paper-g-paper-4.html"
+  },
+  {
+    "local_en_path": "products/greaseproof\\banh-mi-paper-bags.html",
+    "local_zh_path": "zh-tw/products/greaseproof\\banh-mi-paper-bags.html",
+    "ref_filename": "product-Banh-Mi-Paper-Bags-banhmipaperbags.html",
+    "ref_zh_title": "越南法國麵包紙袋",
+    "ref_en_title": "Banh Mi Paper Bags",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Banh-Mi-Paper-Bags-banhmipaperbags.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Banh-Mi-Paper-Bags-banhmipaperbags.html"
+  },
+  {
+    "local_en_path": "products/greaseproof\\checkered-food-grade-wrap-paper.html",
+    "local_zh_path": "zh-tw/products/greaseproof\\checkered-food-grade-wrap-paper.html",
+    "ref_filename": "product-Checkered-Food-Grade-Wrap-Paper-CheckeredFoodGradeWrapPaper.html",
+    "ref_zh_title": "棋盤格平張紙",
+    "ref_en_title": "Checkered Food Grade Wrap Paper",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Checkered-Food-Grade-Wrap-Paper-CheckeredFoodGradeWrapPaper.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Checkered-Food-Grade-Wrap-Paper-CheckeredFoodGradeWrapPaper.html"
+  },
+  {
+    "local_en_path": "products/greaseproof\\deli-wrap.html",
+    "local_zh_path": "zh-tw/products/greaseproof\\deli-wrap.html",
+    "ref_filename": "product-Checkered-Food-Grade-Wrap-Paper-CheckeredFoodGradeWrapPaper.html",
+    "ref_zh_title": "棋盤格平張紙",
+    "ref_en_title": "Checkered Food Grade Wrap Paper",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Checkered-Food-Grade-Wrap-Paper-CheckeredFoodGradeWrapPaper.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Checkered-Food-Grade-Wrap-Paper-CheckeredFoodGradeWrapPaper.html"
+  },
+  {
+    "local_en_path": "products/greaseproof\\die-cut-handle-round-hole-bags.html",
+    "local_zh_path": "zh-tw/products/greaseproof\\die-cut-handle-round-hole-bags.html",
+    "ref_filename": "product-Die-Cut-Handle-Round-Hole-Bags-DieCutHandleRoundHoleBags.html",
+    "ref_zh_title": "EZ丸孔提紙袋",
+    "ref_en_title": "Die Cut Handle Round Hole Bags",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Die-Cut-Handle-Round-Hole-Bags-DieCutHandleRoundHoleBags.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Die-Cut-Handle-Round-Hole-Bags-DieCutHandleRoundHoleBags.html"
+  },
+  {
+    "local_en_path": "products/greaseproof\\double-layer-paper-bag.html",
+    "local_zh_path": "zh-tw/products/greaseproof\\double-layer-paper-bag.html",
+    "ref_filename": "product-Double-Layer-Paper-Bag-Doublelayerpaperbag.html",
+    "ref_zh_title": "雙層紙袋",
+    "ref_en_title": "Double Layer Paper Bag",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Double-Layer-Paper-Bag-Doublelayerpaperbag.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Double-Layer-Paper-Bag-Doublelayerpaperbag.html"
+  },
+  {
+    "local_en_path": "products/greaseproof\\easy-use-die-cut-handle-paper-bags.html",
+    "local_zh_path": "zh-tw/products/greaseproof\\easy-use-die-cut-handle-paper-bags.html",
+    "ref_filename": "product-Easy-Use-Die-Cut-Handle-Paper-Bags-EasyUseDieCutHandlePaperBags.html",
+    "ref_zh_title": "EZ丸孔提紙袋",
+    "ref_en_title": "Easy Use Die Cut Handle Paper Bags",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Easy-Use-Die-Cut-Handle-Paper-Bags-EasyUseDieCutHandlePaperBags.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Easy-Use-Die-Cut-Handle-Paper-Bags-EasyUseDieCutHandlePaperBags.html"
+  },
+  {
+    "local_en_path": "products/greaseproof\\fancy-2-side-open-paper-bag.html",
+    "local_zh_path": "zh-tw/products/greaseproof\\fancy-2-side-open-paper-bag.html",
+    "ref_filename": "product-News-2-sided-Open-Paper-Bag-News2-sidedOpenPaperBag.html",
+    "ref_zh_title": "新聞版本牛淋膜紙L紙袋",
+    "ref_en_title": "News 2-sided Open Paper Bag",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-News-2-sided-Open-Paper-Bag-News2-sidedOpenPaperBag.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-News-2-sided-Open-Paper-Bag-News2-sidedOpenPaperBag.html"
+  },
+  {
+    "local_en_path": "products/greaseproof\\french-baguette-bag.html",
+    "local_zh_path": "zh-tw/products/greaseproof\\french-baguette-bag.html",
+    "ref_filename": "product-Bakery-bag-g-paper-6.html",
+    "ref_zh_title": "麵包紙袋",
+    "ref_en_title": "French Baguette bag",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Bakery-bag-g-paper-6.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Bakery-bag-g-paper-6.html"
+  },
+  {
+    "local_en_path": "products/greaseproof\\fried-bread-stick-paper-bag.html",
+    "local_zh_path": "zh-tw/products/greaseproof\\fried-bread-stick-paper-bag.html",
+    "ref_filename": "product-Fried-Bread-Stick-Paper-Bag-FriedBreadStickPaperBag.html",
+    "ref_zh_title": "油條紙袋",
+    "ref_en_title": "Fried Bread Stick Paper Bag",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Fried-Bread-Stick-Paper-Bag-FriedBreadStickPaperBag.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Fried-Bread-Stick-Paper-Bag-FriedBreadStickPaperBag.html"
+  },
+  {
+    "local_en_path": "products/greaseproof\\greaseproof-paper-round-hole-bags.html",
+    "local_zh_path": "zh-tw/products/greaseproof\\greaseproof-paper-round-hole-bags.html",
+    "ref_filename": "product-Greaseproof-Paper-Round-Hole-Bags-GreaseproofPaperRoundHoleBags.html",
+    "ref_zh_title": "防油圓孔紙袋",
+    "ref_en_title": "Greaseproof Paper Round Hole Bags",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Greaseproof-Paper-Round-Hole-Bags-GreaseproofPaperRoundHoleBags.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Greaseproof-Paper-Round-Hole-Bags-GreaseproofPaperRoundHoleBags.html"
+  },
+  {
+    "local_en_path": "products/greaseproof\\lv-paper-bags.html",
+    "local_zh_path": "zh-tw/products/greaseproof\\lv-paper-bags.html",
+    "ref_filename": "product-LV-Paper-Bags-LVPaperBags.html",
+    "ref_zh_title": "LV紙袋",
+    "ref_en_title": "LV Paper Bags",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-LV-Paper-Bags-LVPaperBags.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-LV-Paper-Bags-LVPaperBags.html"
+  },
+  {
+    "local_en_path": "products/greaseproof\\news-2-side-open-paper-bag.html",
+    "local_zh_path": "zh-tw/products/greaseproof\\news-2-side-open-paper-bag.html",
+    "ref_filename": "product-News-2-sided-Open-Paper-Bag-News2-sidedOpenPaperBag.html",
+    "ref_zh_title": "新聞版本牛淋膜紙L紙袋",
+    "ref_en_title": "News 2-sided Open Paper Bag",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-News-2-sided-Open-Paper-Bag-News2-sidedOpenPaperBag.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-News-2-sided-Open-Paper-Bag-News2-sidedOpenPaperBag.html"
+  },
+  {
+    "local_en_path": "products/greaseproof\\pfas-free-sandwich-bags.html",
+    "local_zh_path": "zh-tw/products/greaseproof\\pfas-free-sandwich-bags.html",
+    "ref_filename": "product-Greaseproof-paper-g-paper-3.html",
+    "ref_zh_title": "防油紙袋",
+    "ref_en_title": "PFAS Free Sandwich Bags",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Greaseproof-paper-g-paper-3.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Greaseproof-paper-g-paper-3.html"
+  },
+  {
+    "local_en_path": "products/greaseproof\\pinhole-window-greaseproof-bag.html",
+    "local_zh_path": "zh-tw/products/greaseproof\\pinhole-window-greaseproof-bag.html",
+    "ref_filename": "product-Pinhole-Window-Greaseproof--Bag-PinholeWindow.html",
+    "ref_zh_title": "防油針孔中窗紙袋(公版/歡迎客製化)",
+    "ref_en_title": "Pinhole Window Greaseproof Bag",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Pinhole-Window-Greaseproof--Bag-PinholeWindow.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Pinhole-Window-Greaseproof--Bag-PinholeWindow.html"
+  },
+  {
+    "local_en_path": "products/greaseproof\\recycled-kraft-merchandise-paper-bags.html",
+    "local_zh_path": "zh-tw/products/greaseproof\\recycled-kraft-merchandise-paper-bags.html",
+    "ref_filename": "product-Recycled-Kraft-Merchandise-Paper-Bags-RecycledKraftMerchandisePaperBags.html",
+    "ref_zh_title": "食品級環牛紙商業紙袋",
+    "ref_en_title": "Recycled Kraft Merchandise Paper Bags",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Recycled-Kraft-Merchandise-Paper-Bags-RecycledKraftMerchandisePaperBags.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Recycled-Kraft-Merchandise-Paper-Bags-RecycledKraftMerchandisePaperBags.html"
+  },
+  {
+    "local_en_path": "products/greaseproof\\round-hole-bags.html",
+    "local_zh_path": "zh-tw/products/greaseproof\\round-hole-bags.html",
+    "ref_filename": "product-Round-Hole-Bags-RoundHoleBags.html",
+    "ref_zh_title": "圓孔紙袋",
+    "ref_en_title": "Round Hole Bags",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Round-Hole-Bags-RoundHoleBags.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Round-Hole-Bags-RoundHoleBags.html"
+  },
+  {
+    "local_en_path": "products/greaseproof\\small-2-side-open-bag.html",
+    "local_zh_path": "zh-tw/products/greaseproof\\small-2-side-open-bag.html",
+    "ref_filename": "product-Greaseproof-paper-g-paper-4.html",
+    "ref_zh_title": "麵包側窗紙袋",
+    "ref_en_title": "Bakery side window bag",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Greaseproof-paper-g-paper-4.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Greaseproof-paper-g-paper-4.html"
+  },
+  {
+    "local_en_path": "products/greaseproof\\solo-snack-bag-round-open.html",
+    "local_zh_path": "zh-tw/products/greaseproof\\solo-snack-bag-round-open.html",
+    "ref_filename": "product-Solo-Snack-Bag-(Round-Open)-SoloSnackBagRoundOpen.html",
+    "ref_zh_title": "圓口紙袋",
+    "ref_en_title": "Solo Snack Bag (Round Open)",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Solo-Snack-Bag-(Round-Open)-SoloSnackBagRoundOpen.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Solo-Snack-Bag-(Round-Open)-SoloSnackBagRoundOpen.html"
+  },
+  {
+    "local_en_path": "products/greaseproof\\tear-open-paper-bag.html",
+    "local_zh_path": "zh-tw/products/greaseproof\\tear-open-paper-bag.html",
+    "ref_filename": "product-Tear-Open-Paper-Bag-Tear-OpenPaperBag.html",
+    "ref_zh_title": "可撕線加工模組",
+    "ref_en_title": "Tear Open Paper Bag",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Tear-Open-Paper-Bag-Tear-OpenPaperBag.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Tear-Open-Paper-Bag-Tear-OpenPaperBag.html"
+  },
+  {
+    "local_en_path": "products/greaseproof\\thank-you-greaseproof-paper-bag.html",
+    "local_zh_path": "zh-tw/products/greaseproof\\thank-you-greaseproof-paper-bag.html",
+    "ref_filename": "product-Thank-You-Greaseproof-Paper-Bag-ThankYouGreaseproofPaperBag.html",
+    "ref_zh_title": "有你真好防油紙袋",
+    "ref_en_title": "Thank You Greaseproof Paper Bag",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Thank-You-Greaseproof-Paper-Bag-ThankYouGreaseproofPaperBag.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Thank-You-Greaseproof-Paper-Bag-ThankYouGreaseproofPaperBag.html"
+  },
+  {
+    "local_en_path": "products/greaseproof\\the-pe-coated-paper-bags.html",
+    "local_zh_path": "zh-tw/products/greaseproof\\the-pe-coated-paper-bags.html",
+    "ref_filename": "product-Bakery-Series-Paper-Bags-BakerySeriesPaperBags.html",
+    "ref_zh_title": "烘焙麵包開窗紙袋",
+    "ref_en_title": "Bakery Series Paper Bags",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Bakery-Series-Paper-Bags-BakerySeriesPaperBags.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Bakery-Series-Paper-Bags-BakerySeriesPaperBags.html"
+  },
+  {
+    "local_en_path": "products/greaseproof\\toast-bags-have-tearble-line.html",
+    "local_zh_path": "zh-tw/products/greaseproof\\toast-bags-have-tearble-line.html",
+    "ref_filename": "product-Toast-Bags-have-Tearble-Line-ToastBagshaveTearbleLine.html",
+    "ref_zh_title": "H型可撕紙袋",
+    "ref_en_title": "Toast Bags have Tearble Line",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Toast-Bags-have-Tearble-Line-ToastBagshaveTearbleLine.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Toast-Bags-have-Tearble-Line-ToastBagshaveTearbleLine.html"
+  },
+  {
+    "local_en_path": "products/greaseproof\\toast-bags.html",
+    "local_zh_path": "zh-tw/products/greaseproof\\toast-bags.html",
+    "ref_filename": "product-Toast-Bags-ToastBags.html",
+    "ref_zh_title": "荷包紙袋",
+    "ref_en_title": "Toast Bags",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Toast-Bags-ToastBags.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Toast-Bags-ToastBags.html"
+  },
+  {
+    "local_en_path": "products/kraft\\8-square-bottom-paper-bag.html",
+    "local_zh_path": "zh-tw/products/kraft\\8-square-bottom-paper-bag.html",
+    "ref_filename": "product-8--Square-Bottom-Paper-Bag-8SquareBottomPaperBag.html",
+    "ref_zh_title": "8號方型外帶紙袋",
+    "ref_en_title": "8# Square Bottom Paper Bag",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-8--Square-Bottom-Paper-Bag-8SquareBottomPaperBag.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-8--Square-Bottom-Paper-Bag-8SquareBottomPaperBag.html"
+  },
+  {
+    "local_en_path": "products/kraft\\baguette-bakery-bag.html",
+    "local_zh_path": "zh-tw/products/kraft\\baguette-bakery-bag.html",
+    "ref_filename": "product-Flat-handle-bag-brown-kraft-4.html",
+    "ref_zh_title": "麵包紙袋",
+    "ref_en_title": "Baguette Bakery bag",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Flat-handle-bag-brown-kraft-4.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Flat-handle-bag-brown-kraft-4.html"
+  },
+  {
+    "local_en_path": "products/kraft\\bakery-series-paper-bags.html",
+    "local_zh_path": "zh-tw/products/kraft\\bakery-series-paper-bags.html",
+    "ref_filename": "product-Bakery-Series-Paper-Bags-BakerySeriesPaperBags.html",
+    "ref_zh_title": "烘焙麵包開窗紙袋",
+    "ref_en_title": "Bakery Series Paper Bags",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Bakery-Series-Paper-Bags-BakerySeriesPaperBags.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Bakery-Series-Paper-Bags-BakerySeriesPaperBags.html"
+  },
+  {
+    "local_en_path": "products/kraft\\bakery-window-bag.html",
+    "local_zh_path": "zh-tw/products/kraft\\bakery-window-bag.html",
+    "ref_filename": "product-Brown-flat-plain-brown-kraft-3.html",
+    "ref_zh_title": "法國麵包紙袋",
+    "ref_en_title": "Bakery window bag",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Brown-flat-plain-brown-kraft-3.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Brown-flat-plain-brown-kraft-3.html"
+  },
+  {
+    "local_en_path": "products/kraft\\christmas-series-square-bottom-paper-bag.html",
+    "local_zh_path": "zh-tw/products/kraft\\christmas-series-square-bottom-paper-bag.html",
+    "ref_filename": "product-Christmas-Series-Square-Bottom-Paper-Bag-ChristmasSeriesSquareBottomPaperBag.html",
+    "ref_zh_title": "耶誕節系列方紙袋",
+    "ref_en_title": "Christmas Series Square Bottom Paper Bag",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Christmas-Series-Square-Bottom-Paper-Bag-ChristmasSeriesSquareBottomPaperBag.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Christmas-Series-Square-Bottom-Paper-Bag-ChristmasSeriesSquareBottomPaperBag.html"
+  },
+  {
+    "local_en_path": "products/kraft\\cream-color-square-bag.html",
+    "local_zh_path": "zh-tw/products/kraft\\cream-color-square-bag.html",
+    "ref_filename": "product-Cream-Color--Square-Bag-CreamColorSquareBag.html",
+    "ref_zh_title": "奶油白方紙袋",
+    "ref_en_title": "Cream Color Square Bag",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Cream-Color--Square-Bag-CreamColorSquareBag.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Cream-Color--Square-Bag-CreamColorSquareBag.html"
+  },
+  {
+    "local_en_path": "products/kraft\\die-cut-handle-bag.html",
+    "local_zh_path": "zh-tw/products/kraft\\die-cut-handle-bag.html",
+    "ref_filename": "product-Die-Cut-Handle-paper-bag-brown-kraft-6.html",
+    "ref_zh_title": "丸孔提紙袋",
+    "ref_en_title": "Die Cut Handle bag",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Die-Cut-Handle-paper-bag-brown-kraft-6.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Die-Cut-Handle-paper-bag-brown-kraft-6.html"
+  },
+  {
+    "local_en_path": "products/kraft\\flat-handle-grocery-bags.html",
+    "local_zh_path": "zh-tw/products/kraft\\flat-handle-grocery-bags.html",
+    "ref_filename": "product-FlatHandlePaperBag-brown-kraft-5.html",
+    "ref_zh_title": "扁繩手提紙袋",
+    "ref_en_title": "Flat Handle Grocery Bags",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-FlatHandlePaperBag-brown-kraft-5.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-FlatHandlePaperBag-brown-kraft-5.html"
+  },
+  {
+    "local_en_path": "products/kraft\\hexagonal-bottom-paper-bag.html",
+    "local_zh_path": "zh-tw/products/kraft\\hexagonal-bottom-paper-bag.html",
+    "ref_filename": "product-Hexagonal-Bottom-Paper-Bag-Hexagonalbottompaperbag.html",
+    "ref_zh_title": "六角底紙袋",
+    "ref_en_title": "Hexagonal Bottom Paper Bag",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Hexagonal-Bottom-Paper-Bag-Hexagonalbottompaperbag.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Hexagonal-Bottom-Paper-Bag-Hexagonalbottompaperbag.html"
+  },
+  {
+    "local_en_path": "products/kraft\\merchandise-bags.html",
+    "local_zh_path": "zh-tw/products/kraft\\merchandise-bags.html",
+    "ref_filename": "product-Square-bag-brown-kraft-2.html",
+    "ref_zh_title": "本牛平袋",
+    "ref_en_title": "Merchandise Bags",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Square-bag-brown-kraft-2.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Square-bag-brown-kraft-2.html"
+  },
+  {
+    "local_en_path": "products/kraft\\sos-white-take-out-bags.html",
+    "local_zh_path": "zh-tw/products/kraft\\sos-white-take-out-bags.html",
+    "ref_filename": "product-SOS-White-Take-Out-Bags-SOSWhiteTakeOutBags.html",
+    "ref_zh_title": "公版方紙袋(生活版/自然版)",
+    "ref_en_title": "SOS White Take Out Bags",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-SOS-White-Take-Out-Bags-SOSWhiteTakeOutBags.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-SOS-White-Take-Out-Bags-SOSWhiteTakeOutBags.html"
+  },
+  {
+    "local_en_path": "products/kraft\\square-paper-bag.html",
+    "local_zh_path": "zh-tw/products/kraft\\square-paper-bag.html",
+    "ref_filename": "product-8--Square-Bottom-Paper-Bag-8SquareBottomPaperBag.html",
+    "ref_zh_title": "8號方型外帶紙袋",
+    "ref_en_title": "8# Square Bottom Paper Bag",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-8--Square-Bottom-Paper-Bag-8SquareBottomPaperBag.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-8--Square-Bottom-Paper-Bag-8SquareBottomPaperBag.html"
+  },
+  {
+    "local_en_path": "products/kraft\\to-go-sos-bags.html",
+    "local_zh_path": "zh-tw/products/kraft\\to-go-sos-bags.html",
+    "ref_filename": "product-Brown-Kraft-brown-kraft-1.html",
+    "ref_zh_title": "方紙袋",
+    "ref_en_title": "To-Go SOS Bags",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Brown-Kraft-brown-kraft-1.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Brown-Kraft-brown-kraft-1.html"
+  },
+  {
+    "local_en_path": "products/others\\bakery-side-window-bag.html",
+    "local_zh_path": "zh-tw/products/others\\bakery-side-window-bag.html",
+    "ref_filename": "product-Greaseproof-paper-g-paper-4.html",
+    "ref_zh_title": "麵包側窗紙袋",
+    "ref_en_title": "Bakery side window bag",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Greaseproof-paper-g-paper-4.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Greaseproof-paper-g-paper-4.html"
+  },
+  {
+    "local_en_path": "products/others\\custom-&-specialty-bags.html",
+    "local_zh_path": "zh-tw/products/others\\custom-&-specialty-bags.html",
+    "ref_filename": "product-Greaseproof-paper-g-paper-3.html",
+    "ref_zh_title": "防油紙袋",
+    "ref_en_title": "PFAS Free Sandwich Bags",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Greaseproof-paper-g-paper-3.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Greaseproof-paper-g-paper-3.html"
+  },
+  {
+    "local_en_path": "products/others\\paper-placement.html",
+    "local_zh_path": "zh-tw/products/others\\paper-placement.html",
+    "ref_filename": "product-%E5%B9%B3%E5%BC%B5%E7%B4%991-others-1.html",
+    "ref_zh_title": "餐墊纸",
+    "ref_en_title": "Paper Placement",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-%E5%B9%B3%E5%BC%B5%E7%B4%991-others-1.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-%E5%B9%B3%E5%BC%B5%E7%B4%991-others-1.html"
+  },
+  {
+    "local_en_path": "products/others\\specialty-bags.html",
+    "local_zh_path": "zh-tw/products/others\\specialty-bags.html",
+    "ref_filename": "product-Greaseproof-paper-g-paper-3.html",
+    "ref_zh_title": "防油紙袋",
+    "ref_en_title": "PFAS Free Sandwich Bags",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Greaseproof-paper-g-paper-3.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Greaseproof-paper-g-paper-3.html"
+  },
+  {
+    "local_en_path": "products/others\\wonderful-time-paper-placemats.html",
+    "local_zh_path": "zh-tw/products/others\\wonderful-time-paper-placemats.html",
+    "ref_filename": "product-Wonderful-Time-Paper-Placemats-WonderfulTimePaperPlacemats.html",
+    "ref_zh_title": "美好時光版餐墊紙",
+    "ref_en_title": "Wonderful Time Paper Placemats",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Wonderful-Time-Paper-Placemats-WonderfulTimePaperPlacemats.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Wonderful-Time-Paper-Placemats-WonderfulTimePaperPlacemats.html"
+  },
+  {
+    "local_en_path": "products/paper-straw\\biodegradable-bamboo-straw.html",
+    "local_zh_path": "zh-tw/products/paper-straw\\biodegradable-bamboo-straw.html",
+    "ref_filename": "product-White-Paper-straw-Paper-straw-www.html",
+    "ref_zh_title": "竹吸管",
+    "ref_en_title": "Biodegradable Bamboo Straw",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-White-Paper-straw-Paper-straw-www.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-White-Paper-straw-Paper-straw-www.html"
+  },
+  {
+    "local_en_path": "products/paper-straw\\biodegradable-paper-straw.html",
+    "local_zh_path": "zh-tw/products/paper-straw\\biodegradable-paper-straw.html",
+    "ref_filename": "product-Brown-Paper-straw-Paper-straw-BWW.html",
+    "ref_zh_title": "紙吸管",
+    "ref_en_title": "Paper Straw",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Brown-Paper-straw-Paper-straw-BWW.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Brown-Paper-straw-Paper-straw-BWW.html"
+  },
+  {
+    "local_en_path": "products/paper-straw\\paper-straw-brown.html",
+    "local_zh_path": "zh-tw/products/paper-straw\\paper-straw-brown.html",
+    "ref_filename": "product-Brown-Paper-straw-Paper-straw-BWW.html",
+    "ref_zh_title": "紙吸管",
+    "ref_en_title": "Paper Straw",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Brown-Paper-straw-Paper-straw-BWW.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Brown-Paper-straw-Paper-straw-BWW.html"
+  },
+  {
+    "local_en_path": "products/paper-straw\\paper-straw.html",
+    "local_zh_path": "zh-tw/products/paper-straw\\paper-straw.html",
+    "ref_filename": "product-Brown-Paper-straw-Paper-straw-BWW.html",
+    "ref_zh_title": "紙吸管",
+    "ref_en_title": "Paper Straw",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Brown-Paper-straw-Paper-straw-BWW.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Brown-Paper-straw-Paper-straw-BWW.html"
+  },
+  {
+    "local_en_path": "products/pe-lamination\\burger-pocket-l-bag.html",
+    "local_zh_path": "zh-tw/products/pe-lamination\\burger-pocket-l-bag.html",
+    "ref_filename": "product-PE-Lamination-paper-PE-Lamination-paper-1.html",
+    "ref_zh_title": "L袋",
+    "ref_en_title": "2 side open paper bag",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-PE-Lamination-paper-PE-Lamination-paper-1.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-PE-Lamination-paper-PE-Lamination-paper-1.html"
+  },
+  {
+    "local_en_path": "products/pe-lamination\\burger-pocket-paper-bag.html",
+    "local_zh_path": "zh-tw/products/pe-lamination\\burger-pocket-paper-bag.html",
+    "ref_filename": "product-PE-Lamination-paper-PE-Lamination-paper-1.html",
+    "ref_zh_title": "L袋",
+    "ref_en_title": "2 side open paper bag",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-PE-Lamination-paper-PE-Lamination-paper-1.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-PE-Lamination-paper-PE-Lamination-paper-1.html"
+  },
+  {
+    "local_en_path": "products/pe-lamination\\deli-wrap-paper.html",
+    "local_zh_path": "zh-tw/products/pe-lamination\\deli-wrap-paper.html",
+    "ref_filename": "product-L%E8%A2%8B%E7%A7%81%E7%89%88%E5%8D%B0%E5%88%B7-PE-Lamination-paper-2.html",
+    "ref_zh_title": "包裝紙",
+    "ref_en_title": "Deli Wrap Paper",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-L%E8%A2%8B%E7%A7%81%E7%89%88%E5%8D%B0%E5%88%B7-PE-Lamination-paper-2.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-L%E8%A2%8B%E7%A7%81%E7%89%88%E5%8D%B0%E5%88%B7-PE-Lamination-paper-2.html"
+  },
+  {
+    "local_en_path": "products/pe-lamination\\l-bag.html",
+    "local_zh_path": "zh-tw/products/pe-lamination\\l-bag.html",
+    "ref_filename": "product-PE-Lamination-paper-PE-Lamination-paper-1.html",
+    "ref_zh_title": "L袋",
+    "ref_en_title": "2 side open paper bag",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-PE-Lamination-paper-PE-Lamination-paper-1.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-PE-Lamination-paper-PE-Lamination-paper-1.html"
+  },
+  {
+    "local_en_path": "products/pe-lamination\\toast-bags.html",
+    "local_zh_path": "zh-tw/products/pe-lamination\\toast-bags.html",
+    "ref_filename": "product-Toast-Bags-ToastBags.html",
+    "ref_zh_title": "荷包紙袋",
+    "ref_en_title": "Toast Bags",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Toast-Bags-ToastBags.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Toast-Bags-ToastBags.html"
+  },
+  {
+    "local_en_path": "products/white-kraft\\new-flate-handle-paper-bags.html",
+    "local_zh_path": "zh-tw/products/white-kraft\\new-flate-handle-paper-bags.html",
+    "ref_filename": "product-New-Flate-Handle-Paper-Bags-NewFlateHandlePaperBags.html",
+    "ref_zh_title": "全新扁把提紙袋-COFFEE&BAKERY版",
+    "ref_en_title": "New Flate Handle Paper Bags",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-New-Flate-Handle-Paper-Bags-NewFlateHandlePaperBags.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-New-Flate-Handle-Paper-Bags-NewFlateHandlePaperBags.html"
+  },
+  {
+    "local_en_path": "products/white-kraft\\recycled-kraft-grocery-bags.html",
+    "local_zh_path": "zh-tw/products/white-kraft\\recycled-kraft-grocery-bags.html",
+    "ref_filename": "product-Recycled-Kraft-Grocery-Bags-RecycledKraftGroceryBags.html",
+    "ref_zh_title": "環牛購物方紙袋",
+    "ref_en_title": "Recycled Kraft Grocery Bags",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Recycled-Kraft-Grocery-Bags-RecycledKraftGroceryBags.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Recycled-Kraft-Grocery-Bags-RecycledKraftGroceryBags.html"
+  },
+  {
+    "local_en_path": "products/white-kraft\\take-out-bags-square-bottom-paper-bag.html",
+    "local_zh_path": "zh-tw/products/white-kraft\\take-out-bags-square-bottom-paper-bag.html",
+    "ref_filename": "product-Take-Out-Bags-Square-Bottom-Paper-Bag-TakeOutBagsSquareBottomPaperBag.html",
+    "ref_zh_title": "爆脆版方紙袋",
+    "ref_en_title": "Take Out Bags Square Bottom Paper Bag",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-Take-Out-Bags-Square-Bottom-Paper-Bag-TakeOutBagsSquareBottomPaperBag.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-Take-Out-Bags-Square-Bottom-Paper-Bag-TakeOutBagsSquareBottomPaperBag.html"
+  },
+  {
+    "local_en_path": "products/white-kraft\\white-kraft-bag.html",
+    "local_zh_path": "zh-tw/products/white-kraft\\white-kraft-bag.html",
+    "ref_filename": "product-JJG-B1-White-Kraft-1.html",
+    "ref_zh_title": "白牛平紙袋",
+    "ref_en_title": "White Kraft Bags",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-JJG-B1-White-Kraft-1.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-JJG-B1-White-Kraft-1.html"
+  },
+  {
+    "local_en_path": "products/white-kraft\\white-kraft-bags.html",
+    "local_zh_path": "zh-tw/products/white-kraft\\white-kraft-bags.html",
+    "ref_filename": "product-JJG-B1-White-Kraft-1.html",
+    "ref_zh_title": "白牛平紙袋",
+    "ref_en_title": "White Kraft Bags",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-JJG-B1-White-Kraft-1.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-JJG-B1-White-Kraft-1.html"
+  },
+  {
+    "local_en_path": "products/white-kraft\\white-kraft-paper-bag.html",
+    "local_zh_path": "zh-tw/products/white-kraft\\white-kraft-paper-bag.html",
+    "ref_filename": "product-JJG-B1-White-Kraft-1.html",
+    "ref_zh_title": "白牛平紙袋",
+    "ref_en_title": "White Kraft Bags",
+    "ref_zh_url": "https://www.jjgpaperbag.com/webls-zh-tw/product-JJG-B1-White-Kraft-1.html",
+    "ref_en_url": "https://www.jjgpaperbag.com/product-JJG-B1-White-Kraft-1.html"
+  }
+]

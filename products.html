@@ -1,348 +1,497 @@
 <!DOCTYPE html>
+
 <html lang="en">
-
 <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Products | JJG Paper Bag - 壯佳果包裝</title>
-        <meta name="description"
-                content="Browse our complete catalog of eco-friendly paper bags: greaseproof, kraft, flat handle, aluminum foil, and more." />
-        <link rel="icon" href="/images/favicon.ico" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;600;700&family=Noto+Serif+TC:wght@700;900&family=Playfair+Display:wght@400;700;900&display=swap"
-                rel="stylesheet">
-  <script type="module" src="/main.js"></script>
-  <link rel="stylesheet" href="/style.css">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>
+   Products | JJG Paper Bag - 壯佳果包裝
+  </title>
+<meta content="Browse our complete catalog of eco-friendly paper bags: greaseproof, kraft, flat handle, aluminum foil, and more." name="description"/>
+<link href="/images/favicon.ico" rel="icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Noto+Sans+TC:wght@400;500;600;700&amp;family=Noto+Serif+TC:wght@700;900&amp;family=Playfair+Display:wght@400;700;900&amp;display=swap" rel="stylesheet"/>
+<script src="/main.js" type="module">
+</script>
+<link href="/style.css" rel="stylesheet"/>
 </head>
-
-<body x-data="{ mobileMenu: false, activeCategory: 'all' }"
-        class="bg-[#F5F0E8] text-[#1A1A1A] font-['Inter','Noto_Sans_TC',sans-serif]">
-
-        <!-- NAV -->
-        <header class="sticky top-0 z-50 bg-white/95 backdrop-blur shadow-sm">
-                <nav class="max-w-[1400px] mx-auto px-5 sm:px-6 lg:px-8 h-[88px] flex items-center justify-between">
-                        <a href="/index.html" class="flex items-center gap-2"><img src="/images/index-logo.png" alt="JJG"
-                                        class="h-[68px]"></a>
-                        <div class="hidden lg:flex items-center gap-6 md:gap-8">
-                                <a href="/index.html" class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">Home</a>
-                                <a href="/about.html" class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">About Us</a>
-                                <a href="/products.html" class="text-[#1A5C38] font-semibold text-[15px]">Products</a>
-                                <a href="/news.html" class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">News</a>
-                                <a href="/catalog.html" class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">E-Catalog</a>
-                                <a href="/contact.html" class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition">Contact Us</a>
-                        </div>
-                        <div class="hidden lg:flex items-center gap-4">
-                                <a href="/products.html" class="text-[#666] text-sm font-medium">EN</a><span
-                                        class="text-gray-300">|</span><a href="/zh-tw/products.html"
-                                        class="text-[#666] text-sm font-medium">繁中</a>
-                                <a href="/contact.html"
-                                        class="bg-[#1A5C38] hover:bg-[#2E8B57] text-white px-5 py-2.5 rounded-lg font-bold text-sm uppercase tracking-wider transition shadow">Contact
-                                        Us</a>
-                        </div>
-                        <button @click="mobileMenu=!mobileMenu" class="lg:hidden p-2"><svg class="w-6 h-6" fill="none"
-                                        stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                d="M4 6h16M4 12h16M4 18h16" />
-                                </svg></button>
-                </nav>
-    <!-- Mobile Menu -->
-    <div x-show="mobileMenu" x-transition:enter="transition ease-out duration-300"
-      x-transition:enter-start="opacity-0 -translate-y-2" x-transition:enter-end="opacity-100 translate-y-0"
-      x-transition:leave="transition ease-in duration-200" x-transition:leave-start="opacity-100"
-      x-transition:leave-end="opacity-0 -translate-y-2" class="lg:hidden glass border-t border-gray-200/50"
-      style="display:none">
-      <div class="px-6 py-5 space-y-1">
-        <a href="/index.html" class="block py-2 px-3 rounded hover:bg-[#F5F0E8] transition-colors">Home</a>
-        <a href="/about.html" class="block py-2 px-3 rounded hover:bg-[#F5F0E8] transition-colors">About Us</a>
-        <a href="/products.html" class="block py-2 px-3 rounded hover:bg-[#F5F0E8] transition-colors">Products</a>
-        <a href="/news.html" class="block py-2 px-3 rounded hover:bg-[#F5F0E8] transition-colors">News</a>
-        <a href="/catalog.html" class="block py-2 px-3 rounded hover:bg-[#F5F0E8] transition-colors">E-Catalog</a>
-        <a href="/contact.html" class="block py-2 px-3 rounded hover:bg-[#F5F0E8] transition-colors">Contact Us</a>
-      </div>
-    </div>
-        </header>
-
-        <!-- Breadcrumb -->
-        <div class="max-w-[1400px] mx-auto px-5 sm:px-6 lg:px-8 py-4">
-                <nav class="text-sm text-[#666]"><a href="/index.html" class="hover:text-[#2E8B57]">Home</a> <span
-                                class="mx-2">›</span> <span class="text-[#1A5C38] font-medium">Products</span></nav>
-        </div>
-
-        <!-- Page Header -->
-        <section class="max-w-[1400px] mx-auto px-5 sm:px-6 lg:px-8 pb-8">
-                <h1 class="font-['Playfair_Display','Noto_Serif_TC',serif] text-3xl md:text-5xl font-bold mb-4">Our
-                        Products</h1>
-                <p class="text-[#666] text-lg max-w-2xl">Complete catalog of eco-friendly paper bags for food service,
-                        retail, and commercial packaging needs.</p>
-        </section>
-
-        <!-- Category Filter -->
-        <section class="max-w-[1400px] mx-auto px-5 sm:px-6 lg:px-8 pb-6">
-                <div class="flex flex-wrap gap-2">
-                        <button @click="activeCategory='all'"
-                                :class="activeCategory==='all'?'bg-[#1A5C38] text-white':'bg-white text-[#666] hover:bg-[#F5F0E8]'"
-                                class="px-4 py-2 rounded-lg text-sm font-medium transition">All</button>
-                        <button @click="activeCategory='greaseproof'"
-                                :class="activeCategory==='greaseproof'?'bg-[#1A5C38] text-white':'bg-white text-[#666] hover:bg-[#F5F0E8]'"
-                                class="px-4 py-2 rounded-lg text-sm font-medium transition">Greaseproof</button>
-                        <button @click="activeCategory='kraft'"
-                                :class="activeCategory==='kraft'?'bg-[#1A5C38] text-white':'bg-white text-[#666] hover:bg-[#F5F0E8]'"
-                                class="px-4 py-2 rounded-lg text-sm font-medium transition">Brown Kraft</button>
-                        <button @click="activeCategory='flat-handle'"
-                                :class="activeCategory==='flat-handle'?'bg-[#1A5C38] text-white':'bg-white text-[#666] hover:bg-[#F5F0E8]'"
-                                class="px-4 py-2 rounded-lg text-sm font-medium transition">Flat Handle</button>
-                        <button @click="activeCategory='white-kraft'"
-                                :class="activeCategory==='white-kraft'?'bg-[#1A5C38] text-white':'bg-white text-[#666] hover:bg-[#F5F0E8]'"
-                                class="px-4 py-2 rounded-lg text-sm font-medium transition">White Kraft</button>
-                        <button @click="activeCategory='aluminum-foil'"
-                                :class="activeCategory==='aluminum-foil'?'bg-[#1A5C38] text-white':'bg-white text-[#666] hover:bg-[#F5F0E8]'"
-                                class="px-4 py-2 rounded-lg text-sm font-medium transition">Aluminum Foil</button>
-                        <button @click="activeCategory='fruit-protection'"
-                                :class="activeCategory==='fruit-protection'?'bg-[#1A5C38] text-white':'bg-white text-[#666] hover:bg-[#F5F0E8]'"
-                                class="px-4 py-2 rounded-lg text-sm font-medium transition">Fruit Protection</button>
-                        <button @click="activeCategory='pe-lamination'"
-                                :class="activeCategory==='pe-lamination'?'bg-[#1A5C38] text-white':'bg-white text-[#666] hover:bg-[#F5F0E8]'"
-                                class="px-4 py-2 rounded-lg text-sm font-medium transition">PE-Lamination</button>
-                        <button @click="activeCategory='paper-straw'"
-                                :class="activeCategory==='paper-straw'?'bg-[#1A5C38] text-white':'bg-white text-[#666] hover:bg-[#F5F0E8]'"
-                                class="px-4 py-2 rounded-lg text-sm font-medium transition">Paper Straw</button>
-                        <button @click="activeCategory='others'"
-                                :class="activeCategory==='others'?'bg-[#1A5C38] text-white':'bg-white text-[#666] hover:bg-[#F5F0E8]'"
-                                class="px-4 py-2 rounded-lg text-sm font-medium transition">Others</button>
-                </div>
-        </section>
-
-        <!-- Product Grid -->
-        <section id="product-grid" class="max-w-[1400px] mx-auto px-5 sm:px-6 lg:px-8 pb-20">
-                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-                        <!-- FLAT HANDLE -->
-                        <div x-show="activeCategory==='all'||activeCategory==='flat-handle'"
-                                class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-                                <a href="/products/flat-handle/flat-handle-bag.html" class="block aspect-[4/3] overflow-hidden">
-                                    <img src="/proimages/detail/flat-handle-bag.jpg" alt="Flat Handle Paper Bag"
-                                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                                </a>
-                                <div class="p-5">
-                                    <span class="text-xs font-semibold uppercase tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">Flat Handle</span>
-                                    <h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">
-                                        <a href="/products/flat-handle/flat-handle-bag.html" class="hover:text-[#2E8B57]">Flat Handle Paper Bag</a>
-                                    </h3>
-                                    <p class="text-[#666] text-sm mb-3">High stability, comfortable grip, food-grade water-based ink.</p>
-                                    <a href="/products/flat-handle/flat-handle-bag.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">View Details →</a>
-                                </div>
-                        </div>
-
-                        <!-- BROWN KRAFT -->
-                        <div x-show="activeCategory==='all'||activeCategory==='kraft'"
-                                class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-                                <a href="/products/kraft/square-paper-bag.html" class="block aspect-[4/3] overflow-hidden">
-                                    <img src="/proimages/detail/square-bag.jpg" alt="Square Bottom Paper Bag"
-                                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                                </a>
-                                <div class="p-5">
-                                    <span class="text-xs font-semibold uppercase tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">Brown Kraft</span>
-                                    <h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">
-                                        <a href="/products/kraft/square-paper-bag.html" class="hover:text-[#2E8B57]">Square Bottom Paper Bag</a>
-                                    </h3>
-                                    <p class="text-[#666] text-sm mb-3">Self-standing design, high-strength long-fiber kraft paper.</p>
-                                    <a href="/products/kraft/square-paper-bag.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">View Details →</a>
-                                </div>
-                        </div>
-
-                        <!-- GREASEPROOF -->
-                        <div x-show="activeCategory==='all'||activeCategory==='greaseproof'"
-                                class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-                                <a href="/products/greaseproof/bakery-side-window-bag.html" class="block aspect-[4/3] overflow-hidden">
-                                    <img src="/proimages/detail/bakery-side-window.jpg" alt="Bakery Side Window Bag"
-                                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                                </a>
-                                <div class="p-5">
-                                    <span class="text-xs font-semibold uppercase tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">Greaseproof</span>
-                                    <h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">
-                                        <a href="/products/greaseproof/bakery-side-window-bag.html" class="hover:text-[#2E8B57]">Bakery Side Window Bag</a>
-                                    </h3>
-                                    <p class="text-[#666] text-sm mb-3">PE laminated, grease-resistant with high-clarity transparent window.</p>
-                                    <a href="/products/greaseproof/bakery-side-window-bag.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">View Details →</a>
-                                </div>
-                        </div>
-
-                        <!-- WHITE KRAFT -->
-                        <div x-show="activeCategory==='all'||activeCategory==='white-kraft'"
-                                class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-                                <a href="/products/white-kraft/white-kraft-bag.html" class="block aspect-[4/3] overflow-hidden">
-                                    <img src="/proimages/detail/white-kraft-bag.png" alt="White Kraft Paper Bag"
-                                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                                </a>
-                                <div class="p-5">
-                                    <span class="text-xs font-semibold uppercase tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">White Kraft</span>
-                                    <h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">
-                                        <a href="/products/white-kraft/white-kraft-bag.html" class="hover:text-[#2E8B57]">White Kraft Paper Bag</a>
-                                    </h3>
-                                    <p class="text-[#666] text-sm mb-3">Premium white kraft, clean appearance for retail and medical use.</p>
-                                    <a href="/products/white-kraft/white-kraft-bag.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">View Details →</a>
-                                </div>
-                        </div>
-
-                        <!-- ALUMINUM FOIL -->
-                        <div x-show="activeCategory==='all'||activeCategory==='aluminum-foil'"
-                                class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-                                <a href="/products/aluminum-foil/aluminum-foil-bag.html" class="block aspect-[4/3] overflow-hidden">
-                                    <img src="/proimages/detail/aluminum-foil-bag.png" alt="Aluminum Foil Paper Bag"
-                                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                                </a>
-                                <div class="p-5">
-                                    <span class="text-xs font-semibold uppercase tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">Aluminum Foil</span>
-                                    <h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">
-                                        <a href="/products/aluminum-foil/aluminum-foil-bag.html" class="hover:text-[#2E8B57]">Aluminum Foil Paper Bag</a>
-                                    </h3>
-                                    <p class="text-[#666] text-sm mb-3">Excellent heat retention for roasted chicken and takeaways.</p>
-                                    <a href="/products/aluminum-foil/aluminum-foil-bag.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">View Details →</a>
-                                </div>
-                        </div>
-
-                        <!-- PE LAMINATION -->
-                        <div x-show="activeCategory==='all'||activeCategory==='pe-lamination'"
-                                class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-                                <a href="/products/pe-lamination/l-bag.html" class="block aspect-[4/3] overflow-hidden">
-                                    <img src="/proimages/detail/l-bag.jpg" alt="PE Lamination L-Bag"
-                                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                                </a>
-                                <div class="p-5">
-                                    <span class="text-xs font-semibold uppercase tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">PE Lamination</span>
-                                    <h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">
-                                        <a href="/products/pe-lamination/l-bag.html" class="hover:text-[#2E8B57]">Burger Pocket L-Bag</a>
-                                    </h3>
-                                    <p class="text-[#666] text-sm mb-3">Leak-proof and grease-resistant burger and sandwich pocket.</p>
-                                    <a href="/products/pe-lamination/l-bag.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">View Details →</a>
-                                </div>
-                        </div>
-
-                        <!-- FRUIT PROTECTION -->
-                        <div x-show="activeCategory==='all'||activeCategory==='fruit-protection'"
-                                class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-                                <a href="/products/fruit-protection/mango-bag.html" class="block aspect-[4/3] overflow-hidden">
-                                    <img src="/proimages/detail/mango-bag.jpg" alt="Fruit Protection Bag"
-                                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                                </a>
-                                <div class="p-5">
-                                    <span class="text-xs font-semibold uppercase tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">Fruit Protection</span>
-                                    <h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">
-                                        <a href="/products/fruit-protection/mango-bag.html" class="hover:text-[#2E8B57]">Mango Protection Bag</a>
-                                    </h3>
-                                    <p class="text-[#666] text-sm mb-3">Double-layer protection from pests and weather for growing fruits.</p>
-                                    <a href="/products/fruit-protection/mango-bag.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">View Details →</a>
-                                </div>
-                        </div>
-
-                        <!-- PAPER STRAW -->
-                        <div x-show="activeCategory==='all'||activeCategory==='paper-straw'"
-                                class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-                                <a href="/products/paper-straw/paper-straw.html" class="block aspect-[4/3] overflow-hidden">
-                                    <img src="/proimages/detail/paper-straw.jpg" alt="Paper Straw"
-                                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                                </a>
-                                <div class="p-5">
-                                    <span class="text-xs font-semibold uppercase tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">Paper Straw</span>
-                                    <h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">
-                                        <a href="/products/paper-straw/paper-straw.html" class="hover:text-[#2E8B57]">Biodegradable Paper Straw</a>
-                                    </h3>
-                                    <p class="text-[#666] text-sm mb-3">100% Taiwan made, plastic-free, eco-friendly drinking solution.</p>
-                                    <a href="/products/paper-straw/paper-straw.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">View Details →</a>
-                                </div>
-                        </div>
-
-                        <!-- OTHERS / SPECIALTY -->
-                        <div x-show="activeCategory==='all'||activeCategory==='others'"
-                                class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-                                <a href="/products/others/specialty-bags.html" class="block aspect-[4/3] overflow-hidden">
-                                    <img src="/proimages/detail/bakery-side-window.jpg" alt="Specialty Bags"
-                                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                                </a>
-                                <div class="p-5">
-                                    <span class="text-xs font-semibold uppercase tracking-wider text-[#666] bg-gray-100 px-2 py-0.5 rounded-full">Others</span>
-                                    <h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">
-                                        <a href="/products/others/specialty-bags.html" class="hover:text-[#2E8B57]">Custom & Specialty Bags</a>
-                                    </h3>
-                                    <p class="text-[#666] text-sm mb-3">Bespoke solutions for unique requirements and custom material needs.</p>
-                                    <a href="/products/others/specialty-bags.html" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">View Details →</a>
-                                </div>
-                        </div>
-                        <div x-show="activeCategory==='all'||activeCategory==='others'||activeCategory==='kraft'"
-                                class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-                                <a href="https://www.jjgpaperbag.com/product-Die-Cut-Handle-paper-bag-brown-kraft-6.html" target="_blank" class="block aspect-[4/3] overflow-hidden">
-                                    <img src="https://www.jjgpaperbag.com/proimages/sr/product/DieCut_Bag/DM4.jpg" alt="Die Cut Handle Bag"
-                                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-                                </a>
-                                <div class="p-5">
-                                    <span class="text-xs font-semibold uppercase tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">Recycled Kraft</span>
-                                    <h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">
-                                        <a href="https://www.jjgpaperbag.com/product-Die-Cut-Handle-paper-bag-brown-kraft-6.html" target="_blank" class="hover:text-[#2E8B57]">Die Cut Handle Bag</a>
-                                    </h3>
-                                    <p class="text-[#666] text-sm mb-3">Ideal for groceries and takeaway orders, featuring die-cut handles.</p>
-                                    <a href="https://www.jjgpaperbag.com/product-Die-Cut-Handle-paper-bag-brown-kraft-6.html" target="_blank" class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]">View Details →</a>
-                                </div>
-                        </div></div>
-        </section>
-
-        <!-- CTA -->
-        <section class="bg-[#1A5C38] py-16">
-                <div class="max-w-[1400px] mx-auto px-5 sm:px-6 lg:px-8 text-center">
-                        <h2 class="font-['Playfair_Display',serif] text-3xl font-bold text-white mb-4">Need Custom
-                                Packaging?</h2>
-                        <p class="text-white/80 text-lg mb-8">We offer OEM/ODM services with custom printing, sizes, and
-                                materials.</p>
-                        <a href="/contact.html"
-                                class="bg-white text-[#1A5C38] px-10 py-3.5 rounded-lg font-bold uppercase tracking-wider hover:bg-[#F5F0E8] transition inline-block">Get
-                                a Quote</a>
-                </div>
-        </section>
-
-        <!-- Footer -->
-        <footer class="bg-[#1A1A1A] text-gray-400 pt-16 pb-8">
-                <div class="max-w-[1400px] mx-auto px-5 sm:px-6 lg:px-8">
-                        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10 pb-10 border-b border-gray-800">
-                                <div><img src="/images/index-logo.png" alt="JJG" class="h-10 mb-4 brightness-200">
-                                        <p class="text-sm leading-relaxed">Professional paper bag manufacturer in Taiwan
-                                                with 70+ years of experience.</p>
-                                </div>
-                                <div>
-                                        <h4 class="text-white font-bold mb-5 text-sm tracking-[0.15em]">Quick Links</h4>
-                                        <ul class="space-y-3 text-sm">
-                                                <li><a href="/index.html" class="hover:text-[#2E8B57] transition">Home</a></li>
-                                                <li><a href="/about.html" class="hover:text-[#2E8B57] transition">About Us</a></li>
-                                                <li><a href="/products.html" class="hover:text-[#2E8B57] transition">Products</a></li>
-                                                <li><a href="/news.html" class="hover:text-[#2E8B57] transition">News</a></li>
-                                                <li><a href="/catalog.html" class="hover:text-[#2E8B57] transition">E-Catalog</a></li>
-                                                <li><a href="/contact.html" class="hover:text-[#2E8B57] transition">Contact Us</a></li>
-                                        </ul>
-                                </div>
-                                <div>
-                                        <h4 class="text-white font-bold mb-4 uppercase text-sm tracking-wider">Products
-                                        </h4>
-                                        <ul class="space-y-2 text-sm">
-                                                <li><a href="/products.html" class="hover:text-[#2E8B57]">All
-                                                                Products</a></li>
-                                        </ul>
-                                </div>
-                                <div>
-                                        <h4 class="text-white font-bold mb-4 uppercase text-sm tracking-wider">Contact
-                                        </h4>
-                                        <ul class="space-y-2 text-sm">
-                                                <li>📍 No.6, You 9th Rd. Dajia Dist., Taichung 43769</li>
-                                                <li>📞 <a href="tel:+886-4-26223215"
-                                                                class="hover:text-[#2E8B57]">+886-4-26223215</a></li>
-                                                <li>✉️ <a href="mailto:export@jjgpaperbag.com"
-                                                                class="hover:text-[#2E8B57]">export@jjgpaperbag.com</a>
-                                                </li>
-                                        </ul>
-                                </div>
-                        </div>
-                        <div class="pt-6 text-center text-xs text-gray-600">
-                                <p>© 2026 Juang Jia Guoo Co., Ltd. All rights reserved.</p>
-                        </div>
-                </div>
-        </footer>
+<body class="bg-[#F5F0E8] text-[#1A1A1A] font-['Inter','Noto_Sans_TC',sans-serif]" x-data="{ mobileMenu: false, activeCategory: 'all' }">
+<!-- NAV -->
+<header class="sticky top-0 z-50 bg-white/95 backdrop-blur shadow-sm">
+<nav class="max-w-[1400px] mx-auto px-5 sm:px-6 lg:px-8 h-[88px] flex items-center justify-between">
+<a class="flex items-center gap-2" href="/index.html">
+<img alt="JJG" class="h-[68px]" src="/images/index-logo.png"/>
+</a>
+<div class="hidden lg:flex items-center gap-6 md:gap-8">
+<a class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition" href="/index.html">
+      Home
+     </a>
+<a class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition" href="/about.html">
+      About Us
+     </a>
+<a class="text-[#1A5C38] font-semibold text-[15px]" href="/products.html">
+      Products
+     </a>
+<a class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition" href="/news.html">
+      News
+     </a>
+<a class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition" href="/catalog.html">
+      E-Catalog
+     </a>
+<a class="text-[#666] hover:text-[#2E8B57] font-medium text-[15px] transition" href="/contact.html">
+      Contact Us
+     </a>
+</div>
+<div class="hidden lg:flex items-center gap-4">
+<a class="text-[#666] text-sm font-medium" href="/products.html">
+      EN
+     </a>
+<span class="text-gray-300">
+      |
+     </span>
+<a class="text-[#666] text-sm font-medium" href="/zh-tw/products.html">
+      繁中
+     </a>
+<a class="bg-[#1A5C38] hover:bg-[#2E8B57] text-white px-5 py-2.5 rounded-lg font-bold text-sm uppercase tracking-wider transition shadow" href="/contact.html">
+      Contact
+                                        Us
+     </a>
+</div>
+<button @click="mobileMenu=!mobileMenu" class="lg:hidden p-2">
+<svg class="w-6 h-6" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+</svg>
+</button>
+</nav>
+<!-- Mobile Menu -->
+<div class="lg:hidden glass border-t border-gray-200/50" style="display:none" x-show="mobileMenu" x-transition:enter="transition ease-out duration-300" x-transition:enter-end="opacity-100 translate-y-0" x-transition:enter-start="opacity-0 -translate-y-2" x-transition:leave="transition ease-in duration-200" x-transition:leave-end="opacity-0 -translate-y-2" x-transition:leave-start="opacity-100">
+<div class="px-6 py-5 space-y-1">
+<a class="block py-2 px-3 rounded hover:bg-[#F5F0E8] transition-colors" href="/index.html">
+      Home
+     </a>
+<a class="block py-2 px-3 rounded hover:bg-[#F5F0E8] transition-colors" href="/about.html">
+      About Us
+     </a>
+<a class="block py-2 px-3 rounded hover:bg-[#F5F0E8] transition-colors" href="/products.html">
+      Products
+     </a>
+<a class="block py-2 px-3 rounded hover:bg-[#F5F0E8] transition-colors" href="/news.html">
+      News
+     </a>
+<a class="block py-2 px-3 rounded hover:bg-[#F5F0E8] transition-colors" href="/catalog.html">
+      E-Catalog
+     </a>
+<a class="block py-2 px-3 rounded hover:bg-[#F5F0E8] transition-colors" href="/contact.html">
+      Contact Us
+     </a>
+</div>
+</div>
+</header>
+<!-- Breadcrumb -->
+<div class="max-w-[1400px] mx-auto px-5 sm:px-6 lg:px-8 py-4">
+<nav class="text-sm text-[#666]">
+<a class="hover:text-[#2E8B57]" href="/index.html">
+     Home
+    </a>
+<span class="mx-2">
+     ›
+    </span>
+<span class="text-[#1A5C38] font-medium">
+     Products
+    </span>
+</nav>
+</div>
+<!-- Page Header -->
+<section class="max-w-[1400px] mx-auto px-5 sm:px-6 lg:px-8 pb-8">
+<h1 class="font-['Playfair_Display','Noto_Serif_TC',serif] text-3xl md:text-5xl font-bold mb-4">
+    Our
+                        Products
+   </h1>
+<p class="text-[#666] text-lg max-w-2xl">
+    Complete catalog of eco-friendly paper bags for food service,
+                        retail, and commercial packaging needs.
+   </p>
+</section>
+<!-- Category Filter -->
+<section class="max-w-[1400px] mx-auto px-5 sm:px-6 lg:px-8 pb-6">
+<div class="flex flex-wrap gap-2">
+<button :class="activeCategory==='all'?'bg-[#1A5C38] text-white':'bg-white text-[#666] hover:bg-[#F5F0E8]'" @click="activeCategory='all'" class="px-4 py-2 rounded-lg text-sm font-medium transition">
+     All
+    </button>
+<button :class="activeCategory==='greaseproof'?'bg-[#1A5C38] text-white':'bg-white text-[#666] hover:bg-[#F5F0E8]'" @click="activeCategory='greaseproof'" class="px-4 py-2 rounded-lg text-sm font-medium transition">
+     Greaseproof
+    </button>
+<button :class="activeCategory==='kraft'?'bg-[#1A5C38] text-white':'bg-white text-[#666] hover:bg-[#F5F0E8]'" @click="activeCategory='kraft'" class="px-4 py-2 rounded-lg text-sm font-medium transition">
+     Brown Kraft
+    </button>
+<button :class="activeCategory==='flat-handle'?'bg-[#1A5C38] text-white':'bg-white text-[#666] hover:bg-[#F5F0E8]'" @click="activeCategory='flat-handle'" class="px-4 py-2 rounded-lg text-sm font-medium transition">
+     Flat Handle
+    </button>
+<button :class="activeCategory==='white-kraft'?'bg-[#1A5C38] text-white':'bg-white text-[#666] hover:bg-[#F5F0E8]'" @click="activeCategory='white-kraft'" class="px-4 py-2 rounded-lg text-sm font-medium transition">
+     White Kraft
+    </button>
+<button :class="activeCategory==='aluminum-foil'?'bg-[#1A5C38] text-white':'bg-white text-[#666] hover:bg-[#F5F0E8]'" @click="activeCategory='aluminum-foil'" class="px-4 py-2 rounded-lg text-sm font-medium transition">
+     Aluminum Foil
+    </button>
+<button :class="activeCategory==='fruit-protection'?'bg-[#1A5C38] text-white':'bg-white text-[#666] hover:bg-[#F5F0E8]'" @click="activeCategory='fruit-protection'" class="px-4 py-2 rounded-lg text-sm font-medium transition">
+     Fruit Protection
+    </button>
+<button :class="activeCategory==='pe-lamination'?'bg-[#1A5C38] text-white':'bg-white text-[#666] hover:bg-[#F5F0E8]'" @click="activeCategory='pe-lamination'" class="px-4 py-2 rounded-lg text-sm font-medium transition">
+     PE-Lamination
+    </button>
+<button :class="activeCategory==='paper-straw'?'bg-[#1A5C38] text-white':'bg-white text-[#666] hover:bg-[#F5F0E8]'" @click="activeCategory='paper-straw'" class="px-4 py-2 rounded-lg text-sm font-medium transition">
+     Paper Straw
+    </button>
+<button :class="activeCategory==='others'?'bg-[#1A5C38] text-white':'bg-white text-[#666] hover:bg-[#F5F0E8]'" @click="activeCategory='others'" class="px-4 py-2 rounded-lg text-sm font-medium transition">
+     Others
+    </button>
+</div>
+</section>
+<!-- Product Grid -->
+<section class="max-w-[1400px] mx-auto px-5 sm:px-6 lg:px-8 pb-20" id="product-grid">
+<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- FLAT HANDLE -->
+<div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group" x-show="activeCategory==='all'||activeCategory==='flat-handle'">
+<a class="block aspect-[4/3] overflow-hidden" href="/products/flat-handle/flat-handle-bag.html">
+<img alt="Flat Handle Paper Bag" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://www.jjgpaperbag.com/proimages/cs/扁繩模擬1000x1000px-世界名景-01.jpg"/>
+</a>
+<div class="p-5">
+<span class="text-xs font-semibold uppercase tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">
+       Flat Handle
+      </span>
+<h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">
+<a class="hover:text-[#2E8B57]" href="/products/flat-handle/flat-handle-bag.html">
+        Flat Handle Paper Bag
+       </a>
+</h3>
+<p class="text-[#666] text-sm mb-3">
+       High stability, comfortable grip, food-grade water-based ink.
+      </p>
+<a class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]" href="/products/flat-handle/flat-handle-bag.html">
+       View Details →
+      </a>
+</div>
+</div>
+<!-- BROWN KRAFT -->
+<div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group" x-show="activeCategory==='all'||activeCategory==='kraft'">
+<a class="block aspect-[4/3] overflow-hidden" href="/products/kraft/square-paper-bag.html">
+<img alt="Square Bottom Paper Bag" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="/proimages/square-bottom-new.png"/>
+</a>
+<div class="p-5">
+<span class="text-xs font-semibold uppercase tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">
+       Brown Kraft
+      </span>
+<h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">
+<a class="hover:text-[#2E8B57]" href="/products/kraft/square-paper-bag.html">
+        Square Bottom Paper Bag
+       </a>
+</h3>
+<p class="text-[#666] text-sm mb-3">
+       Self-standing design, high-strength long-fiber kraft paper.
+      </p>
+<a class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]" href="/products/kraft/square-paper-bag.html">
+       View Details →
+      </a>
+</div>
+</div>
+<!-- GREASEPROOF -->
+<div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group" x-show="activeCategory==='all'||activeCategory==='greaseproof'">
+<a class="block aspect-[4/3] overflow-hidden" href="/products/greaseproof/bakery-series-paper-bags.html">
+<img alt="Greaseproof Paper Bag" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://www.jjgpaperbag.com/proimages/index/p4-1.jpg"/>
+</a>
+<div class="p-5">
+<span class="text-xs font-semibold uppercase tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">
+       Greaseproof
+      </span>
+<h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">
+<a class="hover:text-[#2E8B57]" href="/products/greaseproof/bakery-series-paper-bags.html">
+        Greaseproof Paper Bag
+       </a>
+</h3>
+<p class="text-[#666] text-sm mb-3">
+       PE laminated, grease-resistant with high-clarity transparent window.
+      </p>
+<a class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]" href="/products/greaseproof/bakery-series-paper-bags.html">
+       View Details →
+      </a>
+</div>
+</div>
+<!-- WHITE KRAFT -->
+<div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group" x-show="activeCategory==='all'||activeCategory==='white-kraft'">
+<a class="block aspect-[4/3] overflow-hidden" href="/products/white-kraft/white-kraft-bag.html">
+<img alt="White Kraft Paper Bag" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://www.jjgpaperbag.com/proimages/cs/product/JJG-B1.png"/>
+</a>
+<div class="p-5">
+<span class="text-xs font-semibold uppercase tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">
+       White Kraft
+      </span>
+<h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">
+<a class="hover:text-[#2E8B57]" href="/products/white-kraft/white-kraft-bag.html">
+        White Kraft Paper Bag
+       </a>
+</h3>
+<p class="text-[#666] text-sm mb-3">
+       Premium white kraft, clean appearance for retail and medical use.
+      </p>
+<a class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]" href="/products/white-kraft/white-kraft-bag.html">
+       View Details →
+      </a>
+</div>
+</div>
+<!-- ALUMINUM FOIL -->
+<div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group" x-show="activeCategory==='all'||activeCategory==='aluminum-foil'">
+<a class="block aspect-[4/3] overflow-hidden" href="/products/aluminum-foil/aluminum-foil-bag.html">
+<img alt="Aluminum Foil Paper Bag" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://www.jjgpaperbag.com/proimages/cs/product/Aluminum-Foil-paper-1.png"/>
+</a>
+<div class="p-5">
+<span class="text-xs font-semibold uppercase tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">
+       Aluminum Foil
+      </span>
+<h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">
+<a class="hover:text-[#2E8B57]" href="/products/aluminum-foil/aluminum-foil-bag.html">
+        Aluminum Foil Paper Bag
+       </a>
+</h3>
+<p class="text-[#666] text-sm mb-3">
+       Excellent heat retention for roasted chicken and takeaways.
+      </p>
+<a class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]" href="/products/aluminum-foil/aluminum-foil-bag.html">
+       View Details →
+      </a>
+</div>
+</div>
+<!-- PE LAMINATION -->
+<div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group" x-show="activeCategory==='all'||activeCategory==='pe-lamination'">
+<a class="block aspect-[4/3] overflow-hidden" href="/products/pe-lamination/l-bag.html">
+<img alt="PE Lamination L-Bag" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://www.jjgpaperbag.com/proimages/cs/product/PE-Lamination-paper-1.png"/>
+</a>
+<div class="p-5">
+<span class="text-xs font-semibold uppercase tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">
+       PE Lamination
+      </span>
+<h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">
+<a class="hover:text-[#2E8B57]" href="/products/pe-lamination/l-bag.html">
+        Burger Pocket L-Bag
+       </a>
+</h3>
+<p class="text-[#666] text-sm mb-3">
+       Leak-proof and grease-resistant burger and sandwich pocket.
+      </p>
+<a class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]" href="/products/pe-lamination/l-bag.html">
+       View Details →
+      </a>
+</div>
+</div>
+<!-- FRUIT PROTECTION -->
+<div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group" x-show="activeCategory==='all'||activeCategory==='fruit-protection'">
+<a class="block aspect-[4/3] overflow-hidden" href="/products/fruit-protection/mango-bag.html">
+<img alt="Fruit Protection Bag" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://www.jjgpaperbag.com/proimages/cs/product/Fruit-Protection-Bag-1.png"/>
+</a>
+<div class="p-5">
+<span class="text-xs font-semibold uppercase tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">
+       Fruit Protection
+      </span>
+<h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">
+<a class="hover:text-[#2E8B57]" href="/products/fruit-protection/mango-bag.html">
+        Mango Protection Bag
+       </a>
+</h3>
+<p class="text-[#666] text-sm mb-3">
+       Double-layer protection from pests and weather for growing fruits.
+      </p>
+<a class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]" href="/products/fruit-protection/mango-bag.html">
+       View Details →
+      </a>
+</div>
+</div>
+<!-- PAPER STRAW -->
+<div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group" x-show="activeCategory==='all'||activeCategory==='paper-straw'">
+<a class="block aspect-[4/3] overflow-hidden" href="/products/paper-straw/paper-straw.html">
+<img alt="Paper Straw" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://www.jjgpaperbag.com/proimages/cs/紙吸.jpg"/>
+</a>
+<div class="p-5">
+<span class="text-xs font-semibold uppercase tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">
+       Paper Straw
+      </span>
+<h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">
+<a class="hover:text-[#2E8B57]" href="/products/paper-straw/paper-straw.html">
+        Biodegradable Paper Straw
+       </a>
+</h3>
+<p class="text-[#666] text-sm mb-3">
+       100% Taiwan made, plastic-free, eco-friendly drinking solution.
+      </p>
+<a class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]" href="/products/paper-straw/paper-straw.html">
+       View Details →
+      </a>
+</div>
+</div>
+<!-- OTHERS / SPECIALTY -->
+<div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group" x-show="activeCategory==='all'||activeCategory==='others'">
+<a class="block aspect-[4/3] overflow-hidden" href="/products/others/specialty-bags.html">
+<img alt="Specialty Bags" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="/proimages/specialty-bags-new.png"/>
+</a>
+<div class="p-5">
+<span class="text-xs font-semibold uppercase tracking-wider text-[#666] bg-gray-100 px-2 py-0.5 rounded-full">
+       Others
+      </span>
+<h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">
+<a class="hover:text-[#2E8B57]" href="/products/others/specialty-bags.html">
+        Custom &amp; Specialty Bags
+       </a>
+</h3>
+<p class="text-[#666] text-sm mb-3">
+       Bespoke solutions for unique requirements and custom material needs.
+      </p>
+<a class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]" href="/products/others/specialty-bags.html">
+       View Details →
+      </a>
+</div>
+</div>
+<div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group" x-show="activeCategory==='all'||activeCategory==='others'||activeCategory==='kraft'">
+<a class="block aspect-[4/3] overflow-hidden" href="https://www.jjgpaperbag.com/product-Die-Cut-Handle-paper-bag-brown-kraft-6.html" target="_blank">
+<img alt="Die Cut Handle Bag" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://www.jjgpaperbag.com/proimages/sr/product/DieCut_Bag/DM4.jpg"/>
+</a>
+<div class="p-5">
+<span class="text-xs font-semibold uppercase tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">
+       Recycled Kraft
+      </span>
+<h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">
+<a class="hover:text-[#2E8B57]" href="https://www.jjgpaperbag.com/product-Die-Cut-Handle-paper-bag-brown-kraft-6.html" target="_blank">
+        Die Cut Handle Bag
+       </a>
+</h3>
+<p class="text-[#666] text-sm mb-3">
+       Ideal for groceries and takeaway orders, featuring die-cut handles.
+      </p>
+<a class="text-[#1A5C38] font-semibold text-sm hover:text-[#2E8B57]" href="https://www.jjgpaperbag.com/product-Die-Cut-Handle-paper-bag-brown-kraft-6.html" target="_blank">
+       View Details →
+      </a>
+</div>
+</div>
+<div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group" x-show="activeCategory==='all'||activeCategory==='greaseproof'">
+<a class="block aspect-[4/3] overflow-hidden" href="/products/greaseproof/bakery-series-paper-bags.html">
+<img alt="Greaseproof Satchel Bag" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="/proimages/index/p4-1.jpg"/>
+</a>
+<div class="p-5">
+<span class="text-xs font-semibold tracking-wider text-[#2E8B57] bg-[#2E8B57]/10 px-2 py-0.5 rounded-full">GREASEPROOF</span>
+<h3 class="font-['Playfair_Display',serif] text-lg font-bold mt-2 mb-1">
+<a class="hover:text-[#2E8B57]" href="/products/greaseproof/bakery-series-paper-bags.html">Greaseproof Satchel Bag</a>
+</h3>
+<p class="text-[#666] text-sm mb-3">Ideal for fast food &amp; burgers. Plain or printed versions.</p>
+<a class="text-[#1A5C38] font-semibold text-sm" href="/products/greaseproof/bakery-series-paper-bags.html">View Details →</a>
+</div>
+</div></div>
+</section>
+<!-- CTA -->
+<section class="bg-[#1A5C38] py-16">
+<div class="max-w-[1400px] mx-auto px-5 sm:px-6 lg:px-8 text-center">
+<h2 class="font-['Playfair_Display',serif] text-3xl font-bold text-white mb-4">
+     Need Custom
+                                Packaging?
+    </h2>
+<p class="text-white/80 text-lg mb-8">
+     We offer OEM/ODM services with custom printing, sizes, and
+                                materials.
+    </p>
+<a class="bg-white text-[#1A5C38] px-10 py-3.5 rounded-lg font-bold uppercase tracking-wider hover:bg-[#F5F0E8] transition inline-block" href="/contact.html">
+     Get
+                                a Quote
+    </a>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-[#1A1A1A] text-gray-400 pt-16 pb-8">
+<div class="max-w-[1400px] mx-auto px-5 sm:px-6 lg:px-8">
+<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10 pb-10 border-b border-gray-800">
+<div>
+<img alt="JJG" class="h-10 mb-4 brightness-200" src="/images/index-logo.png"/>
+<p class="text-sm leading-relaxed">
+       Professional paper bag manufacturer in Taiwan
+                                                with 70+ years of experience.
+      </p>
+</div>
+<div>
+<h4 class="text-white font-bold mb-5 text-sm tracking-[0.15em]">
+       Quick Links
+      </h4>
+<ul class="space-y-3 text-sm">
+<li>
+<a class="hover:text-[#2E8B57] transition" href="/index.html">
+         Home
+        </a>
+</li>
+<li>
+<a class="hover:text-[#2E8B57] transition" href="/about.html">
+         About Us
+        </a>
+</li>
+<li>
+<a class="hover:text-[#2E8B57] transition" href="/products.html">
+         Products
+        </a>
+</li>
+<li>
+<a class="hover:text-[#2E8B57] transition" href="/news.html">
+         News
+        </a>
+</li>
+<li>
+<a class="hover:text-[#2E8B57] transition" href="/catalog.html">
+         E-Catalog
+        </a>
+</li>
+<li>
+<a class="hover:text-[#2E8B57] transition" href="/contact.html">
+         Contact Us
+        </a>
+</li>
+</ul>
+</div>
+<div>
+<h4 class="text-white font-bold mb-4 uppercase text-sm tracking-wider">
+       Products
+      </h4>
+<ul class="space-y-2 text-sm">
+<li>
+<a class="hover:text-[#2E8B57]" href="/products.html">
+         All
+                                                                Products
+        </a>
+</li>
+</ul>
+</div>
+<div>
+<h4 class="text-white font-bold mb-4 uppercase text-sm tracking-wider">
+       Contact
+      </h4>
+<ul class="space-y-2 text-sm">
+<li>
+        📍 No.6, You 9th Rd. Dajia Dist., Taichung 43769
+       </li>
+<li>
+        📞
+        <a class="hover:text-[#2E8B57]" href="tel:+886-4-26223215">
+         +886-4-26223215
+        </a>
+</li>
+<li>
+        ✉️
+        <a class="hover:text-[#2E8B57]" href="mailto:export@jjgpaperbag.com">
+         export@jjgpaperbag.com
+        </a>
+</li>
+</ul>
+</div>
+</div>
+<div class="pt-6 text-center text-xs text-gray-600">
+<p>
+      © 2026 Juang Jia Guoo Co., Ltd. All rights reserved.
+     </p>
+</div>
+</div>
+</footer>
 </body>
-
 </html>
